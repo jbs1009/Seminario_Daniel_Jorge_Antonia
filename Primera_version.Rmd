@@ -1,5 +1,5 @@
 ---
-title: "Relación"
+title: "Relación del sedentarismo con problemas auditivos y visuales"
 author: "Jorge Bermejo, Antonia Añazco, Daniel Marrón"
 date: "`r Sys.Date()`"
 output: 
