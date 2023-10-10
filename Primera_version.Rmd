@@ -11,10 +11,10 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
+ 
+## BIBLIOGRAFÍA
 
-## BIBLIOGRAFÍA 😩 
-
-### [1] Rodulfo, J. I. A. (2019). Sedentarism, a disease from XXI century. Clínica e Investigación en arteriosclerosis (English edition), 31(5), 233-240. https://doi.org/10.1016/j.artere.2019.04.001 
+[1] Rodulfo, J. I. A. (2019). Sedentarism, a disease from XXI century. Clínica e Investigación en arteriosclerosis (English edition), 31(5), 233-240. https://doi.org/10.1016/j.artere.2019.04.001 
 
  
-### [2]  Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2 diabetes. Lipids, 38(2), 103-108. 
+[2]  Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2 diabetes. Lipids, 38(2), 103-108. 
