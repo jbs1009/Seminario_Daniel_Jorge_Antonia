@@ -11,7 +11,7 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
-
+<div style="text-align: justify">
 ## INTRODUCCIÓN 📖
 
 El sedentarismo representa un serio problema para la salud pública, especialmente en Occidente, según Rodulfo, J. I. A. (2019) 🤓 [1]. Algunos de sus principales efectos, ampliamente estudiados, se evidencian en trastornos como la hipertensión, la diabetes tipo II o la obesidad, las cuales ya alcanzan la categoría de epidemia en los Estados Unidos según Hu, F. B. (2003) 🤓 [2]. En el mismo artículo se habla también de la relación directa entre estos trastornos y un estilo de vida sedentario, y, en particular, se comenta como un estilo de vida sedentario tiene consecuencias muy negativas independientemente de dieta y cantidad de horas dedicadas a la actividad física.
@@ -26,3 +26,4 @@ En el siguiente trabajo vamos a tratar de encontrar, o en su defecto descartar, 
 
  
 [2]  Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2 diabetes. Lipids, 38(2), 103-108. 
+<div/>
