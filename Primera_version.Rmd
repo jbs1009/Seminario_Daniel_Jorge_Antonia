@@ -12,22 +12,9 @@ output:
 knitr::opts_chunk$set(echo = TRUE)
 ```
 
-## R Markdown
+## BIBLIOGRAFÍA 😩 
 
-This is an R Markdown document. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
+### [1] Rodulfo, J. I. A. (2019). Sedentarism, a disease from XXI century. Clínica e Investigación en arteriosclerosis (English edition), 31(5), 233-240. https://doi.org/10.1016/j.artere.2019.04.001 
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document. You can embed an R code chunk like this:
-
-```{r cars}
-summary(cars)
-```
-
-## Including Plots
-
-You can also embed plots, for example:
-
-```{r pressure, echo=FALSE}
-plot(pressure)
-```
-
-Note that the `echo = FALSE` parameter was added to the code chunk to prevent printing of the R code that generated the plot.
+ 
+### [2]  Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2 diabetes. Lipids, 38(2), 103-108. 
