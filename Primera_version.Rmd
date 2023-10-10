@@ -11,7 +11,12 @@ output:
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = TRUE)
 ```
- 
+
+##INTRODUCCIÓN 📖
+
+El sedentarismo representa un serio problema para la salud pública, especialmente en Occidente, según Rodulfo, J. I. A. (2019) 🤓 [1]. Algunos de sus principales efectos, ampliamente estudiados, se evidencian en trastornos como la hipertensión, la diabetes tipo II o la obesidad, las cuales ya alcanzan la categoría de epidemia en los Estados Unidos según Hu, F. B. (2003) 🤓 [2]. En el mismo artículo se habla también de la relación directa entre estos trastornos y un estilo de vida sedentario, y, en particular, se comenta como un estilo de vida sedentario tiene consecuencias muy negativas independientemente de dieta y cantidad de horas dedicadas a la actividad física.
+
+
 ## BIBLIOGRAFÍA
 
 [1] Rodulfo, J. I. A. (2019). Sedentarism, a disease from XXI century. Clínica e Investigación en arteriosclerosis (English edition), 31(5), 233-240. https://doi.org/10.1016/j.artere.2019.04.001 
