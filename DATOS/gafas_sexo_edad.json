@@ -1,0 +1,361 @@
+[{"Nombre":"Ambos sexos, Total, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":39974.1}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":24400.2}
+]
+}
+,{"Nombre":"Ambos sexos, Total, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":15573.1}
+]
+}
+,{"Nombre":"Ambos sexos, Total, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.9}
+]
+}
+,{"Nombre":"Ambos sexos, España, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"España", "Codigo":"espana"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":34000.4}
+]
+}
+,{"Nombre":"Ambos sexos, España, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"España", "Codigo":"espana"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":21784.1}
+]
+}
+,{"Nombre":"Ambos sexos, España, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"España", "Codigo":"espana"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":12215.5}
+]
+}
+,{"Nombre":"Ambos sexos, España, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"España", "Codigo":"espana"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.9}
+]
+}
+,{"Nombre":"Ambos sexos, Extranjero, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Extranjero", "Codigo":"extranjero"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":5973.7}
+]
+}
+,{"Nombre":"Ambos sexos, Extranjero, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Extranjero", "Codigo":"extranjero"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":2616.1}
+]
+}
+,{"Nombre":"Ambos sexos, Extranjero, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Extranjero", "Codigo":"extranjero"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":3357.6}
+]
+}
+,{"Nombre":"Ambos sexos, Extranjero, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Extranjero", "Codigo":"extranjero"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, Total, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":19449.1}
+]
+}
+,{"Nombre":"Hombres, Total, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":10628.6}
+]
+}
+,{"Nombre":"Hombres, Total, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":8820.5}
+]
+}
+,{"Nombre":"Hombres, Total, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, España, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"España", "Codigo":"espana"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":16735.0}
+]
+}
+,{"Nombre":"Hombres, España, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"España", "Codigo":"espana"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":9635.0}
+]
+}
+,{"Nombre":"Hombres, España, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"España", "Codigo":"espana"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":7099.9}
+]
+}
+,{"Nombre":"Hombres, España, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"España", "Codigo":"espana"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, Extranjero, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Extranjero", "Codigo":"extranjero"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":2714.1}
+]
+}
+,{"Nombre":"Hombres, Extranjero, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Extranjero", "Codigo":"extranjero"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":993.5}
+]
+}
+,{"Nombre":"Hombres, Extranjero, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Extranjero", "Codigo":"extranjero"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":1720.6}
+]
+}
+,{"Nombre":"Hombres, Extranjero, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Extranjero", "Codigo":"extranjero"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, Total, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":20525.0}
+]
+}
+,{"Nombre":"Mujeres, Total, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":13771.6}
+]
+}
+,{"Nombre":"Mujeres, Total, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":6752.6}
+]
+}
+,{"Nombre":"Mujeres, Total, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.9}
+]
+}
+,{"Nombre":"Mujeres, España, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"España", "Codigo":"espana"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":17265.4}
+]
+}
+,{"Nombre":"Mujeres, España, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"España", "Codigo":"espana"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":12149.0}
+]
+}
+,{"Nombre":"Mujeres, España, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"España", "Codigo":"espana"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":5115.5}
+]
+}
+,{"Nombre":"Mujeres, España, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"España", "Codigo":"espana"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.9}
+]
+}
+,{"Nombre":"Mujeres, Extranjero, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Extranjero", "Codigo":"extranjero"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":3259.6}
+]
+}
+,{"Nombre":"Mujeres, Extranjero, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Extranjero", "Codigo":"extranjero"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":1622.5}
+]
+}
+,{"Nombre":"Mujeres, Extranjero, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Extranjero", "Codigo":"extranjero"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":1637.0}
+]
+}
+,{"Nombre":"Mujeres, Extranjero, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"país de nacimiento", "Codigo":"paisdenacimiento"}
+, "Nombre":"Extranjero", "Codigo":"extranjero"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+]
