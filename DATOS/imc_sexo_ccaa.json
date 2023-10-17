@@ -1,0 +1,2401 @@
+[{"Nombre":"Ambos sexos, Total, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":6.5}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":1.31}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":1.42}
+]
+}
+,{"Nombre":"Ambos sexos, Total, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":2.2}
+]
+}
+,{"Nombre":"Ambos sexos, Andalucía, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":18.23}
+]
+}
+,{"Nombre":"Ambos sexos, Andalucía, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":3.55}
+]
+}
+,{"Nombre":"Ambos sexos, Andalucía, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":3.56}
+]
+}
+,{"Nombre":"Ambos sexos, Andalucía, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":5.29}
+]
+}
+,{"Nombre":"Ambos sexos, Aragón, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":37.37}
+]
+}
+,{"Nombre":"Ambos sexos, Aragón, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.69}
+]
+}
+,{"Nombre":"Ambos sexos, Aragón, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":7.05}
+]
+}
+,{"Nombre":"Ambos sexos, Aragón, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":11.21}
+]
+}
+,{"Nombre":"Ambos sexos, Asturias (Principado de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":31.02}
+]
+}
+,{"Nombre":"Ambos sexos, Asturias (Principado de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.0}
+]
+}
+,{"Nombre":"Ambos sexos, Asturias (Principado de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.79}
+]
+}
+,{"Nombre":"Ambos sexos, Asturias (Principado de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":8.5}
+]
+}
+,{"Nombre":"Ambos sexos, Balears (Illes), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":29.8}
+]
+}
+,{"Nombre":"Ambos sexos, Balears (Illes), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":10.43}
+]
+}
+,{"Nombre":"Ambos sexos, Balears (Illes), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":11.51}
+]
+}
+,{"Nombre":"Ambos sexos, Balears (Illes), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":14.93}
+]
+}
+,{"Nombre":"Ambos sexos, Canarias, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":21.4}
+]
+}
+,{"Nombre":"Ambos sexos, Canarias, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.16}
+]
+}
+,{"Nombre":"Ambos sexos, Canarias, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":6.2}
+]
+}
+,{"Nombre":"Ambos sexos, Canarias, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":8.74}
+]
+}
+,{"Nombre":"Ambos sexos, Cantabria, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":31.18}
+]
+}
+,{"Nombre":"Ambos sexos, Cantabria, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.11}
+]
+}
+,{"Nombre":"Ambos sexos, Cantabria, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.85}
+]
+}
+,{"Nombre":"Ambos sexos, Cantabria, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":11.53}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla y León, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":20.45}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla y León, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.89}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla y León, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":6.26}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla y León, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":9.27}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla-La Mancha, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":29.55}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla-La Mancha, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.63}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla-La Mancha, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":6.08}
+]
+}
+,{"Nombre":"Ambos sexos, Castilla-La Mancha, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":9.71}
+]
+}
+,{"Nombre":"Ambos sexos, Cataluña, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":18.66}
+]
+}
+,{"Nombre":"Ambos sexos, Cataluña, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":3.56}
+]
+}
+,{"Nombre":"Ambos sexos, Cataluña, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":3.93}
+]
+}
+,{"Nombre":"Ambos sexos, Cataluña, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":6.6}
+]
+}
+,{"Nombre":"Ambos sexos, Comunitat Valenciana, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":21.62}
+]
+}
+,{"Nombre":"Ambos sexos, Comunitat Valenciana, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":4.03}
+]
+}
+,{"Nombre":"Ambos sexos, Comunitat Valenciana, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":4.08}
+]
+}
+,{"Nombre":"Ambos sexos, Comunitat Valenciana, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":6.24}
+]
+}
+,{"Nombre":"Ambos sexos, Extremadura, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":31.28}
+]
+}
+,{"Nombre":"Ambos sexos, Extremadura, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.26}
+]
+}
+,{"Nombre":"Ambos sexos, Extremadura, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.42}
+]
+}
+,{"Nombre":"Ambos sexos, Extremadura, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":11.01}
+]
+}
+,{"Nombre":"Ambos sexos, Galicia, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":26.25}
+]
+}
+,{"Nombre":"Ambos sexos, Galicia, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":4.97}
+]
+}
+,{"Nombre":"Ambos sexos, Galicia, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.84}
+]
+}
+,{"Nombre":"Ambos sexos, Galicia, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":8.87}
+]
+}
+,{"Nombre":"Ambos sexos, Madrid (Comunidad de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":17.9}
+]
+}
+,{"Nombre":"Ambos sexos, Madrid (Comunidad de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":3.24}
+]
+}
+,{"Nombre":"Ambos sexos, Madrid (Comunidad de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":4.34}
+]
+}
+,{"Nombre":"Ambos sexos, Madrid (Comunidad de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":6.81}
+]
+}
+,{"Nombre":"Ambos sexos, Murcia (Región de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":39.82}
+]
+}
+,{"Nombre":"Ambos sexos, Murcia (Región de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.2}
+]
+}
+,{"Nombre":"Ambos sexos, Murcia (Región de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.54}
+]
+}
+,{"Nombre":"Ambos sexos, Murcia (Región de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":7.66}
+]
+}
+,{"Nombre":"Ambos sexos, Navarra (Comunidad Foral de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":30.41}
+]
+}
+,{"Nombre":"Ambos sexos, Navarra (Comunidad Foral de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.51}
+]
+}
+,{"Nombre":"Ambos sexos, Navarra (Comunidad Foral de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":7.38}
+]
+}
+,{"Nombre":"Ambos sexos, Navarra (Comunidad Foral de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":12.38}
+]
+}
+,{"Nombre":"Ambos sexos, País Vasco, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":24.09}
+]
+}
+,{"Nombre":"Ambos sexos, País Vasco, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.1}
+]
+}
+,{"Nombre":"Ambos sexos, País Vasco, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":6.12}
+]
+}
+,{"Nombre":"Ambos sexos, País Vasco, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":9.72}
+]
+}
+,{"Nombre":"Ambos sexos, Rioja (La), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":31.58}
+]
+}
+,{"Nombre":"Ambos sexos, Rioja (La), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":7.98}
+]
+}
+,{"Nombre":"Ambos sexos, Rioja (La), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":8.45}
+]
+}
+,{"Nombre":"Ambos sexos, Rioja (La), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":13.61}
+]
+}
+,{"Nombre":"Ambos sexos, Ceuta (Ciudad Autónoma de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":68.2}
+]
+}
+,{"Nombre":"Ambos sexos, Ceuta (Ciudad Autónoma de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":11.76}
+]
+}
+,{"Nombre":"Ambos sexos, Ceuta (Ciudad Autónoma de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":12.4}
+]
+}
+,{"Nombre":"Ambos sexos, Ceuta (Ciudad Autónoma de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":21.55}
+]
+}
+,{"Nombre":"Ambos sexos, Melilla (Ciudad Autónoma de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":60.89}
+]
+}
+,{"Nombre":"Ambos sexos, Melilla (Ciudad Autónoma de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":9.45}
+]
+}
+,{"Nombre":"Ambos sexos, Melilla (Ciudad Autónoma de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":8.23}
+]
+}
+,{"Nombre":"Ambos sexos, Melilla (Ciudad Autónoma de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":30.9}
+]
+}
+,{"Nombre":"Hombres, Total, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":15.18}
+]
+}
+,{"Nombre":"Hombres, Total, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":2.14}
+]
+}
+,{"Nombre":"Hombres, Total, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":1.85}
+]
+}
+,{"Nombre":"Hombres, Total, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":2.98}
+]
+}
+,{"Nombre":"Hombres, Andalucía, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":33.47}
+]
+}
+,{"Nombre":"Hombres, Andalucía, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.93}
+]
+}
+,{"Nombre":"Hombres, Andalucía, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":4.57}
+]
+}
+,{"Nombre":"Hombres, Andalucía, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":6.96}
+]
+}
+,{"Nombre":"Hombres, Aragón, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":90.85}
+]
+}
+,{"Nombre":"Hombres, Aragón, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":11.01}
+]
+}
+,{"Nombre":"Hombres, Aragón, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":8.49}
+]
+}
+,{"Nombre":"Hombres, Aragón, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":15.66}
+]
+}
+,{"Nombre":"Hombres, Asturias (Principado de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":70.79}
+]
+}
+,{"Nombre":"Hombres, Asturias (Principado de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":9.01}
+]
+}
+,{"Nombre":"Hombres, Asturias (Principado de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":7.31}
+]
+}
+,{"Nombre":"Hombres, Asturias (Principado de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":12.83}
+]
+}
+,{"Nombre":"Hombres, Balears (Illes), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":69.78}
+]
+}
+,{"Nombre":"Hombres, Balears (Illes), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":12.53}
+]
+}
+,{"Nombre":"Hombres, Balears (Illes), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":15.85}
+]
+}
+,{"Nombre":"Hombres, Balears (Illes), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":19.86}
+]
+}
+,{"Nombre":"Hombres, Canarias, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":56.53}
+]
+}
+,{"Nombre":"Hombres, Canarias, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":9.01}
+]
+}
+,{"Nombre":"Hombres, Canarias, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":7.8}
+]
+}
+,{"Nombre":"Hombres, Canarias, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":11.18}
+]
+}
+,{"Nombre":"Hombres, Cantabria, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Cantabria, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":9.82}
+]
+}
+,{"Nombre":"Hombres, Cantabria, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":9.02}
+]
+}
+,{"Nombre":"Hombres, Cantabria, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":14.11}
+]
+}
+,{"Nombre":"Hombres, Castilla y León, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":38.18}
+]
+}
+,{"Nombre":"Hombres, Castilla y León, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":9.67}
+]
+}
+,{"Nombre":"Hombres, Castilla y León, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":7.88}
+]
+}
+,{"Nombre":"Hombres, Castilla y León, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":13.69}
+]
+}
+,{"Nombre":"Hombres, Castilla-La Mancha, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":62.13}
+]
+}
+,{"Nombre":"Hombres, Castilla-La Mancha, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":9.91}
+]
+}
+,{"Nombre":"Hombres, Castilla-La Mancha, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":7.99}
+]
+}
+,{"Nombre":"Hombres, Castilla-La Mancha, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":10.67}
+]
+}
+,{"Nombre":"Hombres, Cataluña, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":60.41}
+]
+}
+,{"Nombre":"Hombres, Cataluña, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.89}
+]
+}
+,{"Nombre":"Hombres, Cataluña, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.01}
+]
+}
+,{"Nombre":"Hombres, Cataluña, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":9.57}
+]
+}
+,{"Nombre":"Hombres, Comunitat Valenciana, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":42.32}
+]
+}
+,{"Nombre":"Hombres, Comunitat Valenciana, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.83}
+]
+}
+,{"Nombre":"Hombres, Comunitat Valenciana, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.72}
+]
+}
+,{"Nombre":"Hombres, Comunitat Valenciana, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":8.84}
+]
+}
+,{"Nombre":"Hombres, Extremadura, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":64.63}
+]
+}
+,{"Nombre":"Hombres, Extremadura, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":10.26}
+]
+}
+,{"Nombre":"Hombres, Extremadura, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":6.87}
+]
+}
+,{"Nombre":"Hombres, Extremadura, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":13.24}
+]
+}
+,{"Nombre":"Hombres, Galicia, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":64.36}
+]
+}
+,{"Nombre":"Hombres, Galicia, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":8.16}
+]
+}
+,{"Nombre":"Hombres, Galicia, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":7.41}
+]
+}
+,{"Nombre":"Hombres, Galicia, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":11.26}
+]
+}
+,{"Nombre":"Hombres, Madrid (Comunidad de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":40.15}
+]
+}
+,{"Nombre":"Hombres, Madrid (Comunidad de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.69}
+]
+}
+,{"Nombre":"Hombres, Madrid (Comunidad de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.63}
+]
+}
+,{"Nombre":"Hombres, Madrid (Comunidad de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":9.2}
+]
+}
+,{"Nombre":"Hombres, Murcia (Región de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":72.34}
+]
+}
+,{"Nombre":"Hombres, Murcia (Región de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":8.53}
+]
+}
+,{"Nombre":"Hombres, Murcia (Región de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":7.63}
+]
+}
+,{"Nombre":"Hombres, Murcia (Región de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":12.19}
+]
+}
+,{"Nombre":"Hombres, Navarra (Comunidad Foral de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":null}
+]
+}
+,{"Nombre":"Hombres, Navarra (Comunidad Foral de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":11.42}
+]
+}
+,{"Nombre":"Hombres, Navarra (Comunidad Foral de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":10.62}
+]
+}
+,{"Nombre":"Hombres, Navarra (Comunidad Foral de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":17.53}
+]
+}
+,{"Nombre":"Hombres, País Vasco, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":59.17}
+]
+}
+,{"Nombre":"Hombres, País Vasco, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":7.8}
+]
+}
+,{"Nombre":"Hombres, País Vasco, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":7.54}
+]
+}
+,{"Nombre":"Hombres, País Vasco, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":13.6}
+]
+}
+,{"Nombre":"Hombres, Rioja (La), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombres, Rioja (La), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":12.15}
+]
+}
+,{"Nombre":"Hombres, Rioja (La), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":8.72}
+]
+}
+,{"Nombre":"Hombres, Rioja (La), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":17.63}
+]
+}
+,{"Nombre":"Hombres, Ceuta (Ciudad Autónoma de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":86.96}
+]
+}
+,{"Nombre":"Hombres, Ceuta (Ciudad Autónoma de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":17.76}
+]
+}
+,{"Nombre":"Hombres, Ceuta (Ciudad Autónoma de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":16.0}
+]
+}
+,{"Nombre":"Hombres, Ceuta (Ciudad Autónoma de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":23.75}
+]
+}
+,{"Nombre":"Hombres, Melilla (Ciudad Autónoma de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":null}
+]
+}
+,{"Nombre":"Hombres, Melilla (Ciudad Autónoma de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":12.87}
+]
+}
+,{"Nombre":"Hombres, Melilla (Ciudad Autónoma de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":13.46}
+]
+}
+,{"Nombre":"Hombres, Melilla (Ciudad Autónoma de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":50.42}
+]
+}
+,{"Nombre":"Mujeres, Total, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":7.22}
+]
+}
+,{"Nombre":"Mujeres, Total, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":1.68}
+]
+}
+,{"Nombre":"Mujeres, Total, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":2.17}
+]
+}
+,{"Nombre":"Mujeres, Total, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":349, "Nombre":"Total Nacional", "Codigo":"NAC"}
+, "Nombre":"Total", "Codigo":"00"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":3.16}
+]
+}
+,{"Nombre":"Mujeres, Andalucía, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":22.22}
+]
+}
+,{"Nombre":"Mujeres, Andalucía, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":4.58}
+]
+}
+,{"Nombre":"Mujeres, Andalucía, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.44}
+]
+}
+,{"Nombre":"Mujeres, Andalucía, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Andalucía", "Codigo":"01"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":7.87}
+]
+}
+,{"Nombre":"Mujeres, Aragón, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":41.77}
+]
+}
+,{"Nombre":"Mujeres, Aragón, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":8.49}
+]
+}
+,{"Nombre":"Mujeres, Aragón, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":10.74}
+]
+}
+,{"Nombre":"Mujeres, Aragón, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Aragón", "Codigo":"02"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":16.71}
+]
+}
+,{"Nombre":"Mujeres, Asturias (Principado de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":30.22}
+]
+}
+,{"Nombre":"Mujeres, Asturias (Principado de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.45}
+]
+}
+,{"Nombre":"Mujeres, Asturias (Principado de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":9.24}
+]
+}
+,{"Nombre":"Mujeres, Asturias (Principado de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Asturias (Principado de)", "Codigo":"03"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":11.27}
+]
+}
+,{"Nombre":"Mujeres, Balears (Illes), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":31.47}
+]
+}
+,{"Nombre":"Mujeres, Balears (Illes), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":12.94}
+]
+}
+,{"Nombre":"Mujeres, Balears (Illes), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":14.72}
+]
+}
+,{"Nombre":"Mujeres, Balears (Illes), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Balears (Illes)", "Codigo":"04"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":21.01}
+]
+}
+,{"Nombre":"Mujeres, Canarias, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":23.77}
+]
+}
+,{"Nombre":"Mujeres, Canarias, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":8.58}
+]
+}
+,{"Nombre":"Mujeres, Canarias, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":7.89}
+]
+}
+,{"Nombre":"Mujeres, Canarias, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Canarias", "Codigo":"05"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":13.03}
+]
+}
+,{"Nombre":"Mujeres, Cantabria, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":31.24}
+]
+}
+,{"Nombre":"Mujeres, Cantabria, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.75}
+]
+}
+,{"Nombre":"Mujeres, Cantabria, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":8.71}
+]
+}
+,{"Nombre":"Mujeres, Cantabria, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cantabria", "Codigo":"06"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":17.75}
+]
+}
+,{"Nombre":"Mujeres, Castilla y León, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":25.34}
+]
+}
+,{"Nombre":"Mujeres, Castilla y León, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":7.3}
+]
+}
+,{"Nombre":"Mujeres, Castilla y León, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":9.77}
+]
+}
+,{"Nombre":"Mujeres, Castilla y León, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla y León", "Codigo":"07"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":13.14}
+]
+}
+,{"Nombre":"Mujeres, Castilla-La Mancha, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":33.65}
+]
+}
+,{"Nombre":"Mujeres, Castilla-La Mancha, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.77}
+]
+}
+,{"Nombre":"Mujeres, Castilla-La Mancha, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":8.56}
+]
+}
+,{"Nombre":"Mujeres, Castilla-La Mancha, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Castilla-La Mancha", "Codigo":"08"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":18.29}
+]
+}
+,{"Nombre":"Mujeres, Cataluña, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":19.13}
+]
+}
+,{"Nombre":"Mujeres, Cataluña, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":4.83}
+]
+}
+,{"Nombre":"Mujeres, Cataluña, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":6.42}
+]
+}
+,{"Nombre":"Mujeres, Cataluña, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Cataluña", "Codigo":"09"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":8.8}
+]
+}
+,{"Nombre":"Mujeres, Comunitat Valenciana, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":24.36}
+]
+}
+,{"Nombre":"Mujeres, Comunitat Valenciana, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":4.97}
+]
+}
+,{"Nombre":"Mujeres, Comunitat Valenciana, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":6.48}
+]
+}
+,{"Nombre":"Mujeres, Comunitat Valenciana, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Comunitat Valenciana", "Codigo":"10"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":8.98}
+]
+}
+,{"Nombre":"Mujeres, Extremadura, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":37.84}
+]
+}
+,{"Nombre":"Mujeres, Extremadura, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":7.63}
+]
+}
+,{"Nombre":"Mujeres, Extremadura, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":9.3}
+]
+}
+,{"Nombre":"Mujeres, Extremadura, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Extremadura", "Codigo":"11"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":18.06}
+]
+}
+,{"Nombre":"Mujeres, Galicia, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":29.99}
+]
+}
+,{"Nombre":"Mujeres, Galicia, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.69}
+]
+}
+,{"Nombre":"Mujeres, Galicia, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":8.71}
+]
+}
+,{"Nombre":"Mujeres, Galicia, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Galicia", "Codigo":"12"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":12.26}
+]
+}
+,{"Nombre":"Mujeres, Madrid (Comunidad de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":19.89}
+]
+}
+,{"Nombre":"Mujeres, Madrid (Comunidad de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":4.26}
+]
+}
+,{"Nombre":"Mujeres, Madrid (Comunidad de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":6.66}
+]
+}
+,{"Nombre":"Mujeres, Madrid (Comunidad de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Madrid (Comunidad de)", "Codigo":"13"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":8.94}
+]
+}
+,{"Nombre":"Mujeres, Murcia (Región de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":43.23}
+]
+}
+,{"Nombre":"Mujeres, Murcia (Región de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":8.52}
+]
+}
+,{"Nombre":"Mujeres, Murcia (Región de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":7.65}
+]
+}
+,{"Nombre":"Mujeres, Murcia (Región de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Murcia (Región de)", "Codigo":"14"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":11.53}
+]
+}
+,{"Nombre":"Mujeres, Navarra (Comunidad Foral de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":30.41}
+]
+}
+,{"Nombre":"Mujeres, Navarra (Comunidad Foral de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":7.74}
+]
+}
+,{"Nombre":"Mujeres, Navarra (Comunidad Foral de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":12.69}
+]
+}
+,{"Nombre":"Mujeres, Navarra (Comunidad Foral de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Navarra (Comunidad Foral de)", "Codigo":"15"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":17.28}
+]
+}
+,{"Nombre":"Mujeres, País Vasco, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":27.05}
+]
+}
+,{"Nombre":"Mujeres, País Vasco, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.88}
+]
+}
+,{"Nombre":"Mujeres, País Vasco, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":8.47}
+]
+}
+,{"Nombre":"Mujeres, País Vasco, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"País Vasco", "Codigo":"16"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":12.69}
+]
+}
+,{"Nombre":"Mujeres, Rioja (La), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":33.51}
+]
+}
+,{"Nombre":"Mujeres, Rioja (La), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":10.37}
+]
+}
+,{"Nombre":"Mujeres, Rioja (La), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":15.26}
+]
+}
+,{"Nombre":"Mujeres, Rioja (La), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Rioja (La)", "Codigo":"17"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":19.74}
+]
+}
+,{"Nombre":"Mujeres, Ceuta (Ciudad Autónoma de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":58.14}
+]
+}
+,{"Nombre":"Mujeres, Ceuta (Ciudad Autónoma de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":14.48}
+]
+}
+,{"Nombre":"Mujeres, Ceuta (Ciudad Autónoma de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":18.8}
+]
+}
+,{"Nombre":"Mujeres, Ceuta (Ciudad Autónoma de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Ceuta (Ciudad Autónoma de)", "Codigo":"18"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":28.18}
+]
+}
+,{"Nombre":"Mujeres, Melilla (Ciudad Autónoma de), Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":60.89}
+]
+}
+,{"Nombre":"Mujeres, Melilla (Ciudad Autónoma de), Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":12.59}
+]
+}
+,{"Nombre":"Mujeres, Melilla (Ciudad Autónoma de), Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":13.96}
+]
+}
+,{"Nombre":"Mujeres, Melilla (Ciudad Autónoma de), Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Id":70, "Nombre":"Comunidades y Ciudades Autónomas", "Codigo":"CCAA"}
+, "Nombre":"Melilla (Ciudad Autónoma de)", "Codigo":"19"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":36.33}
+]
+}
+]
