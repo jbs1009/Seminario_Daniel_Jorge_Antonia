@@ -1,0 +1,520 @@
+[
+ {
+  "Discapacidad. Cifras absolutas": "Discapacidades y deficiencias"
+ },
+ null,
+ {
+  "Discapacidad. Cifras absolutas": "Población de 6 y más años con discapacidad según grupo de discapacidad por sexo y edad."
+ },
+ {
+  "Discapacidad. Cifras absolutas": "Unidades: miles de personas"
+ },
+ null,
+ {
+  "Discapacidad. Cifras absolutas": " ",
+  "Column2": "Total",
+  "Column3": "Visión",
+  "Column4": "Audición",
+  "Column5": "Comunicación",
+  "Column6": "Aprendizaje, aplicación del conocimiento y desarrollo de tareas",
+  "Column7": "Movilidad",
+  "Column8": "Autocuidado",
+  "Column9": "Vida doméstica",
+  "Column10": "Interacciones y relaciones personales"
+ },
+ {
+  "Discapacidad. Cifras absolutas": "Total"
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    Total",
+  "Column2": 4318.1,
+  "Column3": 1051.3,
+  "Column4": 1230,
+  "Column5": 947.5,
+  "Column6": 705.4,
+  "Column7": 2403.7,
+  "Column8": 1363.5,
+  "Column9": 2007.4,
+  "Column10": 607.7
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 6 a 15 años",
+  "Column2": 106.3,
+  "Column3": 10.3,
+  "Column4": 5.3,
+  "Column5": 53,
+  "Column6": 59.5,
+  "Column7": 24.3,
+  "Column8": 31.2,
+  "Column9": 14.7,
+  "Column10": 38.4
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 16 a 24 años",
+  "Column2": 94,
+  "Column3": 20.2,
+  "Column4": 12.1,
+  "Column5": 35,
+  "Column6": 34.3,
+  "Column7": 30.2,
+  "Column8": 32.5,
+  "Column9": 45.9,
+  "Column10": 40.5
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 25 a 34 años",
+  "Column2": 111,
+  "Column3": 23.9,
+  "Column4": 16.1,
+  "Column5": 31.1,
+  "Column6": 24.3,
+  "Column7": 45.8,
+  "Column8": 29.2,
+  "Column9": 47.6,
+  "Column10": 37.5
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 35 a 44 años",
+  "Column2": 221.7,
+  "Column3": 40.9,
+  "Column4": 32.5,
+  "Column5": 50.6,
+  "Column6": 33.9,
+  "Column7": 103.5,
+  "Column8": 44,
+  "Column9": 94.9,
+  "Column10": 56.5
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 45 a 54 años",
+  "Column2": 480.3,
+  "Column3": 128.2,
+  "Column4": 89.8,
+  "Column5": 68.3,
+  "Column6": 59.6,
+  "Column7": 246.4,
+  "Column8": 91.5,
+  "Column9": 172.2,
+  "Column10": 78.5
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 55 a 64 años",
+  "Column2": 676.6,
+  "Column3": 157.8,
+  "Column4": 155.7,
+  "Column5": 86.8,
+  "Column6": 58.4,
+  "Column7": 368.2,
+  "Column8": 142,
+  "Column9": 228.4,
+  "Column10": 64.3
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 65 a 69 años",
+  "Column2": 346.4,
+  "Column3": 82.7,
+  "Column4": 104.2,
+  "Column5": 44.1,
+  "Column6": 32.2,
+  "Column7": 181.3,
+  "Column8": 79.2,
+  "Column9": 127.6,
+  "Column10": 26.1
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 70 a 74 años",
+  "Column2": 408.6,
+  "Column3": 97.2,
+  "Column4": 124.8,
+  "Column5": 58.7,
+  "Column6": 35.9,
+  "Column7": 212,
+  "Column8": 90.9,
+  "Column9": 157.2,
+  "Column10": 24
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 75 a 79 años",
+  "Column2": 477,
+  "Column3": 114.8,
+  "Column4": 152.4,
+  "Column5": 82,
+  "Column6": 59.1,
+  "Column7": 283.9,
+  "Column8": 146,
+  "Column9": 218,
+  "Column10": 34
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 80 a 84 años",
+  "Column2": 521.4,
+  "Column3": 128.9,
+  "Column4": 176.2,
+  "Column5": 129.4,
+  "Column6": 95,
+  "Column7": 305.2,
+  "Column8": 208.4,
+  "Column9": 288.7,
+  "Column10": 56.7
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 85 a 89 años",
+  "Column2": 516.3,
+  "Column3": 131.7,
+  "Column4": 194.1,
+  "Column5": 156.4,
+  "Column6": 119.6,
+  "Column7": 332.9,
+  "Column8": 244.5,
+  "Column9": 328.7,
+  "Column10": 75.7
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 90 y más años",
+  "Column2": 358.3,
+  "Column3": 114.8,
+  "Column4": 167,
+  "Column5": 152.1,
+  "Column6": 93.6,
+  "Column7": 270.1,
+  "Column8": 224,
+  "Column9": 283.5,
+  "Column10": 75.4
+ },
+ {
+  "Discapacidad. Cifras absolutas": "Hombre"
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    Total",
+  "Column2": 1770.2,
+  "Column3": 400.4,
+  "Column4": 526.1,
+  "Column5": 408.5,
+  "Column6": 292.5,
+  "Column7": 846.9,
+  "Column8": 499.6,
+  "Column9": 692.6,
+  "Column10": 294.2
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 6 a 15 años",
+  "Column2": 70.3,
+  "Column3": 6.5,
+  "Column4": 3.9,
+  "Column5": 35.6,
+  "Column6": 39.5,
+  "Column7": 15.4,
+  "Column8": 21.4,
+  "Column9": 9.3,
+  "Column10": 27.9
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 16 a 24 años",
+  "Column2": 56.4,
+  "Column3": 9.3,
+  "Column4": 6.5,
+  "Column5": 22.6,
+  "Column6": 21.9,
+  "Column7": 16.5,
+  "Column8": 18.5,
+  "Column9": 28.2,
+  "Column10": 26.9
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 25 a 34 años",
+  "Column2": 61.8,
+  "Column3": 9,
+  "Column4": 7.3,
+  "Column5": 15.7,
+  "Column6": 17.9,
+  "Column7": 24.7,
+  "Column8": 14.7,
+  "Column9": 27.6,
+  "Column10": 24.9
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 35 a 44 años",
+  "Column2": 109.9,
+  "Column3": 20,
+  "Column4": 17.7,
+  "Column5": 26,
+  "Column6": 17.2,
+  "Column7": 46.8,
+  "Column8": 19.5,
+  "Column9": 42.5,
+  "Column10": 33.5
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 45 a 54 años",
+  "Column2": 216,
+  "Column3": 54,
+  "Column4": 39.3,
+  "Column5": 36.4,
+  "Column6": 34.7,
+  "Column7": 103.6,
+  "Column8": 47.1,
+  "Column9": 74,
+  "Column10": 45.8
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 55 a 64 años",
+  "Column2": 321.3,
+  "Column3": 61,
+  "Column4": 84.6,
+  "Column5": 50.9,
+  "Column6": 30.6,
+  "Column7": 161.4,
+  "Column8": 71,
+  "Column9": 92.8,
+  "Column10": 40.6
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 65 a 69 años",
+  "Column2": 147.7,
+  "Column3": 32,
+  "Column4": 49.7,
+  "Column5": 17.1,
+  "Column6": 11,
+  "Column7": 70.7,
+  "Column8": 31.5,
+  "Column9": 44.2,
+  "Column10": 10.8
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 70 a 74 años",
+  "Column2": 158.2,
+  "Column3": 40.6,
+  "Column4": 55.4,
+  "Column5": 26.3,
+  "Column6": 14.3,
+  "Column7": 70.7,
+  "Column8": 35.4,
+  "Column9": 48,
+  "Column10": 10.9
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 75 a 79 años",
+  "Column2": 170.5,
+  "Column3": 38.3,
+  "Column4": 67.2,
+  "Column5": 35.2,
+  "Column6": 21.7,
+  "Column7": 84.7,
+  "Column8": 48.5,
+  "Column9": 61.7,
+  "Column10": 13
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 80 a 84 años",
+  "Column2": 186.3,
+  "Column3": 49.1,
+  "Column4": 72.6,
+  "Column5": 48.8,
+  "Column6": 31.8,
+  "Column7": 95.9,
+  "Column8": 73,
+  "Column9": 86.6,
+  "Column10": 20.6
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 85 a 89 años",
+  "Column2": 168.2,
+  "Column3": 46.9,
+  "Column4": 70.1,
+  "Column5": 49.3,
+  "Column6": 32.4,
+  "Column7": 91,
+  "Column8": 67.1,
+  "Column9": 97,
+  "Column10": 21.9
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 90 y más años",
+  "Column2": 103.4,
+  "Column3": 33.7,
+  "Column4": 51.9,
+  "Column5": 44.6,
+  "Column6": 19.7,
+  "Column7": 65.4,
+  "Column8": 51.8,
+  "Column9": 80.7,
+  "Column10": 17.5
+ },
+ {
+  "Discapacidad. Cifras absolutas": "Mujer"
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    Total",
+  "Column2": 2547.8,
+  "Column3": 650.9,
+  "Column4": 703.9,
+  "Column5": 539,
+  "Column6": 412.9,
+  "Column7": 1556.8,
+  "Column8": 863.8,
+  "Column9": 1314.8,
+  "Column10": 313.4
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 6 a 15 años",
+  "Column2": 36,
+  "Column3": 3.8,
+  "Column4": 1.4,
+  "Column5": 17.3,
+  "Column6": 20,
+  "Column7": 8.9,
+  "Column8": 9.8,
+  "Column9": 5.3,
+  "Column10": 10.6
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 16 a 24 años",
+  "Column2": 37.6,
+  "Column3": 10.8,
+  "Column4": 5.6,
+  "Column5": 12.5,
+  "Column6": 12.4,
+  "Column7": 13.7,
+  "Column8": 13.9,
+  "Column9": 17.7,
+  "Column10": 13.6
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 25 a 34 años",
+  "Column2": 49.2,
+  "Column3": 14.9,
+  "Column4": 8.7,
+  "Column5": 15.4,
+  "Column6": 6.4,
+  "Column7": 21.1,
+  "Column8": 14.5,
+  "Column9": 20,
+  "Column10": 12.6
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 35 a 44 años",
+  "Column2": 111.8,
+  "Column3": 20.9,
+  "Column4": 14.8,
+  "Column5": 24.5,
+  "Column6": 16.7,
+  "Column7": 56.7,
+  "Column8": 24.5,
+  "Column9": 52.4,
+  "Column10": 23
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 45 a 54 años",
+  "Column2": 264.3,
+  "Column3": 74.2,
+  "Column4": 50.5,
+  "Column5": 31.9,
+  "Column6": 25,
+  "Column7": 142.8,
+  "Column8": 44.4,
+  "Column9": 98.2,
+  "Column10": 32.7
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 55 a 64 años",
+  "Column2": 355.3,
+  "Column3": 96.7,
+  "Column4": 71.2,
+  "Column5": 35.9,
+  "Column6": 27.9,
+  "Column7": 206.8,
+  "Column8": 71,
+  "Column9": 135.5,
+  "Column10": 23.7
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 65 a 69 años",
+  "Column2": 198.7,
+  "Column3": 50.7,
+  "Column4": 54.5,
+  "Column5": 27,
+  "Column6": 21.3,
+  "Column7": 110.6,
+  "Column8": 47.6,
+  "Column9": 83.4,
+  "Column10": 15.4
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 70 a 74 años",
+  "Column2": 250.4,
+  "Column3": 56.6,
+  "Column4": 69.4,
+  "Column5": 32.4,
+  "Column6": 21.6,
+  "Column7": 141.2,
+  "Column8": 55.5,
+  "Column9": 109.3,
+  "Column10": 13.1
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 75 a 79 años",
+  "Column2": 306.5,
+  "Column3": 76.5,
+  "Column4": 85.2,
+  "Column5": 46.8,
+  "Column6": 37.4,
+  "Column7": 199.2,
+  "Column8": 97.5,
+  "Column9": 156.3,
+  "Column10": 21
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 80 a 84 años",
+  "Column2": 335.1,
+  "Column3": 79.8,
+  "Column4": 103.6,
+  "Column5": 80.6,
+  "Column6": 63.2,
+  "Column7": 209.2,
+  "Column8": 135.5,
+  "Column9": 202.1,
+  "Column10": 36.1
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 85 a 89 años",
+  "Column2": 348,
+  "Column3": 84.8,
+  "Column4": 124,
+  "Column5": 107,
+  "Column6": 87.1,
+  "Column7": 242,
+  "Column8": 177.4,
+  "Column9": 231.6,
+  "Column10": 53.8
+ },
+ {
+  "Discapacidad. Cifras absolutas": "    De 90 y más años",
+  "Column2": 254.9,
+  "Column3": 81.1,
+  "Column4": 115.1,
+  "Column5": 107.5,
+  "Column6": 73.9,
+  "Column7": 204.6,
+  "Column8": 172.2,
+  "Column9": 202.8,
+  "Column10": 57.8
+ },
+ null,
+ null,
+ {
+  "Discapacidad. Cifras absolutas": "Notas:"
+ },
+ {
+  "Discapacidad. Cifras absolutas": "1) Una persona puede tener discapacidades de más de un grupo de discapacidad "
+ },
+ {
+  "Discapacidad. Cifras absolutas": " * Los datos correspondientes a celdas con menos de 5 mil personas han de ser tomados con precaución, ya que pueden estar afectados de elevados errores de muestreo."
+ },
+ null,
+ {
+  "Discapacidad. Cifras absolutas": "Fuente: "
+ },
+ {
+  "Discapacidad. Cifras absolutas": "Instituto Nacional de Estadística"
+ }
+]
