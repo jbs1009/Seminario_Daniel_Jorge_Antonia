@@ -1,0 +1,361 @@
+[{"Nombre":"Total, Total, Personas con discapacidad de visión", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Personas con discapacidad de visión", "Codigo":"personascondiscapacidaddevision"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Total, Total, Sí utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Sí utiliza el sistema Braille", "Codigo":"siutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":1.37}
+]
+}
+,{"Nombre":"Total, Total, No utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"No utiliza el sistema Braille", "Codigo":"noutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":98.63}
+]
+}
+,{"Nombre":"Total, De 6 a 64 años, Personas con discapacidad de visión", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 6 a 64 años", "Codigo":"de6a64anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Personas con discapacidad de visión", "Codigo":"personascondiscapacidaddevision"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Total, De 6 a 64 años, Sí utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 6 a 64 años", "Codigo":"de6a64anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Sí utiliza el sistema Braille", "Codigo":"siutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":2.84}
+]
+}
+,{"Nombre":"Total, De 6 a 64 años, No utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 6 a 64 años", "Codigo":"de6a64anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"No utiliza el sistema Braille", "Codigo":"noutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":97.16}
+]
+}
+,{"Nombre":"Total, De 65 a 79 años, Personas con discapacidad de visión", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 79 años", "Codigo":"de65a79anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Personas con discapacidad de visión", "Codigo":"personascondiscapacidaddevision"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Total, De 65 a 79 años, Sí utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 79 años", "Codigo":"de65a79anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Sí utiliza el sistema Braille", "Codigo":"siutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":0.91}
+]
+}
+,{"Nombre":"Total, De 65 a 79 años, No utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 79 años", "Codigo":"de65a79anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"No utiliza el sistema Braille", "Codigo":"noutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":99.09}
+]
+}
+,{"Nombre":"Total, De 80 y más años, Personas con discapacidad de visión", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 80 y más años", "Codigo":"de80ymasanos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Personas con discapacidad de visión", "Codigo":"personascondiscapacidaddevision"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Total, De 80 y más años, Sí utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 80 y más años", "Codigo":"de80ymasanos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Sí utiliza el sistema Braille", "Codigo":"siutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":0.25}
+]
+}
+,{"Nombre":"Total, De 80 y más años, No utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 80 y más años", "Codigo":"de80ymasanos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"No utiliza el sistema Braille", "Codigo":"noutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":99.75}
+]
+}
+,{"Nombre":"Hombre, Total, Personas con discapacidad de visión", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Hombre", "Codigo":"hombre"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Personas con discapacidad de visión", "Codigo":"personascondiscapacidaddevision"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombre, Total, Sí utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Hombre", "Codigo":"hombre"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Sí utiliza el sistema Braille", "Codigo":"siutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":1.53}
+]
+}
+,{"Nombre":"Hombre, Total, No utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Hombre", "Codigo":"hombre"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"No utiliza el sistema Braille", "Codigo":"noutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":98.47}
+]
+}
+,{"Nombre":"Hombre, De 6 a 64 años, Personas con discapacidad de visión", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Hombre", "Codigo":"hombre"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 6 a 64 años", "Codigo":"de6a64anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Personas con discapacidad de visión", "Codigo":"personascondiscapacidaddevision"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombre, De 6 a 64 años, Sí utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Hombre", "Codigo":"hombre"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 6 a 64 años", "Codigo":"de6a64anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Sí utiliza el sistema Braille", "Codigo":"siutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":3.25}
+]
+}
+,{"Nombre":"Hombre, De 6 a 64 años, No utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Hombre", "Codigo":"hombre"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 6 a 64 años", "Codigo":"de6a64anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"No utiliza el sistema Braille", "Codigo":"noutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":96.75}
+]
+}
+,{"Nombre":"Hombre, De 65 a 79 años, Personas con discapacidad de visión", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Hombre", "Codigo":"hombre"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 79 años", "Codigo":"de65a79anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Personas con discapacidad de visión", "Codigo":"personascondiscapacidaddevision"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombre, De 65 a 79 años, Sí utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Hombre", "Codigo":"hombre"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 79 años", "Codigo":"de65a79anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Sí utiliza el sistema Braille", "Codigo":"siutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":0.84}
+]
+}
+,{"Nombre":"Hombre, De 65 a 79 años, No utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Hombre", "Codigo":"hombre"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 79 años", "Codigo":"de65a79anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"No utiliza el sistema Braille", "Codigo":"noutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":99.16}
+]
+}
+,{"Nombre":"Hombre, De 80 y más años, Personas con discapacidad de visión", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Hombre", "Codigo":"hombre"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 80 y más años", "Codigo":"de80ymasanos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Personas con discapacidad de visión", "Codigo":"personascondiscapacidaddevision"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Hombre, De 80 y más años, Sí utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Hombre", "Codigo":"hombre"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 80 y más años", "Codigo":"de80ymasanos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Sí utiliza el sistema Braille", "Codigo":"siutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombre, De 80 y más años, No utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Hombre", "Codigo":"hombre"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 80 y más años", "Codigo":"de80ymasanos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"No utiliza el sistema Braille", "Codigo":"noutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujer, Total, Personas con discapacidad de visión", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Mujer", "Codigo":"mujer"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Personas con discapacidad de visión", "Codigo":"personascondiscapacidaddevision"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujer, Total, Sí utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Mujer", "Codigo":"mujer"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Sí utiliza el sistema Braille", "Codigo":"siutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":1.27}
+]
+}
+,{"Nombre":"Mujer, Total, No utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Mujer", "Codigo":"mujer"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"Total", "Codigo":"total"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"No utiliza el sistema Braille", "Codigo":"noutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":98.73}
+]
+}
+,{"Nombre":"Mujer, De 6 a 64 años, Personas con discapacidad de visión", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Mujer", "Codigo":"mujer"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 6 a 64 años", "Codigo":"de6a64anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Personas con discapacidad de visión", "Codigo":"personascondiscapacidaddevision"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujer, De 6 a 64 años, Sí utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Mujer", "Codigo":"mujer"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 6 a 64 años", "Codigo":"de6a64anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Sí utiliza el sistema Braille", "Codigo":"siutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":2.54}
+]
+}
+,{"Nombre":"Mujer, De 6 a 64 años, No utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Mujer", "Codigo":"mujer"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 6 a 64 años", "Codigo":"de6a64anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"No utiliza el sistema Braille", "Codigo":"noutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":97.46}
+]
+}
+,{"Nombre":"Mujer, De 65 a 79 años, Personas con discapacidad de visión", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Mujer", "Codigo":"mujer"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 79 años", "Codigo":"de65a79anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Personas con discapacidad de visión", "Codigo":"personascondiscapacidaddevision"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujer, De 65 a 79 años, Sí utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Mujer", "Codigo":"mujer"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 79 años", "Codigo":"de65a79anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Sí utiliza el sistema Braille", "Codigo":"siutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":0.95}
+]
+}
+,{"Nombre":"Mujer, De 65 a 79 años, No utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Mujer", "Codigo":"mujer"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 79 años", "Codigo":"de65a79anos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"No utiliza el sistema Braille", "Codigo":"noutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":99.05}
+]
+}
+,{"Nombre":"Mujer, De 80 y más años, Personas con discapacidad de visión", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Mujer", "Codigo":"mujer"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 80 y más años", "Codigo":"de80ymasanos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Personas con discapacidad de visión", "Codigo":"personascondiscapacidaddevision"}
+]
+, "Data":[{"Valor":100.0}
+]
+}
+,{"Nombre":"Mujer, De 80 y más años, Sí utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Mujer", "Codigo":"mujer"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 80 y más años", "Codigo":"de80ymasanos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"Sí utiliza el sistema Braille", "Codigo":"siutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":0.37}
+]
+}
+,{"Nombre":"Mujer, De 80 y más años, No utiliza el sistema Braille", "MetaData":[{"Variable":{"Nombre":"Sexo", "Codigo":"sexo"}
+, "Nombre":"Mujer", "Codigo":"mujer"}
+,{"Variable":{"Nombre":"Edad", "Codigo":"edad"}
+, "Nombre":"De 80 y más años", "Codigo":"de80ymasanos"}
+,{"Variable":{"Nombre":"Braille", "Codigo":"braille"}
+, "Nombre":"No utiliza el sistema Braille", "Codigo":"noutilizaelsistemabraille"}
+]
+, "Data":[{"Valor":99.63}
+]
+}
+]
