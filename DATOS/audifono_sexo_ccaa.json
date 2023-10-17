@@ -1,0 +1,1081 @@
+[{"Nombre":"Ambos sexos, TOTAL, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":6.5}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":1.31}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":1.42}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":2.2}
+]
+}
+,{"Nombre":"Ambos sexos, De 18 a 24 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 18 a 24 años", "Codigo":"de18a24anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":12.48}
+]
+}
+,{"Nombre":"Ambos sexos, De 18 a 24 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 18 a 24 años", "Codigo":"de18a24anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":3.71}
+]
+}
+,{"Nombre":"Ambos sexos, De 18 a 24 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 18 a 24 años", "Codigo":"de18a24anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":6.51}
+]
+}
+,{"Nombre":"Ambos sexos, De 18 a 24 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 18 a 24 años", "Codigo":"de18a24anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":12.7}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 34 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 34 años", "Codigo":"de25a34anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":19.77}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 34 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 34 años", "Codigo":"de25a34anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":4.26}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 34 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 34 años", "Codigo":"de25a34anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":6.02}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 34 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 34 años", "Codigo":"de25a34anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":10.34}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 a 44 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 35 a 44 años", "Codigo":"de35a44anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":13.28}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 a 44 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 35 a 44 años", "Codigo":"de35a44anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":2.8}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 a 44 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 35 a 44 años", "Codigo":"de35a44anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":3.55}
+]
+}
+,{"Nombre":"Ambos sexos, De 35 a 44 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 35 a 44 años", "Codigo":"de35a44anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":5.39}
+]
+}
+,{"Nombre":"Ambos sexos, De 45 a 54 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 45 a 54 años", "Codigo":"de45a54anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":19.81}
+]
+}
+,{"Nombre":"Ambos sexos, De 45 a 54 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 45 a 54 años", "Codigo":"de45a54anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":3.09}
+]
+}
+,{"Nombre":"Ambos sexos, De 45 a 54 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 45 a 54 años", "Codigo":"de45a54anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":3.11}
+]
+}
+,{"Nombre":"Ambos sexos, De 45 a 54 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 45 a 54 años", "Codigo":"de45a54anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":4.81}
+]
+}
+,{"Nombre":"Ambos sexos, De 55 a 64 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 55 a 64 años", "Codigo":"de55a64anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":16.69}
+]
+}
+,{"Nombre":"Ambos sexos, De 55 a 64 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 55 a 64 años", "Codigo":"de55a64anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":3.52}
+]
+}
+,{"Nombre":"Ambos sexos, De 55 a 64 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 55 a 64 años", "Codigo":"de55a64anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":3.12}
+]
+}
+,{"Nombre":"Ambos sexos, De 55 a 64 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 55 a 64 años", "Codigo":"de55a64anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":4.58}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 a 74 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 74 años", "Codigo":"de65a74anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":25.92}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 a 74 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 74 años", "Codigo":"de65a74anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":3.91}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 a 74 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 74 años", "Codigo":"de65a74anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":3.3}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 a 74 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 74 años", "Codigo":"de65a74anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":4.77}
+]
+}
+,{"Nombre":"Ambos sexos, De 75 a 84 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 75 a 84 años", "Codigo":"de75a84anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":30.12}
+]
+}
+,{"Nombre":"Ambos sexos, De 75 a 84 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 75 a 84 años", "Codigo":"de75a84anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.03}
+]
+}
+,{"Nombre":"Ambos sexos, De 75 a 84 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 75 a 84 años", "Codigo":"de75a84anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":4.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 75 a 84 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 75 a 84 años", "Codigo":"de75a84anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":6.03}
+]
+}
+,{"Nombre":"Ambos sexos, De 85 y más años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 85 y más años", "Codigo":"de85ymasanos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":21.84}
+]
+}
+,{"Nombre":"Ambos sexos, De 85 y más años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 85 y más años", "Codigo":"de85ymasanos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.46}
+]
+}
+,{"Nombre":"Ambos sexos, De 85 y más años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 85 y más años", "Codigo":"de85ymasanos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":6.7}
+]
+}
+,{"Nombre":"Ambos sexos, De 85 y más años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 85 y más años", "Codigo":"de85ymasanos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":10.0}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":15.18}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":2.14}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":1.85}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":2.98}
+]
+}
+,{"Nombre":"Hombres, De 18 a 24 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 18 a 24 años", "Codigo":"de18a24anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":25.79}
+]
+}
+,{"Nombre":"Hombres, De 18 a 24 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 18 a 24 años", "Codigo":"de18a24anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.31}
+]
+}
+,{"Nombre":"Hombres, De 18 a 24 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 18 a 24 años", "Codigo":"de18a24anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":8.04}
+]
+}
+,{"Nombre":"Hombres, De 18 a 24 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 18 a 24 años", "Codigo":"de18a24anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":19.71}
+]
+}
+,{"Nombre":"Hombres, De 25 a 34 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 34 años", "Codigo":"de25a34anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":52.57}
+]
+}
+,{"Nombre":"Hombres, De 25 a 34 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 34 años", "Codigo":"de25a34anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.42}
+]
+}
+,{"Nombre":"Hombres, De 25 a 34 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 34 años", "Codigo":"de25a34anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":7.74}
+]
+}
+,{"Nombre":"Hombres, De 25 a 34 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 34 años", "Codigo":"de25a34anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":14.1}
+]
+}
+,{"Nombre":"Hombres, De 35 a 44 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 35 a 44 años", "Codigo":"de35a44anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":42.43}
+]
+}
+,{"Nombre":"Hombres, De 35 a 44 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 35 a 44 años", "Codigo":"de35a44anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":4.43}
+]
+}
+,{"Nombre":"Hombres, De 35 a 44 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 35 a 44 años", "Codigo":"de35a44anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":4.42}
+]
+}
+,{"Nombre":"Hombres, De 35 a 44 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 35 a 44 años", "Codigo":"de35a44anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":6.85}
+]
+}
+,{"Nombre":"Hombres, De 45 a 54 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 45 a 54 años", "Codigo":"de45a54anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":52.46}
+]
+}
+,{"Nombre":"Hombres, De 45 a 54 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 45 a 54 años", "Codigo":"de45a54anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.0}
+]
+}
+,{"Nombre":"Hombres, De 45 a 54 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 45 a 54 años", "Codigo":"de45a54anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":3.89}
+]
+}
+,{"Nombre":"Hombres, De 45 a 54 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 45 a 54 años", "Codigo":"de45a54anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":6.28}
+]
+}
+,{"Nombre":"Hombres, De 55 a 64 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 55 a 64 años", "Codigo":"de55a64anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":40.37}
+]
+}
+,{"Nombre":"Hombres, De 55 a 64 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 55 a 64 años", "Codigo":"de55a64anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.72}
+]
+}
+,{"Nombre":"Hombres, De 55 a 64 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 55 a 64 años", "Codigo":"de55a64anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":4.13}
+]
+}
+,{"Nombre":"Hombres, De 55 a 64 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 55 a 64 años", "Codigo":"de55a64anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":6.11}
+]
+}
+,{"Nombre":"Hombres, De 65 a 74 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 74 años", "Codigo":"de65a74anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":43.54}
+]
+}
+,{"Nombre":"Hombres, De 65 a 74 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 74 años", "Codigo":"de65a74anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.17}
+]
+}
+,{"Nombre":"Hombres, De 65 a 74 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 74 años", "Codigo":"de65a74anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":4.52}
+]
+}
+,{"Nombre":"Hombres, De 65 a 74 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 74 años", "Codigo":"de65a74anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":6.78}
+]
+}
+,{"Nombre":"Hombres, De 75 a 84 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 75 a 84 años", "Codigo":"de75a84anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":64.66}
+]
+}
+,{"Nombre":"Hombres, De 75 a 84 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 75 a 84 años", "Codigo":"de75a84anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":7.61}
+]
+}
+,{"Nombre":"Hombres, De 75 a 84 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 75 a 84 años", "Codigo":"de75a84anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.47}
+]
+}
+,{"Nombre":"Hombres, De 75 a 84 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 75 a 84 años", "Codigo":"de75a84anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":9.21}
+]
+}
+,{"Nombre":"Hombres, De 85 y más años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 85 y más años", "Codigo":"de85ymasanos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":40.15}
+]
+}
+,{"Nombre":"Hombres, De 85 y más años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 85 y más años", "Codigo":"de85ymasanos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":11.58}
+]
+}
+,{"Nombre":"Hombres, De 85 y más años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 85 y más años", "Codigo":"de85ymasanos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":9.65}
+]
+}
+,{"Nombre":"Hombres, De 85 y más años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 85 y más años", "Codigo":"de85ymasanos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":18.6}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":7.22}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":1.68}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":2.17}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":3.16}
+]
+}
+,{"Nombre":"Mujeres, De 18 a 24 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 18 a 24 años", "Codigo":"de18a24anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":14.14}
+]
+}
+,{"Nombre":"Mujeres, De 18 a 24 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 18 a 24 años", "Codigo":"de18a24anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.14}
+]
+}
+,{"Nombre":"Mujeres, De 18 a 24 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 18 a 24 años", "Codigo":"de18a24anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":10.93}
+]
+}
+,{"Nombre":"Mujeres, De 18 a 24 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 18 a 24 años", "Codigo":"de18a24anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":16.83}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 34 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 34 años", "Codigo":"de25a34anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":21.3}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 34 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 34 años", "Codigo":"de25a34anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.65}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 34 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 34 años", "Codigo":"de25a34anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":9.43}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 34 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 34 años", "Codigo":"de25a34anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":14.28}
+]
+}
+,{"Nombre":"Mujeres, De 35 a 44 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 35 a 44 años", "Codigo":"de35a44anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":14.0}
+]
+}
+,{"Nombre":"Mujeres, De 35 a 44 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 35 a 44 años", "Codigo":"de35a44anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":3.64}
+]
+}
+,{"Nombre":"Mujeres, De 35 a 44 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 35 a 44 años", "Codigo":"de35a44anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.71}
+]
+}
+,{"Nombre":"Mujeres, De 35 a 44 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 35 a 44 años", "Codigo":"de35a44anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":8.28}
+]
+}
+,{"Nombre":"Mujeres, De 45 a 54 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 45 a 54 años", "Codigo":"de45a54anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":21.25}
+]
+}
+,{"Nombre":"Mujeres, De 45 a 54 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 45 a 54 años", "Codigo":"de45a54anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":3.84}
+]
+}
+,{"Nombre":"Mujeres, De 45 a 54 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 45 a 54 años", "Codigo":"de45a54anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.14}
+]
+}
+,{"Nombre":"Mujeres, De 45 a 54 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 45 a 54 años", "Codigo":"de45a54anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":7.68}
+]
+}
+,{"Nombre":"Mujeres, De 55 a 64 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 55 a 64 años", "Codigo":"de55a64anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":18.28}
+]
+}
+,{"Nombre":"Mujeres, De 55 a 64 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 55 a 64 años", "Codigo":"de55a64anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":4.42}
+]
+}
+,{"Nombre":"Mujeres, De 55 a 64 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 55 a 64 años", "Codigo":"de55a64anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":4.91}
+]
+}
+,{"Nombre":"Mujeres, De 55 a 64 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 55 a 64 años", "Codigo":"de55a64anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":6.91}
+]
+}
+,{"Nombre":"Mujeres, De 65 a 74 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 74 años", "Codigo":"de65a74anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":30.49}
+]
+}
+,{"Nombre":"Mujeres, De 65 a 74 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 74 años", "Codigo":"de65a74anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":5.01}
+]
+}
+,{"Nombre":"Mujeres, De 65 a 74 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 74 años", "Codigo":"de65a74anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":4.73}
+]
+}
+,{"Nombre":"Mujeres, De 65 a 74 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 a 74 años", "Codigo":"de65a74anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":6.54}
+]
+}
+,{"Nombre":"Mujeres, De 75 a 84 años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 75 a 84 años", "Codigo":"de75a84anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":33.42}
+]
+}
+,{"Nombre":"Mujeres, De 75 a 84 años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 75 a 84 años", "Codigo":"de75a84anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":6.53}
+]
+}
+,{"Nombre":"Mujeres, De 75 a 84 años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 75 a 84 años", "Codigo":"de75a84anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":5.53}
+]
+}
+,{"Nombre":"Mujeres, De 75 a 84 años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 75 a 84 años", "Codigo":"de75a84anos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":7.9}
+]
+}
+,{"Nombre":"Mujeres, De 85 y más años, Peso insuficiente (IMC<18,5 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 85 y más años", "Codigo":"de85ymasanos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Peso insuficiente (IMC<18,5 kg/m2)", "Codigo":"pesoinsuficienteimc185kgm2"}
+]
+, "Data":[{"Valor":26.06}
+]
+}
+,{"Nombre":"Mujeres, De 85 y más años, Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 85 y más años", "Codigo":"de85ymasanos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Normopeso (18,5 kg/m2 <=IMC<25 kg/m2)", "Codigo":"normopeso185kgm2imc25kgm2"}
+]
+, "Data":[{"Valor":7.91}
+]
+}
+,{"Nombre":"Mujeres, De 85 y más años, Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 85 y más años", "Codigo":"de85ymasanos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Sobrepeso (25 kg/m2 <=IMC<30 kg/m2)", "Codigo":"sobrepeso25kgm2imc30kgm2"}
+]
+, "Data":[{"Valor":9.37}
+]
+}
+,{"Nombre":"Mujeres, De 85 y más años, Obesidad (IMC>=30 kg/m2)", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 85 y más años", "Codigo":"de85ymasanos"}
+,{"Variable":{"Nombre":"masa corporal adultos", "Codigo":"masacorporaladultos"}
+, "Nombre":"Obesidad (IMC>=30 kg/m2)", "Codigo":"obesidadimc30kgm2"}
+]
+, "Data":[{"Valor":11.95}
+]
+}
+]
