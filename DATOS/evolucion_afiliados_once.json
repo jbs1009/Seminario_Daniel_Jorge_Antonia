@@ -1,0 +1,51 @@
+[
+ {
+  "Column2": 2000,
+  "Column3": 2022
+ },
+ {
+  "EVOLUCIÓN (2000-2022)": "Personas Afiliadas",
+  "Column2": 59376,
+  "Column3": 70490
+ },
+ {
+  "EVOLUCIÓN (2000-2022)": "Hombres",
+  "Column2": "50,9%",
+  "Column3": "47,9%"
+ },
+ {
+  "EVOLUCIÓN (2000-2022)": "Mujeres",
+  "Column2": "49,1%",
+  "Column3": "52,1%"
+ },
+ {
+  "EVOLUCIÓN (2000-2022)": "0-17 años",
+  "Column2": "7,3%",
+  "Column3": "5,1%"
+ },
+ {
+  "EVOLUCIÓN (2000-2022)": "18- 64 años",
+  "Column2": "56,0%",
+  "Column3": "48,5%"
+ },
+ {
+  "EVOLUCIÓN (2000-2022)": "65- más años",
+  "Column2": "36,7%",
+  "Column3": "46,4%"
+ },
+ {
+  "EVOLUCIÓN (2000-2022)": "Con Ceguera*",
+  "Column2": "26,2%",
+  "Column3": "13,7%"
+ },
+ {
+  "EVOLUCIÓN (2000-2022)": "Con Deficiencia Visual**",
+  "Column2": "73,8%",
+  "Column3": "81,7%"
+ },
+ {
+  "EVOLUCIÓN (2000-2022)": "Visión no Cuantificable***",
+  "Column2": "SIN DATOS",
+  "Column3": "4,6%"
+ }
+]
