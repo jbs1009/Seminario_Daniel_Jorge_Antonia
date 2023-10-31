@@ -28,7 +28,7 @@ library(tidyjson)
 library(rjson)
 library(tidiverse)
 library(readr)
-imc_sexo_ccaa <- fromJSON("DATOS/imc_sexo_ccaa.json")
+imc_sexo_ccaa <- fromJSON(file = "DATOS/imc_sexo_ccaa.json")
 ```
 
 
