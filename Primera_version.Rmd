@@ -57,6 +57,7 @@ gafas_sexo_edad_estud <- gafas_sexo_edad_estudios %>% spread_all()
 gafas_sexo_paisnac <- gafas_sexo_pais_nacimiento %>% spread_all()
 discap_sexo_edad <- grupo_discapacidad_sexo_edad %>% spread_all()
 imc_sexo_gredad <- imc_sexo_grupoedad %>% spread_all()
+pato_visu_afil_once <- patologias_visuales_afiliados_once %>% spread_all()
 ```
 
 ## DATOS 📖
