@@ -33,6 +33,8 @@ once_provincias_edad <- fromJSON(file = "DATOS/afiliados_once_provincias_edad.js
 audifono_sexo_ccaa <- fromJSON(file = "DATOS/audifono_sexo_ccaa.json")
 audifono_sexo_edad_estudios <- fromJSON(file = "DATOS/audifono_sexo_edad_estudios.json")
 evolucion_afiliados_once <- fromJSON(file = "DATOS/evolucion_afiliados_once.json.json")
+gafas_sexo_edad_estudios <- fromJSON(file = "DATOS/gafas_sexo_edad_estudios.json")
+
 ```
 
 
