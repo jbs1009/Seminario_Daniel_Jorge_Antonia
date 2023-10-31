@@ -37,7 +37,7 @@ gafas_sexo_edad_estudios <- fromJSON(file = "DATOS/gafas_sexo_edad_estudios.json
 gafas_sexo_pais_nacimiento <- fromJSON(fil = "DATOS/gafas_sexo_pais_nacimiento.json")
 grupo_discapacidad_sexo_edad <- fromJSON(file = "DATOS/grupo_discapacidad_sexo_edad.json")
 imc_sexo_grupoedad <- fromJSON(file = "DATOS/imc_sexo_grupoedad.json")
-
+patologias_visuales_afiliados_once <- fromJSON(file = "DATOS/PATOLOGIAS_VISUALES_AFILIADOS_ONCE.json")
 ```
 
 
