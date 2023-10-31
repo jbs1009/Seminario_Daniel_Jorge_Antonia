@@ -41,7 +41,7 @@ grupo_discapacidad_sexo_edad <- fromJSON(file = "DATOS/grupo_discapacidad_sexo_e
 imc_sexo_grupoedad <- fromJSON(file = "DATOS/imc_sexo_grupoedad.json")
 patologias_visuales_afiliados_once <- fromJSON(file = "DATOS/PATOLOGIAS_VISUALES_AFILIADOS_ONCE.json")
 sedentarismo_clase_social <- fromJSON(file = "DATOS/sedentarismo_clasesocial.json")
-sedentarismo_sexo_ccaa <- read_excel(file = "DATOS/sedentarismo_sexo_ccaa.xlsx")
+sedentarismo_sexo_ccaa <- read_excel("DATOS/sedentarismo_sexo_ccaa.xlsx")
 sedentarismo_sexo_grupoedad <- fromJSON(file = "DATOS/sedentarismo_sexo_grupo_edad.json")
 uso_braille_sexo_y_edad <- fromJSON(file = "DATOS/uso_braille_sexo_y_edad.json")
 ```
@@ -59,6 +59,7 @@ discap_sexo_edad <- grupo_discapacidad_sexo_edad %>% spread_all()
 imc_sexo_gredad <- imc_sexo_grupoedad %>% spread_all()
 pato_visu_afil_once <- patologias_visuales_afiliados_once %>% spread_all()
 sedent_clasocial <- sedentarismo_clase_social %>% spread_all()
+sedent_sexo_gredad <- sedentarismo_sexo_grupoedad %>% spread_all()
 ```
 
 ## DATOS 📖
