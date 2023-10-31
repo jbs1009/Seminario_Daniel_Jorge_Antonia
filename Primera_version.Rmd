@@ -36,7 +36,7 @@ audifono_sexo_ccaa <- fromJSON(file = "DATOS/audifono_sexo_ccaa.json")
 audifono_sexo_edad_estudios <- fromJSON(file = "DATOS/audifono_sexo_edad_estudios.json")
 evolucion_afiliados_once <- fromJSON(file = "DATOS/evolucion_afiliados_once.json.json")
 gafas_sexo_edad_estudios <- fromJSON(file = "DATOS/gafas_sexo_edad_estudios.json")
-gafas_sexo_pais_nacimiento <- fromJSON(fil = "DATOS/gafas_sexo_pais_nacimiento.json")
+gafas_sexo_pais_nacimiento <- fromJSON(file = "DATOS/gafas_sexo_pais_nacimiento.json")
 grupo_discapacidad_sexo_edad <- fromJSON(file = "DATOS/grupo_discapacidad_sexo_edad.json")
 imc_sexo_grupoedad <- fromJSON(file = "DATOS/imc_sexo_grupoedad.json")
 patologias_visuales_afiliados_once <- fromJSON(file = "DATOS/PATOLOGIAS_VISUALES_AFILIADOS_ONCE.json")
@@ -50,6 +50,7 @@ Formateamos los datos:
 
 ```{r}
 imc_sexo_caa <- imc_sexo_ccaa %>% spread_all()
+audif_sexo_ccaa <- audifono_sexo_ccaa %>% spread_all()
 ```
 
 ## DATOS 📖
