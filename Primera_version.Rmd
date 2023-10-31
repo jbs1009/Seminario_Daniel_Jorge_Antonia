@@ -26,7 +26,7 @@ Carga de los datos a usar:
 ```{r}
 library(tidyjson)
 library(rjson)
-library(tidiverse)
+library(tidyverse)
 library(readr)
 imc_sexo_ccaa <- fromJSON(file = "DATOS/imc_sexo_ccaa.json")
 once_provincias_edad <- fromJSON(file = "DATOS/afiliados_once_provincias_edad.json")
