@@ -28,6 +28,7 @@ library(tidyjson)
 library(rjson)
 library(tidyverse)
 library(readr)
+library(readxl)
 imc_sexo_ccaa <- fromJSON(file = "DATOS/imc_sexo_ccaa.json")
 once_provincias_edad <- fromJSON(file = "DATOS/afiliados_once_provincias_edad.json")
 audifono_sexo_ccaa <- fromJSON(file = "DATOS/audifono_sexo_ccaa.json")
@@ -39,6 +40,7 @@ grupo_discapacidad_sexo_edad <- fromJSON(file = "DATOS/grupo_discapacidad_sexo_e
 imc_sexo_grupoedad <- fromJSON(file = "DATOS/imc_sexo_grupoedad.json")
 patologias_visuales_afiliados_once <- fromJSON(file = "DATOS/PATOLOGIAS_VISUALES_AFILIADOS_ONCE.json")
 sedentarismo_clase_social <- fromJSON(file = "DATOS/sedentarismo_clasesocial.json")
+
 ```
 
 
