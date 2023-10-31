@@ -24,9 +24,16 @@ En el siguiente trabajo vamos a tratar de encontrar, o en su defecto descartar, 
 Carga de los datos a usar:
 
 ```{r}
+library(tidyjson)
+library(rjson)
+library(tidiverse)
 library(readr)
-imc_sexo_ccaa <- read_csv("DATOS/imc_sexo_ccaa.json")
+imc_sexo_ccaa <- fromJSON("DATOS/imc_sexo_ccaa.json")
 ```
+
+
+## DATOS 📖
+
 
 ## BIBLIOGRAFÍA 📖
 
