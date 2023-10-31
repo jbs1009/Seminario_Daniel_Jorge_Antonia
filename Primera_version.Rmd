@@ -42,7 +42,7 @@ patologias_visuales_afiliados_once <- fromJSON(file = "DATOS/PATOLOGIAS_VISUALES
 sedentarismo_clase_social <- fromJSON(file = "DATOS/sedentarismo_clasesocial.json")
 sedentarismo_sexo_ccaa <- read_excel(file = "DATOS/sedentarismo_sexo_ccaa.xlsx")
 sedentarismo_sexo_grupoedad <- fromJSON(file = "DATOS/sedentarismo_sexo_grupo_edad.json")
-
+uso_braille_sexo_y_edad <- fromJSON(file = "DATOS/uso_braille_sexo_y_edad.json")
 ```
 
 
