@@ -53,6 +53,7 @@ imc_sexo_caa <- imc_sexo_ccaa %>% spread_all()
 audif_sexo_ccaa <- audifono_sexo_ccaa %>% spread_all()
 audif_sexo_edad_estud <- audifono_sexo_edad_estudios %>% spread_all()
 evol_afil_once <- evolucion_afiliados_once %>% spread_all()
+gafas_sexo_edad_estud <- gafas_sexo_edad_estudios %>% spread_all()
 ```
 
 ## DATOS 📖
