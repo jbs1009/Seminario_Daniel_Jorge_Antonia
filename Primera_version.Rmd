@@ -44,9 +44,13 @@ sedentarismo_clase_social <- fromJSON(file = "DATOS/sedentarismo_clasesocial.jso
 sedentarismo_sexo_ccaa <- read_excel(file = "DATOS/sedentarismo_sexo_ccaa.xlsx")
 sedentarismo_sexo_grupoedad <- fromJSON(file = "DATOS/sedentarismo_sexo_grupo_edad.json")
 uso_braille_sexo_y_edad <- fromJSON(file = "DATOS/uso_braille_sexo_y_edad.json")
-
 ```
 
+Formateamos los datos:
+
+```{r}
+imc_sexo_caa <- imc_sexo_ccaa %>% spread_all()
+```
 
 ## DATOS 📖
 
