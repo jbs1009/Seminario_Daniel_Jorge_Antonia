@@ -32,6 +32,7 @@ imc_sexo_ccaa <- fromJSON(file = "DATOS/imc_sexo_ccaa.json")
 once_provincias_edad <- fromJSON(file = "DATOS/afiliados_once_provincias_edad.json")
 audifono_sexo_ccaa <- fromJSON(file = "DATOS/audifono_sexo_ccaa.json")
 audifono_sexo_edad_estudios <- fromJSON(file = "DATOS/audifono_sexo_edad_estudios.json")
+evolucion_afiliados_once <- fromJSON(file = "DATOS/evolucion_afiliados_once.json.json")
 ```
 
 
