@@ -60,6 +60,7 @@ imc_sexo_gredad <- imc_sexo_grupoedad %>% spread_all()
 pato_visu_afil_once <- patologias_visuales_afiliados_once %>% spread_all()
 sedent_clasocial <- sedentarismo_clase_social %>% spread_all()
 sedent_sexo_gredad <- sedentarismo_sexo_grupoedad %>% spread_all()
+braille_sexo_edad <- uso_braille_sexo_y_edad %>% spread_all()
 ```
 
 ## DATOS 📖
