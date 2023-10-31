@@ -11,7 +11,7 @@
 
 <meta name="author" content="Jorge Bermejo, Antonia Añazco, Daniel Marrón" />
 
-<meta name="date" content="2023-10-17" />
+<meta name="date" content="2023-10-31" />
 
 <title>Relación del sedentarismo con problemas auditivos y visuales</title>
 
@@ -1482,7 +1482,7 @@ border-radius: 0px;
 <h1 class="title toc-ignore">Relación del sedentarismo con problemas
 auditivos y visuales</h1>
 <h4 class="author">Jorge Bermejo, Antonia Añazco, Daniel Marrón</h4>
-<h4 class="date">2023-10-17</h4>
+<h4 class="date">2023-10-31</h4>
 
 </div>
 
@@ -1510,20 +1510,57 @@ de la distribución de dichos problemas y el estilo de vida a lo largo
 del territorio español teniendo además en cuenta otros factores como
 edad o sexo.</p>
 <p>Carga de los datos a usar:</p>
-<pre class="r"><code>library(readr)
-imc_sexo_ccaa &lt;- read_csv(&quot;DATOS/imc_sexo_ccaa.json&quot;)</code></pre>
-<pre><code>## Warning: One or more parsing issues, call `problems()` on your data frame for details,
-## e.g.:
-##   dat &lt;- vroom(...)
-##   problems(dat)</code></pre>
-<pre><code>## Rows: 2399 Columns: 6
-## ── Column specification ────────────────────────────────────────────────────────
-## Delimiter: &quot;,&quot;
-## chr (4): [{&quot;Nombre&quot;:&quot;Ambos sexos, Total, Peso insuficiente (IMC&lt;18, 5 kg/m2)&quot;
-## lgl (2): MetaData:[{Variable:{Nombre:sexo, Codigo:sexo}
+<pre class="r"><code>library(tidyjson)</code></pre>
+<pre><code>## 
+## Attaching package: &#39;tidyjson&#39;</code></pre>
+<pre><code>## The following object is masked from &#39;package:stats&#39;:
 ## 
-## ℹ Use `spec()` to retrieve the full column specification for this data.
-## ℹ Specify the column types or set `show_col_types = FALSE` to quiet this message.</code></pre>
+##     filter</code></pre>
+<pre class="r"><code>library(rjson)
+library(tidyverse)</code></pre>
+<pre><code>## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+## ✔ dplyr     1.1.3     ✔ readr     2.1.4
+## ✔ forcats   1.0.0     ✔ stringr   1.5.0
+## ✔ ggplot2   3.4.3     ✔ tibble    3.2.1
+## ✔ lubridate 1.9.3     ✔ tidyr     1.3.0
+## ✔ purrr     1.0.2</code></pre>
+<pre><code>## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks tidyjson::filter(), stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
+## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</code></pre>
+<pre class="r"><code>library(readr)
+library(readxl)
+library(dplyr)
+imc_sexo_ccaa &lt;- fromJSON(file = &quot;DATOS/imc_sexo_ccaa.json&quot;)
+once_provincias_edad &lt;- fromJSON(file = &quot;DATOS/afiliados_once_provincias_edad.json&quot;)
+audifono_sexo_ccaa &lt;- fromJSON(file = &quot;DATOS/audifono_sexo_ccaa.json&quot;)
+audifono_sexo_edad_estudios &lt;- fromJSON(file = &quot;DATOS/audifono_sexo_edad_estudios.json&quot;)
+#evolucion_afiliados_once &lt;- fromJSON(file = &quot;DATOS/evolucion_afiliados_once.json&quot;)
+gafas_sexo_edad_estudios &lt;- fromJSON(file = &quot;DATOS/gafas_sexo_edad_estudios.json&quot;)
+gafas_sexo_pais_nacimiento &lt;- fromJSON(file = &quot;DATOS/gafas_sexo_pais_nacimiento.json&quot;)
+grupo_discapacidad_sexo_edad &lt;- fromJSON(file = &quot;DATOS/grupo_discapacidad_sexo_edad.json&quot;)
+imc_sexo_grupoedad &lt;- fromJSON(file = &quot;DATOS/imc_sexo_grupoedad.json&quot;)
+#patologias_visuales_afiliados_once &lt;- fromJSON(file = &quot;DATOS/PATOLOGIAS_VISUALES_AFILIADOS_ONCE.json&quot;)
+sedentarismo_clase_social &lt;- fromJSON(file = &quot;DATOS/sedentarismo_clasesocial.json&quot;)
+#sedentarismo_sexo_ccaa &lt;- read_excel(&quot;DATOS/sedentarismo_sexo_ccaa.xlsx&quot;) 
+sedentarismo_sexo_grupoedad &lt;- fromJSON(file = &quot;DATOS/sedentarismo_sexo_grupo_edad.json&quot;)
+uso_braille_sexo_y_edad &lt;- fromJSON(file = &quot;DATOS/uso_braille_sexo_y_edad.json&quot;)</code></pre>
+<p>Formateamos los datos:</p>
+<pre class="r"><code>imc_sexo_caa &lt;- imc_sexo_ccaa %&gt;% spread_all()
+audif_sexo_ccaa &lt;- audifono_sexo_ccaa %&gt;% spread_all()
+audif_sexo_edad_estud &lt;- audifono_sexo_edad_estudios %&gt;% spread_all()
+#evol_afil_once &lt;- evolucion_afiliados_once %&gt;% spread_all()
+gafas_sexo_edad_estud &lt;- gafas_sexo_edad_estudios %&gt;% spread_all()
+gafas_sexo_paisnac &lt;- gafas_sexo_pais_nacimiento %&gt;% spread_all()
+#discap_sexo_edad &lt;- grupo_discapacidad_sexo_edad %&gt;% spread_all()
+imc_sexo_gredad &lt;- imc_sexo_grupoedad %&gt;% spread_all()
+#pato_visu_afil_once &lt;- patologias_visuales_afiliados_once %&gt;% spread_all()
+sedent_clasocial &lt;- sedentarismo_clase_social %&gt;% spread_all()
+sedent_sexo_gredad &lt;- sedentarismo_sexo_grupoedad %&gt;% spread_all()
+braille_sexo_edad &lt;- uso_braille_sexo_y_edad %&gt;% spread_all()</code></pre>
+</div>
+<div id="datos" class="section level2">
+<h2>DATOS 📖</h2>
 </div>
 <div id="bibliografía" class="section level2">
 <h2>BIBLIOGRAFÍA 📖</h2>
