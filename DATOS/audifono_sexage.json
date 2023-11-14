@@ -1,0 +1,2305 @@
+[{"Nombre":"Ambos sexos, TOTAL, TOTAL, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":39974.1}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, TOTAL, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":1604.4}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, TOTAL, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":38368.8}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, TOTAL, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.9}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Básico e inferior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":19544.5}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Básico e inferior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":994.2}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Básico e inferior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":18550.0}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Básico e inferior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.4}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Intermedio, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":8770.1}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Intermedio, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":295.7}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Intermedio, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":8474.5}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Intermedio, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Superior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":11659.5}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Superior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":314.6}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Superior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":11344.4}
+]
+}
+,{"Nombre":"Ambos sexos, TOTAL, Superior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.5}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, TOTAL, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":4729.5}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, TOTAL, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":130.3}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, TOTAL, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":4599.2}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, TOTAL, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, Básico e inferior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":2402.6}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, Básico e inferior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":75.8}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, Básico e inferior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":2326.8}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, Básico e inferior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, Intermedio, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":1699.7}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, Intermedio, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":38.7}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, Intermedio, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":1661.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, Intermedio, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, Superior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":627.2}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, Superior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":15.8}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, Superior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":611.4}
+]
+}
+,{"Nombre":"Ambos sexos, De 15 a 24 años, Superior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, TOTAL, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":26318.5}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, TOTAL, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":649.6}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, TOTAL, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":25668.4}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, TOTAL, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.5}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, Básico e inferior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":10407.7}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, Básico e inferior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":296.2}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, Básico e inferior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":10111.6}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, Básico e inferior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, Intermedio, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":6058.1}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, Intermedio, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":167.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, Intermedio, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":5891.1}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, Intermedio, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, Superior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":9852.7}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, Superior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":186.5}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, Superior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":9665.7}
+]
+}
+,{"Nombre":"Ambos sexos, De 25 a 64 años, Superior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.5}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, TOTAL, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":8926.1}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, TOTAL, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":824.5}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, TOTAL, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":8101.3}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, TOTAL, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.4}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, Básico e inferior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":6734.2}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, Básico e inferior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":622.2}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, Básico e inferior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":6111.7}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, Básico e inferior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.4}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, Intermedio, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":1012.4}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, Intermedio, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":90.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, Intermedio, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":922.4}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, Intermedio, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, Superior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":1179.6}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, Superior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":112.3}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, Superior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":1067.3}
+]
+}
+,{"Nombre":"Ambos sexos, De 65 y más años, Superior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Ambos sexos", "Codigo":"ambossexos"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, TOTAL, TOTAL, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":19449.1}
+]
+}
+,{"Nombre":"Hombres, TOTAL, TOTAL, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":771.0}
+]
+}
+,{"Nombre":"Hombres, TOTAL, TOTAL, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":18678.1}
+]
+}
+,{"Nombre":"Hombres, TOTAL, TOTAL, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Básico e inferior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":9580.4}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Básico e inferior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":456.5}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Básico e inferior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":9123.9}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Básico e inferior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Intermedio, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":4338.9}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Intermedio, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":152.9}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Intermedio, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":4186.0}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Intermedio, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Superior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":5529.8}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Superior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":161.6}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Superior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":5368.2}
+]
+}
+,{"Nombre":"Hombres, TOTAL, Superior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, TOTAL, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":2428.1}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, TOTAL, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":71.8}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, TOTAL, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":2356.4}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, TOTAL, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, Básico e inferior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":1287.3}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, Básico e inferior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":49.2}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, Básico e inferior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":1238.1}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, Básico e inferior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, Intermedio, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":865.8}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, Intermedio, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":16.0}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, Intermedio, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":849.8}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, Intermedio, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, Superior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":275.1}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, Superior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":6.7}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, Superior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":268.4}
+]
+}
+,{"Nombre":"Hombres, De 15 a 24 años, Superior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, TOTAL, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":13098.5}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, TOTAL, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":309.9}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, TOTAL, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":12788.6}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, TOTAL, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, Básico e inferior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":5573.6}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, Básico e inferior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":137.2}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, Básico e inferior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":5436.4}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, Básico e inferior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, Intermedio, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":2971.0}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, Intermedio, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":81.7}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, Intermedio, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":2889.3}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, Intermedio, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, Superior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":4553.9}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, Superior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":91.0}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, Superior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":4462.8}
+]
+}
+,{"Nombre":"Hombres, De 25 a 64 años, Superior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, TOTAL, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":3922.5}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, TOTAL, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":389.3}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, TOTAL, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":3533.2}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, TOTAL, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, Básico e inferior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":2719.5}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, Básico e inferior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":270.2}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, Básico e inferior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":2449.3}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, Básico e inferior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, Intermedio, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":502.2}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, Intermedio, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":55.3}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, Intermedio, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":446.9}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, Intermedio, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, Superior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":700.8}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, Superior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":63.9}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, Superior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":636.9}
+]
+}
+,{"Nombre":"Hombres, De 65 y más años, Superior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Hombres", "Codigo":"hombres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, TOTAL, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":20525.0}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, TOTAL, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":833.4}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, TOTAL, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":19690.7}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, TOTAL, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.9}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Básico e inferior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":9964.1}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Básico e inferior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":537.6}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Básico e inferior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":9426.1}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Básico e inferior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.4}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Intermedio, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":4431.2}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Intermedio, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":142.8}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Intermedio, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":4288.4}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Intermedio, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Superior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":6129.7}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Superior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":153.0}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Superior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":5976.2}
+]
+}
+,{"Nombre":"Mujeres, TOTAL, Superior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.5}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, TOTAL, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":2301.4}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, TOTAL, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":58.6}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, TOTAL, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":2242.8}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, TOTAL, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, Básico e inferior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":1115.3}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, Básico e inferior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":26.7}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, Básico e inferior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":1088.7}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, Básico e inferior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, Intermedio, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":833.9}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, Intermedio, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":22.7}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, Intermedio, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":811.2}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, Intermedio, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, Superior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":352.1}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, Superior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":9.2}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, Superior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":343.0}
+]
+}
+,{"Nombre":"Mujeres, De 15 a 24 años, Superior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 15 a 24 años", "Codigo":"de15a24anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, TOTAL, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":13220.0}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, TOTAL, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":339.7}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, TOTAL, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":12879.8}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, TOTAL, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.5}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, Básico e inferior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":4834.1}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, Básico e inferior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":159.0}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, Básico e inferior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":4675.1}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, Básico e inferior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, Intermedio, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":3087.1}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, Intermedio, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":85.3}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, Intermedio, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":3001.8}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, Intermedio, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, Superior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":5298.8}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, Superior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":95.4}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, Superior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":5202.9}
+]
+}
+,{"Nombre":"Mujeres, De 25 a 64 años, Superior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 25 a 64 años", "Codigo":"de25a64anos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.5}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, TOTAL, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":5003.6}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, TOTAL, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":435.2}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, TOTAL, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":4568.1}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, TOTAL, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.4}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, Básico e inferior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":4014.7}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, Básico e inferior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":352.0}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, Básico e inferior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":3662.3}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, Básico e inferior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Básico e inferior", "Codigo":"basicoeinferior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.4}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, Intermedio, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":510.2}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, Intermedio, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":34.7}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, Intermedio, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":475.4}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, Intermedio, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Intermedio", "Codigo":"intermedio"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, Superior, TOTAL", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"TOTAL", "Codigo":"total"}
+]
+, "Data":[{"Valor":478.7}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, Superior, Sí", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"Sí", "Codigo":"si"}
+]
+, "Data":[{"Valor":48.4}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, Superior, No", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No", "Codigo":"no"}
+]
+, "Data":[{"Valor":430.3}
+]
+}
+,{"Nombre":"Mujeres, De 65 y más años, Superior, No consta", "MetaData":[{"Variable":{"Nombre":"sexo", "Codigo":"sexo"}
+, "Nombre":"Mujeres", "Codigo":"mujeres"}
+,{"Variable":{"Nombre":"edad", "Codigo":"edad"}
+, "Nombre":"De 65 y más años", "Codigo":"de65ymasanos"}
+,{"Variable":{"Nombre":"nivel de estudios", "Codigo":"niveldeestudios"}
+, "Nombre":"Superior", "Codigo":"superior"}
+,{"Variable":{"Nombre":"sí o no", "Codigo":"siono"}
+, "Nombre":"No consta", "Codigo":"noconsta"}
+]
+, "Data":[{"Valor":0.0}
+]
+}
+]
