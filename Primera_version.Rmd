@@ -61,26 +61,6 @@ imc_sexo_gredad <- imc_sexo_grupoedad %>% spread_all()
 ###sedent_clasocial <- sedentarismo_clase_social %>% spread_all()
 sedent_sexo_gredad <- sedentarismo_sexo_grupoedad %>% spread_all()
 ###braille_sexo_edad <- uso_braille_sexo_y_edad %>% spread_all()
-
-a<- imc_sexo_gredad %>%
-enter_object(Data) %>%
-gather_array %>%
-spread_all()
-
-a$Sexo <- NA
-a$Edad <- NA
-a$IMC <- NA
-
-for (i in 1:dim(a)[1]){
-  r <- unlist(gregexpr(',', a$Nombre[i]))
-  primera_coma <- r[1]
-  segunda_coma <- r[2]
-  a$Sexo[i] <- substring(a$Nombre[i], 0, primera_coma-1)
-  a$Edad[i] <- substring(a$Nombre[i], primera_coma+1, segunda_coma-1)
-  a$IMC[i] <- substring(a$Nombre[i], segunda_coma+1)
-}
-
-
 ```
 
 ## DATOS 📖
