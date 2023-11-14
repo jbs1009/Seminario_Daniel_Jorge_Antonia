@@ -130,7 +130,9 @@ for (i in 1:dim(gafas_SexAge)[1]){
   gafas_SexAge$Estudios[i] <- substring(gafas_SexAge$Nombre[i], segunda_coma+1, tercera_coma-1)
   gafas_SexAge$Gafas[i] <- substring(gafas_SexAge$Nombre[i], tercera_coma+1)
 }
-view(gafas_SexAge)
+```
+```{r}
+
 ```
 
 ## DATOS 📖
