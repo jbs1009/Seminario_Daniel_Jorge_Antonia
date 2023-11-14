@@ -49,19 +49,20 @@ uso_braille_sexo_y_edad <- fromJSON(file = "DATOS/uso_braille_sexo_y_edad.json")
 Formateamos los datos:
 
 ```{r}
-imc_sexo_caa <- imc_sexo_ccaa %>% spread_all()
-audif_sexo_ccaa <- audifono_sexo_ccaa %>% spread_all()
+###imc_sexo_caa <- imc_sexo_ccaa %>% spread_all()
+###audif_sexo_ccaa <- audifono_sexo_ccaa %>% spread_all()
 audif_sexo_edad_estud <- audifono_sexo_edad_estudios %>% spread_all()
 #evol_afil_once <- evolucion_afiliados_once %>% spread_all()
 gafas_sexo_edad_estud <- gafas_sexo_edad_estudios %>% spread_all()
-gafas_sexo_paisnac <- gafas_sexo_pais_nacimiento %>% spread_all()
+###gafas_sexo_paisnac <- gafas_sexo_pais_nacimiento %>% spread_all()
 #discap_sexo_edad <- grupo_discapacidad_sexo_edad %>% spread_all()
 imc_sexo_gredad <- imc_sexo_grupoedad %>% spread_all()
 #pato_visu_afil_once <- patologias_visuales_afiliados_once %>% spread_all()
-sedent_clasocial <- sedentarismo_clase_social %>% spread_all()
+###sedent_clasocial <- sedentarismo_clase_social %>% spread_all()
 sedent_sexo_gredad <- sedentarismo_sexo_grupoedad %>% spread_all()
-braille_sexo_edad <- uso_braille_sexo_y_edad %>% spread_all()
+###braille_sexo_edad <- uso_braille_sexo_y_edad %>% spread_all()
 ```
+
 
 ## DATOS 📖
 
@@ -73,3 +74,5 @@ braille_sexo_edad <- uso_braille_sexo_y_edad %>% spread_all()
  
 [2]  Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2 diabetes. Lipids, 38(2), 103-108. 
 <div/>
+
+
