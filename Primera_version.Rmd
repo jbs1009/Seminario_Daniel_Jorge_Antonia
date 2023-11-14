@@ -62,7 +62,7 @@ imc_sexo_gredad <- imc_sexo_grupoedad %>% spread_all()
 sedent_sexo_gredad <- sedentarismo_sexo_grupoedad %>% spread_all()
 ###braille_sexo_edad <- uso_braille_sexo_y_edad %>% spread_all()
 ```
-```{r, eval = False}
+```{r, eval = FALSE}
 imc_sexo_gredad %>% gather_object %>% json_types %>% count(name,type) 
 ```
 ```{r}
@@ -83,12 +83,31 @@ for (i in 1:dim(imc_SexAge)[1]){
 }
 ```
 Algunas aclaraciones al respecto:
-```{r, eval = False}
+```{r, eval = FALSE}
 imc_sexo_gredad %>% gather_object %>% json_types %>% count(name,type) 
 ```
 Este "Code Chunk" (que no se evalúa) nos sirve para saber a que datos hemos de acceder.
 Además, las funciones `unlist(gregexpr())` devuelve el índice de todas las apariciones de un determinado character en un character de mayor longitud. 
 La función `substring()` devuelve el sub-character presente en un character de mayor longitud entre ciertos índices pasados como argumento.
+```{r, eval = FALSE}
+audif_sexo_edad_estud %>% gather_object %>% json_types %>% count(name, type)
+```
+```{r}
+sedent_SexAge <- sedent_sexo_gredad %>% 
+enter_object(Data) %>% 
+gather_array %>% 
+spread_all()
+sedent_SexAge$Sexo <- NA
+sedent_SexAge$Edad <- NA
+for (i in 1:dim(sedent_SexAge)[1]){
+  r <- unlist(gregexpr(',', sedent_SexAge$Nombre[i]))
+  primera_coma <- r[1]
+  segunda_coma <- r[2]
+  sedent_SexAge$Sexo[i] <- substring(sedent_SexAge$Nombre[i], 0, primera_coma-1)
+  sedent_SexAge$Edad[i] <- substring(sedent_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+}
+```
+
 
 ## DATOS 📖
 
