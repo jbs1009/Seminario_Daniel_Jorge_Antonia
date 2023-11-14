@@ -82,7 +82,13 @@ for (i in 1:dim(imc_SexAge)[1]){
   imc_SexAge$IMC[i] <- substring(imc_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
-
+Algunas aclaraciones al respecto:
+```{r, eval = False}
+imc_sexo_gredad %>% gather_object %>% json_types %>% count(name,type) 
+```
+Este "Code Chunk" (que no se evalúa) nos sirve para saber a que datos hemos de acceder.
+Además, las funciones `unlist(gregexpr())` devuelve el índice de todas las apariciones de un determinado character en un character de mayor longitud. 
+La función `substring()` devuelve el sub-character presente en un character de mayor longitud entre ciertos índices pasados como argumento.
 
 ## DATOS 📖
 
