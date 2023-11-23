@@ -37,14 +37,14 @@ library(tidyr)
 ###audifono_sexo_ccaa <- fromJSON(file = "DATOS/audifono_sexo_ccaa.json")
 audifono_sexo_edad <- fromJSON(file = "DATOS/audif_SexAge_miles.json")
 #evolucion_afiliados_once <- fromJSON(file = "DATOS/evolucion_afiliados_once.json")
-gafas_sexo_edad_estudios <- fromJSON(file = "DATOS/gafas_sexo_edad_estudios.json")
+gafas_sexo_edad <- fromJSON(file = "DATOS/gafas_SexAge_miles.json")
 ###gafas_sexo_pais_nacimiento <- fromJSON(file = "DATOS/gafas_sexo_pais_nacimiento.json")
 ###grupo_discapacidad_sexo_edad <- fromJSON(file = "DATOS/grupo_discapacidad_sexo_edad.json")
-imc_sexo_grupoedad <- fromJSON(file = "DATOS/imc_sexo_grupoedad.json")
+imc_sexo_edad <- fromJSON(file = "DATOS/imc_SexAge_miles.json")
 #patologias_visuales_afiliados_once <- fromJSON(file = "DATOS/PATOLOGIAS_VISUALES_AFILIADOS_ONCE.json")
 ###sedentarismo_clase_social <- fromJSON(file = "DATOS/sedentarismo_clasesocial.json")
 #sedentarismo_sexo_ccaa <- read_excel("DATOS/sedentarismo_sexo_ccaa.xlsx") 
-sedentarismo_sexo_grupoedad <- fromJSON(file = "DATOS/seden_SexAge_miles.json")
+sedentarismo_sexo_edad <- fromJSON(file = "DATOS/seden_SexAge_miles.json")
 ###uso_braille_sexo_y_edad <- fromJSON(file = "DATOS/uso_braille_sexo_y_edad.json")
 ```
 
@@ -55,20 +55,20 @@ Formateamos los datos:
 ###audif_sexo_ccaa <- audifono_sexo_ccaa %>% spread_all()
 audif_sexo_edad <- audifono_sexo_edad %>% spread_all()
 ###evol_afil_once <- evolucion_afiliados_once %>% spread_all()
-gafas_sexo_edad_estud <- gafas_sexo_edad_estudios %>% spread_all()
+gafas_sexo_edad <- gafas_sexo_edad %>% spread_all()
 ###gafas_sexo_paisnac <- gafas_sexo_pais_nacimiento %>% spread_all()
 #discap_sexo_edad <- grupo_discapacidad_sexo_edad %>% spread_all()
-imc_sexo_gredad <- imc_sexo_grupoedad %>% spread_all()
+imc_sexo_edad <- imc_sexo_edad %>% spread_all()
 #pato_visu_afil_once <- patologias_visuales_afiliados_once %>% spread_all()
 ###sedent_clasocial <- sedentarismo_clase_social %>% spread_all()
-sedent_sexo_gredad <- sedentarismo_sexo_grupoedad %>% spread_all()
+sedent_sexo_edad <- sedentarismo_sexo_edad %>% spread_all()
 ###braille_sexo_edad <- uso_braille_sexo_y_edad %>% spread_all()
 ```
 ```{r, eval = FALSE}
-imc_sexo_gredad %>% gather_object %>% json_types %>% count(name,type) 
+imc_sexo_edad %>% gather_object %>% json_types %>% count(name,type) 
 ```
 ```{r}
-imc_SexAge <- imc_sexo_gredad %>%
+imc_SexAge <- imc_sexo_edad %>%
 enter_object(Data) %>%
 gather_array %>%
 spread_all()
@@ -93,15 +93,16 @@ Además, las funciones `unlist(gregexpr())` devuelve el índice de todas las apa
 La función `substring()` devuelve el sub-character presente en un character de mayor longitud entre ciertos índices pasados como argumento.
 
 ```{r, eval = FALSE}
-audif_sexo_edad_estud %>% gather_object %>% json_types %>% count(name, type)
+audif_sexo_edad %>% gather_object %>% json_types %>% count(name, type)
 ```
 ```{r}
-sedent_SexAge <- sedent_sexo_gredad %>% 
+sedent_SexAge <- sedent_sexo_edad %>% 
 enter_object(Data) %>% 
 gather_array %>% 
 spread_all()
 sedent_SexAge$Sexo <- NA
 sedent_SexAge$Edad <- NA
+sedent_SexAge$Sedentarismo <- NA
 for (i in 1:dim(sedent_SexAge)[1]){
   r <- unlist(gregexpr(',', sedent_SexAge$Nombre[i]))
   primera_coma <- r[1]
@@ -112,30 +113,30 @@ for (i in 1:dim(sedent_SexAge)[1]){
 }
 ```
 ```{r, eval = FALSE}
-gafas_sexo_edad_estud %>% gather_object %>% json_types %>% count(name,type) 
+gafas_sexo_edad %>% gather_object %>% json_types %>% count(name,type) 
 ```
 ```{r}
-gafas_SexAge <- gafas_sexo_edad_estud %>%
+gafas_SexAge <- gafas_sexo_edad %>%
   enter_object(Data) %>%
   gather_array %>%
   spread_all()
 gafas_SexAge$Sexo <- NA
 gafas_SexAge$Edad <- NA
-gafas_SexAge$Estudios <- NA
+#gafas_SexAge$Estudios <- NA
 gafas_SexAge$Gafas <- NA
 for (i in 1:dim(gafas_SexAge)[1]){
   r <- unlist(gregexpr(',', gafas_SexAge$Nombre[i]))
   primera_coma <- r[1]
   segunda_coma <- r[2]
-  tercera_coma <- r[3]
+#  tercera_coma <- r[3]
   gafas_SexAge$Sexo[i] <- substring(gafas_SexAge$Nombre[i], 0, primera_coma-1)
   gafas_SexAge$Edad[i] <- substring(gafas_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
-  gafas_SexAge$Estudios[i] <- substring(gafas_SexAge$Nombre[i], segunda_coma+1, tercera_coma-1)
-  gafas_SexAge$Gafas[i] <- substring(gafas_SexAge$Nombre[i], tercera_coma+1)
+#  gafas_SexAge$Estudios[i] <- substring(gafas_SexAge$Nombre[i], segunda_coma+1, tercera_coma-1)
+  gafas_SexAge$Gafas[i] <- substring(gafas_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
 ```{r, eval = FALSE}
-audif_sexo_edad_estud %>% gather_object %>% json_types %>% count(name, type)
+audif_sexo_edad %>% gather_object %>% json_types %>% count(name, type)
 ```
 ```{r}
 audif_SexAge <- audif_sexo_edad %>% 
