@@ -169,8 +169,6 @@ sedent_audif <-
             select("Sexo", "Sedentarismo", "personas_sedentarias", "Edad"),
             by = c("Sexo" = "Sexo", "Edad" = "Edad"))
 
-View(sedent_audif)
-
 ```
 
 
