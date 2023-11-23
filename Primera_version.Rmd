@@ -40,7 +40,7 @@ audifono_sexo_edad <- fromJSON(file = "DATOS/audif_SexAge_miles.json")
 gafas_sexo_edad_estudios <- fromJSON(file = "DATOS/gafas_sexo_edad_estudios.json")
 ###gafas_sexo_pais_nacimiento <- fromJSON(file = "DATOS/gafas_sexo_pais_nacimiento.json")
 ###grupo_discapacidad_sexo_edad <- fromJSON(file = "DATOS/grupo_discapacidad_sexo_edad.json")
-imc_sexo_grupoedad <- fromJSON(file = "DATOS/imc_sexo_grupoedad.json")
+imc_sexo_grupoedad <- fromJSON(file = "DATOS/imc_SexAge_miles.json")
 #patologias_visuales_afiliados_once <- fromJSON(file = "DATOS/PATOLOGIAS_VISUALES_AFILIADOS_ONCE.json")
 ###sedentarismo_clase_social <- fromJSON(file = "DATOS/sedentarismo_clasesocial.json")
 #sedentarismo_sexo_ccaa <- read_excel("DATOS/sedentarismo_sexo_ccaa.xlsx") 
@@ -156,7 +156,6 @@ for (i in 1:dim(audif_SexAge)[1]){
   audif_SexAge$Audifono[i] <- substring(audif_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
-
 
 ## DATOS 📖
 
