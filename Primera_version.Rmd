@@ -44,7 +44,7 @@ imc_sexo_grupoedad <- fromJSON(file = "DATOS/imc_sexo_grupoedad.json")
 #patologias_visuales_afiliados_once <- fromJSON(file = "DATOS/PATOLOGIAS_VISUALES_AFILIADOS_ONCE.json")
 ###sedentarismo_clase_social <- fromJSON(file = "DATOS/sedentarismo_clasesocial.json")
 #sedentarismo_sexo_ccaa <- read_excel("DATOS/sedentarismo_sexo_ccaa.xlsx") 
-sedentarismo_sexo_grupoedad <- fromJSON(file = "DATOS/sedentarismo_sexo_grupo_edad.json")
+sedentarismo_sexo_grupoedad <- fromJSON(file = "DATOS/seden_SexAge_miles.json")
 ###uso_braille_sexo_y_edad <- fromJSON(file = "DATOS/uso_braille_sexo_y_edad.json")
 ```
 
@@ -143,17 +143,17 @@ audif_SexAge <- audif_sexo_edad %>%
   spread_all()
 audif_SexAge$Sexo <- NA
 audif_SexAge$Edad <- NA
-audif_SexAge$Estudios <- NA
+#audif_SexAge$Estudios <- NA
 audif_SexAge$Audifono <- NA
 for (i in 1:dim(audif_SexAge)[1]){
   r <- unlist(gregexpr(',', audif_SexAge$Nombre[i]))
   primera_coma <- r[1]
   segunda_coma <- r[2]
-  tercera_coma <- r[3]
+#  tercera_coma <- r[3]
   audif_SexAge$Sexo[i] <- substring(audif_SexAge$Nombre[i], 0, primera_coma-1)
   audif_SexAge$Edad[i] <- substring(audif_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
-  audif_SexAge$Estudios[i] <- substring(audif_SexAge$Nombre[i], segunda_coma+1, tercera_coma-1)
-  audif_SexAge$Audifono[i] <- substring(audif_SexAge$Nombre[i], tercera_coma+1)
+#  audif_SexAge$Estudios[i] <- substring(audif_SexAge$Nombre[i], segunda_coma+1, tercera_coma-1)
+  audif_SexAge$Audifono[i] <- substring(audif_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
 
