@@ -171,6 +171,18 @@ sedent_audif <-
 
 ```
 
+```{r}
+
+Union %>% filter(Sexo == "Ambos sexos") %>% 
+  filter(Audifono %in% c(" Sí", " No")) %>%
+  filter(Sedentarismo %in% c(" Sí", " No")) %>% 
+  mutate(ratio_audifonos_por_persona = numero_audifonos/personas_sedentarias) %>% 
+  ggplot(data = .,aes(x = Sedentarismo , y = ratio_audifonos_por_persona)) +
+  xlab("Sedentarismo") +
+  ylab("PERSONAS QUE USAN AUDÍFONO") +
+  geom_col()
+
+```
 
 
 ## DATOS 📖
