@@ -40,7 +40,7 @@ audifono_sexo_edad <- fromJSON(file = "DATOS/audif_SexAge_miles.json")
 gafas_sexo_edad_estudios <- fromJSON(file = "DATOS/gafas_sexo_edad_estudios.json")
 ###gafas_sexo_pais_nacimiento <- fromJSON(file = "DATOS/gafas_sexo_pais_nacimiento.json")
 ###grupo_discapacidad_sexo_edad <- fromJSON(file = "DATOS/grupo_discapacidad_sexo_edad.json")
-imc_sexo_grupoedad <- fromJSON(file = "DATOS/imc_SexAge_miles.json")
+imc_sexo_grupoedad <- fromJSON(file = "DATOS/imc_sexo_grupoedad.json")
 #patologias_visuales_afiliados_once <- fromJSON(file = "DATOS/PATOLOGIAS_VISUALES_AFILIADOS_ONCE.json")
 ###sedentarismo_clase_social <- fromJSON(file = "DATOS/sedentarismo_clasesocial.json")
 #sedentarismo_sexo_ccaa <- read_excel("DATOS/sedentarismo_sexo_ccaa.xlsx") 
@@ -108,6 +108,7 @@ for (i in 1:dim(sedent_SexAge)[1]){
   segunda_coma <- r[2]
   sedent_SexAge$Sexo[i] <- substring(sedent_SexAge$Nombre[i], 0, primera_coma-1)
   sedent_SexAge$Edad[i] <- substring(sedent_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  sedent_SexAge$Sedentarismo[i] <- substring(sedent_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
 ```{r, eval = FALSE}
@@ -157,6 +158,7 @@ for (i in 1:dim(audif_SexAge)[1]){
 }
 ```
 
+
 ## DATOS 📖
 
 
@@ -167,4 +169,5 @@ for (i in 1:dim(audif_SexAge)[1]){
  
 [2]  Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2 diabetes. Lipids, 38(2), 103-108. 
 <div/>
+
 
