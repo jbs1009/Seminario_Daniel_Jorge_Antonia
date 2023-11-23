@@ -35,7 +35,7 @@ library(tidyr)
 ###imc_sexo_ccaa <- fromJSON(file = "DATOS/imc_sexo_ccaa.json")
 ###once_provincias_edad <- fromJSON(file = "DATOS/afiliados_once_provincias_edad.json")
 ###audifono_sexo_ccaa <- fromJSON(file = "DATOS/audifono_sexo_ccaa.json")
-audifono_sexo_edad_estudios <- fromJSON(file = "DATOS/audifono_sexage.json")
+audifono_sexo_edad <- fromJSON(file = "DATOS/audif_SexAge_miles.json")
 #evolucion_afiliados_once <- fromJSON(file = "DATOS/evolucion_afiliados_once.json")
 gafas_sexo_edad_estudios <- fromJSON(file = "DATOS/gafas_sexo_edad_estudios.json")
 ###gafas_sexo_pais_nacimiento <- fromJSON(file = "DATOS/gafas_sexo_pais_nacimiento.json")
@@ -53,8 +53,8 @@ Formateamos los datos:
 ```{r}
 ###imc_sexo_caa <- imc_sexo_ccaa %>% spread_all()
 ###audif_sexo_ccaa <- audifono_sexo_ccaa %>% spread_all()
-audif_sexo_edad_estud <- audifono_sexo_edad_estudios %>% spread_all()
-#evol_afil_once <- evolucion_afiliados_once %>% spread_all()
+audif_sexo_edad <- audifono_sexo_edad %>% spread_all()
+###evol_afil_once <- evolucion_afiliados_once %>% spread_all()
 gafas_sexo_edad_estud <- gafas_sexo_edad_estudios %>% spread_all()
 ###gafas_sexo_paisnac <- gafas_sexo_pais_nacimiento %>% spread_all()
 #discap_sexo_edad <- grupo_discapacidad_sexo_edad %>% spread_all()
@@ -137,7 +137,7 @@ for (i in 1:dim(gafas_SexAge)[1]){
 audif_sexo_edad_estud %>% gather_object %>% json_types %>% count(name, type)
 ```
 ```{r}
-audif_SexAge <- audif_sexo_edad_estud %>% 
+audif_SexAge <- audif_sexo_edad %>% 
   enter_object(Data) %>% 
   gather_array %>% 
   spread_all()
@@ -156,6 +156,19 @@ for (i in 1:dim(audif_SexAge)[1]){
   audif_SexAge$Audifono[i] <- substring(audif_SexAge$Nombre[i], tercera_coma+1)
 }
 ```
+```{r}
+
+Union <-  
+  audif_SexAge %>% 
+  mutate(personas = Valor*1000) %>% 
+  select("Sexo", "Audifono", "personas") %>% 
+  full_join(x = ., 
+            y = imc_SexAge %>% 
+            select("Sexo", "IMC", "Valor"),
+            by = c("Sexo" = "Sexo"))
+
+```
+
 
 ## DATOS 📖
 

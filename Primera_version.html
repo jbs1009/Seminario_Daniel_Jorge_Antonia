@@ -11,7 +11,7 @@
 
 <meta name="author" content="Jorge Bermejo, Antonia Añazco, Daniel Marrón" />
 
-<meta name="date" content="2023-10-31" />
+<meta name="date" content="2023-11-21" />
 
 <title>Relación del sedentarismo con problemas auditivos y visuales</title>
 
@@ -1482,7 +1482,7 @@ border-radius: 0px;
 <h1 class="title toc-ignore">Relación del sedentarismo con problemas
 auditivos y visuales</h1>
 <h4 class="author">Jorge Bermejo, Antonia Añazco, Daniel Marrón</h4>
-<h4 class="date">2023-10-31</h4>
+<h4 class="date">2023-11-21</h4>
 
 </div>
 
@@ -1531,33 +1531,111 @@ library(tidyverse)</code></pre>
 <pre class="r"><code>library(readr)
 library(readxl)
 library(dplyr)
-imc_sexo_ccaa &lt;- fromJSON(file = &quot;DATOS/imc_sexo_ccaa.json&quot;)
-once_provincias_edad &lt;- fromJSON(file = &quot;DATOS/afiliados_once_provincias_edad.json&quot;)
-audifono_sexo_ccaa &lt;- fromJSON(file = &quot;DATOS/audifono_sexo_ccaa.json&quot;)
-audifono_sexo_edad_estudios &lt;- fromJSON(file = &quot;DATOS/audifono_sexo_edad_estudios.json&quot;)
+library(ggplot2)
+library(tidyr)
+###imc_sexo_ccaa &lt;- fromJSON(file = &quot;DATOS/imc_sexo_ccaa.json&quot;)
+###once_provincias_edad &lt;- fromJSON(file = &quot;DATOS/afiliados_once_provincias_edad.json&quot;)
+###audifono_sexo_ccaa &lt;- fromJSON(file = &quot;DATOS/audifono_sexo_ccaa.json&quot;)
+audifono_sexo_edad_estudios &lt;- fromJSON(file = &quot;DATOS/audifono_sexage.json&quot;)
 #evolucion_afiliados_once &lt;- fromJSON(file = &quot;DATOS/evolucion_afiliados_once.json&quot;)
 gafas_sexo_edad_estudios &lt;- fromJSON(file = &quot;DATOS/gafas_sexo_edad_estudios.json&quot;)
-gafas_sexo_pais_nacimiento &lt;- fromJSON(file = &quot;DATOS/gafas_sexo_pais_nacimiento.json&quot;)
-grupo_discapacidad_sexo_edad &lt;- fromJSON(file = &quot;DATOS/grupo_discapacidad_sexo_edad.json&quot;)
+###gafas_sexo_pais_nacimiento &lt;- fromJSON(file = &quot;DATOS/gafas_sexo_pais_nacimiento.json&quot;)
+###grupo_discapacidad_sexo_edad &lt;- fromJSON(file = &quot;DATOS/grupo_discapacidad_sexo_edad.json&quot;)
 imc_sexo_grupoedad &lt;- fromJSON(file = &quot;DATOS/imc_sexo_grupoedad.json&quot;)
 #patologias_visuales_afiliados_once &lt;- fromJSON(file = &quot;DATOS/PATOLOGIAS_VISUALES_AFILIADOS_ONCE.json&quot;)
-sedentarismo_clase_social &lt;- fromJSON(file = &quot;DATOS/sedentarismo_clasesocial.json&quot;)
+###sedentarismo_clase_social &lt;- fromJSON(file = &quot;DATOS/sedentarismo_clasesocial.json&quot;)
 #sedentarismo_sexo_ccaa &lt;- read_excel(&quot;DATOS/sedentarismo_sexo_ccaa.xlsx&quot;) 
 sedentarismo_sexo_grupoedad &lt;- fromJSON(file = &quot;DATOS/sedentarismo_sexo_grupo_edad.json&quot;)
-uso_braille_sexo_y_edad &lt;- fromJSON(file = &quot;DATOS/uso_braille_sexo_y_edad.json&quot;)</code></pre>
+###uso_braille_sexo_y_edad &lt;- fromJSON(file = &quot;DATOS/uso_braille_sexo_y_edad.json&quot;)</code></pre>
 <p>Formateamos los datos:</p>
-<pre class="r"><code>imc_sexo_caa &lt;- imc_sexo_ccaa %&gt;% spread_all()
-audif_sexo_ccaa &lt;- audifono_sexo_ccaa %&gt;% spread_all()
+<pre class="r"><code>###imc_sexo_caa &lt;- imc_sexo_ccaa %&gt;% spread_all()
+###audif_sexo_ccaa &lt;- audifono_sexo_ccaa %&gt;% spread_all()
 audif_sexo_edad_estud &lt;- audifono_sexo_edad_estudios %&gt;% spread_all()
 #evol_afil_once &lt;- evolucion_afiliados_once %&gt;% spread_all()
 gafas_sexo_edad_estud &lt;- gafas_sexo_edad_estudios %&gt;% spread_all()
-gafas_sexo_paisnac &lt;- gafas_sexo_pais_nacimiento %&gt;% spread_all()
+###gafas_sexo_paisnac &lt;- gafas_sexo_pais_nacimiento %&gt;% spread_all()
 #discap_sexo_edad &lt;- grupo_discapacidad_sexo_edad %&gt;% spread_all()
 imc_sexo_gredad &lt;- imc_sexo_grupoedad %&gt;% spread_all()
 #pato_visu_afil_once &lt;- patologias_visuales_afiliados_once %&gt;% spread_all()
-sedent_clasocial &lt;- sedentarismo_clase_social %&gt;% spread_all()
+###sedent_clasocial &lt;- sedentarismo_clase_social %&gt;% spread_all()
 sedent_sexo_gredad &lt;- sedentarismo_sexo_grupoedad %&gt;% spread_all()
-braille_sexo_edad &lt;- uso_braille_sexo_y_edad %&gt;% spread_all()</code></pre>
+###braille_sexo_edad &lt;- uso_braille_sexo_y_edad %&gt;% spread_all()</code></pre>
+<pre class="r"><code>imc_sexo_gredad %&gt;% gather_object %&gt;% json_types %&gt;% count(name,type) </code></pre>
+<pre class="r"><code>imc_SexAge &lt;- imc_sexo_gredad %&gt;%
+enter_object(Data) %&gt;%
+gather_array %&gt;%
+spread_all()
+imc_SexAge$Sexo &lt;- NA
+imc_SexAge$Edad &lt;- NA
+imc_SexAge$IMC &lt;- NA
+for (i in 1:dim(imc_SexAge)[1]){
+  r &lt;- unlist(gregexpr(&#39;,&#39;, imc_SexAge$Nombre[i]))
+  primera_coma &lt;- r[1]
+  segunda_coma &lt;- r[2]
+  imc_SexAge$Sexo[i] &lt;- substring(imc_SexAge$Nombre[i], 0, primera_coma-1)
+  imc_SexAge$Edad[i] &lt;- substring(imc_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  imc_SexAge$IMC[i] &lt;- substring(imc_SexAge$Nombre[i], segunda_coma+1)
+}</code></pre>
+<p>Algunas aclaraciones al respecto:</p>
+<pre class="r"><code>imc_sexo_gredad %&gt;% gather_object %&gt;% json_types %&gt;% count(name,type) </code></pre>
+<p>Este “Code Chunk” (que no se evalúa) nos sirve para saber a que datos
+hemos de acceder. Además, las funciones <code>unlist(gregexpr())</code>
+devuelve el índice de todas las apariciones de un determinado character
+en un character de mayor longitud. La función <code>substring()</code>
+devuelve el sub-character presente en un character de mayor longitud
+entre ciertos índices pasados como argumento.</p>
+<pre class="r"><code>audif_sexo_edad_estud %&gt;% gather_object %&gt;% json_types %&gt;% count(name, type)</code></pre>
+<pre class="r"><code>sedent_SexAge &lt;- sedent_sexo_gredad %&gt;% 
+enter_object(Data) %&gt;% 
+gather_array %&gt;% 
+spread_all()
+sedent_SexAge$Sexo &lt;- NA
+sedent_SexAge$Edad &lt;- NA
+for (i in 1:dim(sedent_SexAge)[1]){
+  r &lt;- unlist(gregexpr(&#39;,&#39;, sedent_SexAge$Nombre[i]))
+  primera_coma &lt;- r[1]
+  segunda_coma &lt;- r[2]
+  sedent_SexAge$Sexo[i] &lt;- substring(sedent_SexAge$Nombre[i], 0, primera_coma-1)
+  sedent_SexAge$Edad[i] &lt;- substring(sedent_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+}</code></pre>
+<pre class="r"><code>gafas_sexo_edad_estud %&gt;% gather_object %&gt;% json_types %&gt;% count(name,type) </code></pre>
+<pre class="r"><code>gafas_SexAge &lt;- gafas_sexo_edad_estud %&gt;%
+  enter_object(Data) %&gt;%
+  gather_array %&gt;%
+  spread_all()
+gafas_SexAge$Sexo &lt;- NA
+gafas_SexAge$Edad &lt;- NA
+gafas_SexAge$Estudios &lt;- NA
+gafas_SexAge$Gafas &lt;- NA
+for (i in 1:dim(gafas_SexAge)[1]){
+  r &lt;- unlist(gregexpr(&#39;,&#39;, gafas_SexAge$Nombre[i]))
+  primera_coma &lt;- r[1]
+  segunda_coma &lt;- r[2]
+  tercera_coma &lt;- r[3]
+  gafas_SexAge$Sexo[i] &lt;- substring(gafas_SexAge$Nombre[i], 0, primera_coma-1)
+  gafas_SexAge$Edad[i] &lt;- substring(gafas_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  gafas_SexAge$Estudios[i] &lt;- substring(gafas_SexAge$Nombre[i], segunda_coma+1, tercera_coma-1)
+  gafas_SexAge$Gafas[i] &lt;- substring(gafas_SexAge$Nombre[i], tercera_coma+1)
+}</code></pre>
+<pre class="r"><code>audif_sexo_edad_estud %&gt;% gather_object %&gt;% json_types %&gt;% count(name, type)</code></pre>
+<pre class="r"><code>audif_SexAge &lt;- audif_sexo_edad_estud %&gt;% 
+  enter_object(Data) %&gt;% 
+  gather_array %&gt;% 
+  spread_all()
+audif_SexAge$Sexo &lt;- NA
+audif_SexAge$Edad &lt;- NA
+audif_SexAge$Estudios &lt;- NA
+audif_SexAge$Audifono &lt;- NA
+for (i in 1:dim(audif_SexAge)[1]){
+  r &lt;- unlist(gregexpr(&#39;,&#39;, audif_SexAge$Nombre[i]))
+  primera_coma &lt;- r[1]
+  segunda_coma &lt;- r[2]
+  tercera_coma &lt;- r[3]
+  audif_SexAge$Sexo[i] &lt;- substring(audif_SexAge$Nombre[i], 0, primera_coma-1)
+  audif_SexAge$Edad[i] &lt;- substring(audif_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  audif_SexAge$Estudios[i] &lt;- substring(audif_SexAge$Nombre[i], segunda_coma+1, tercera_coma-1)
+  audif_SexAge$Audifono[i] &lt;- substring(audif_SexAge$Nombre[i], tercera_coma+1)
+}</code></pre>
 </div>
 <div id="datos" class="section level2">
 <h2>DATOS 📖</h2>
