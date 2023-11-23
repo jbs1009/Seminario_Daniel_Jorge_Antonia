@@ -44,8 +44,6 @@ Formateamos los datos:
 ```{r}
 audif_sexo_edad <- audifono_sexo_edad %>% spread_all()
 gafas_sexo_edad <- gafas_sexo_edad %>% spread_all()
-###gafas_sexo_paisnac <- gafas_sexo_pais_nacimiento %>% spread_all()
-#discap_sexo_edad <- grupo_discapacidad_sexo_edad %>% spread_all()
 imc_sexo_edad <- imc_sexo_edad %>% spread_all()
 #pato_visu_afil_once <- patologias_visuales_afiliados_once %>% spread_all()
 ###sedent_clasocial <- sedentarismo_clase_social %>% spread_all()
