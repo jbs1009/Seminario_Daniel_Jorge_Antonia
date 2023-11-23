@@ -170,10 +170,10 @@ sedent_audif <-
             by = c("Sexo" = "Sexo", "Edad" = "Edad"))
 
 ```
-
+Básicamente, en estos dos bloques de código lo que hacemos es, primeramente, unir los conjuntos de datos acerca de uso de audífonos y de sedentarismo. Para ello, primeramente, mutamos ambos conjuntos de datos y seleccionamos aquellos atributos de nuestro interés. Para, como se ha indicado, llevar a cabo dicha mutación, multiplicamos por mil, porque, tras revisar los conjuntos de datos (en particular hemos necesitado abrir los datos para ver las unidades en las que se encuentran, mal ahí, datos.gov 😡) vimos que se encontraban en miles de personas. 
+Posteriormente, unimos por sexo y edad (dado que los niveles de ambas variables son los mismos) (hay que aclarar que la edad, a priori, habría de ser una variable continua, pero es categórica al haber sido discretizada)
 ```{r}
-
-Union %>% filter(Sexo == "Ambos sexos") %>% 
+sedent_audif %>% filter(Sexo == "Ambos sexos") %>% 
   filter(Audifono %in% c(" Sí", " No")) %>%
   filter(Sedentarismo %in% c(" Sí", " No")) %>% 
   mutate(ratio_audifonos_por_persona = numero_audifonos/personas_sedentarias) %>% 
