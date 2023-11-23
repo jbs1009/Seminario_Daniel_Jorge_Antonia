@@ -158,6 +158,21 @@ for (i in 1:dim(audif_SexAge)[1]){
   audif_SexAge$Audifono[i] <- substring(audif_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
+```{r}
+sedent_audif <-  
+  audif_SexAge %>% 
+  mutate(numero_audifonos = Valor*1000) %>% 
+  select("Sexo", "Audifono", "numero_audifonos", "Edad") %>% 
+  full_join(x = ., 
+            y = sedent_SexAge %>% 
+            mutate(personas_sedentarias = Valor*1000) %>% 
+            select("Sexo", "Sedentarismo", "personas_sedentarias", "Edad"),
+            by = c("Sexo" = "Sexo", "Edad" = "Edad"))
+
+View(sedent_audif)
+
+```
+
 
 
 ## DATOS 📖
