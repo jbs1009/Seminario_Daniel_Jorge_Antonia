@@ -42,10 +42,7 @@ sedentarismo_sexo_edad <- fromJSON(file = "DATOS/seden_SexAge_miles.json")
 Formateamos los datos:
 
 ```{r}
-###imc_sexo_caa <- imc_sexo_ccaa %>% spread_all()
-###audif_sexo_ccaa <- audifono_sexo_ccaa %>% spread_all()
 audif_sexo_edad <- audifono_sexo_edad %>% spread_all()
-###evol_afil_once <- evolucion_afiliados_once %>% spread_all()
 gafas_sexo_edad <- gafas_sexo_edad %>% spread_all()
 ###gafas_sexo_paisnac <- gafas_sexo_pais_nacimiento %>% spread_all()
 #discap_sexo_edad <- grupo_discapacidad_sexo_edad %>% spread_all()
