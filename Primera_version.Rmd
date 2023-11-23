@@ -120,16 +120,13 @@ gafas_SexAge <- gafas_sexo_edad %>%
   spread_all()
 gafas_SexAge$Sexo <- NA
 gafas_SexAge$Edad <- NA
-#gafas_SexAge$Estudios <- NA
 gafas_SexAge$Gafas <- NA
 for (i in 1:dim(gafas_SexAge)[1]){
   r <- unlist(gregexpr(',', gafas_SexAge$Nombre[i]))
   primera_coma <- r[1]
   segunda_coma <- r[2]
-#  tercera_coma <- r[3]
   gafas_SexAge$Sexo[i] <- substring(gafas_SexAge$Nombre[i], 0, primera_coma-1)
   gafas_SexAge$Edad[i] <- substring(gafas_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
-#  gafas_SexAge$Estudios[i] <- substring(gafas_SexAge$Nombre[i], segunda_coma+1, tercera_coma-1)
   gafas_SexAge$Gafas[i] <- substring(gafas_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
