@@ -159,15 +159,7 @@ A la hora de representar los datos, primero modificamos debidamente el conjunto 
 Finalmente, antes de crear la gráfica de barras, creamos una variable que relacione la cantidad de audífonos con el número de personas. Esto se debe a que son severamente desiguales las cantidades de personas que son y no sedentarias y que usan y no audífonos.
 
 ```{r}
-sedent_audif %>% filter(Sexo == "Ambos sexos") %>% 
-  filter(Audifono == " Sí") %>%
-  filter(Sedentarismo %in% c(" Sí", " No")) %>% 
-  mutate(ratio_audifonos_por_persona = 100*numero_audifonos/personas_sedentarias) %>% 
-  filter(Edad == " TOTAL") %>% 
-  ggplot(data = .,aes(x = Sedentarismo , y = ratio_audifonos_por_persona)) +
-  xlab("Sedentarismo") +
-  ylab("PERSONAS QUE USAN AUDÍFONO") +
-  geom_col(colour = "palevioletred2")
+
 ```
 
 
