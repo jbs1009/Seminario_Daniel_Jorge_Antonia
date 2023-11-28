@@ -169,13 +169,7 @@ sedent_audif %>% filter(Sexo == "Ambos sexos") %>%
   ylab("PERSONAS QUE USAN AUDÍFONO") +
   geom_col(colour = "palevioletred2")
 ```
-```{r}
-grafico1 <-sedent_audif %>% filter(Sexo == "Ambos sexos") %>% 
-  filter(Audifono %in% c(" Sí", " No")) %>%
-  filter(Sedentarismo %in% c(" Sí", " No")) %>% 
-  mutate(ratio_audifonos_por_persona = 100*numero_audifonos/personas_sedentarias) %>% 
-  filter(Edad != " TOTAL") 
-```
+
 
 
 ## DATOS 📖
