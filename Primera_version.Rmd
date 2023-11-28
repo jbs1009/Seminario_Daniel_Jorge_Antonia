@@ -180,17 +180,18 @@ no_sedentarios[aux] <- no_sedent
 aux <- aux + 1
 }
 
-grafico1$porcentaje_audifonos <- NA
-grafico1$porcentaje_no_audifonos <- NA
+grafico1$porcentaje_sedentarios <- NA
+grafico1$porcentaje_no_sedentarios <- NA
 
 aux <- 1
 for (i in 1:length(grafico1$porcentaje_sedentarios)){
-grafico1$porcentaje_audifonos[i] <- audifonos[aux]*100/(audifonos[aux] + no_audifonos[aux])
-grafico1$porcentaje_no_audifonos[i] <- no_audifonos[aux]*100/(audifonos[aux] + no_audifonos[aux])
+grafico1$porcentaje_sedentarios[i] <- sedentarios[aux]*100/(sedentarios[aux] + no_sedentarios[aux])
+grafico1$porcentaje_no_sedentarios[i] <- no_sedentarios[aux]*100/(sedentarios[aux] + no_sedentarios[aux])
 if(i%%4 == 0){
 aux <- aux + 1
 }
 }
+
 
 cont <- 1
 audifonos <- c(NA, NA, NA, NA, NA, NA, NA, NA)
@@ -210,16 +211,17 @@ grafico1$porcentaje_audifonos <- NA
 grafico1$porcentaje_no_audifonos <- NA
 
 aux <- 1
-for (i in 1:length(grafico1$porcentaje_sedentarios)){
+for (i in 1:length(grafico1$numero_audifonos)){
 grafico1$porcentaje_audifonos[i] <- audifonos[aux]*100/(audifonos[aux] + no_audifonos[aux])
 grafico1$porcentaje_no_audifonos[i] <- no_audifonos[aux]*100/(audifonos[aux] + no_audifonos[aux])
 if(i%%4 == 0){
 aux <- aux + 1
 }
 }
+
 ```
 ```{r}
-grafico1 %>% ggplot() + geom_col(aes(x = Edad, y = porcentaje_sedentarios/4), fill = "purple", color = "black") + geom_line(aes(x = Edad, y = porcentaje_audifonos), size = 2, color = "aquamarine3", group = 1) + scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) + guides(x = guide_axis(angle =45)) + xlab("Grupos de edad") + ylab("Porcentaje sedentarismo (%)") + theme_dark()
+grafico1 %>% ggplot() + geom_col(aes(x = Edad, y = porcentaje_sedentarios/4), fill = "purple", color = "black") + geom_line(aes(x = Edad, y = porcentaje_audifonos), linewidth = 2, color = "aquamarine3", group = 1) + scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) + guides(x = guide_axis(angle =45)) + xlab("Grupos de edad") + ylab("Porcentaje sedentarismo (%)") + theme_dark()
 ```
 
 ## DATOS 📖
