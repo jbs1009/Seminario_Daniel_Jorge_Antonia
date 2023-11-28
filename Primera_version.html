@@ -11,7 +11,7 @@
 
 <meta name="author" content="Jorge Bermejo, Antonia Añazco, Daniel Marrón" />
 
-<meta name="date" content="2023-11-21" />
+<meta name="date" content="2023-11-24" />
 
 <title>Relación del sedentarismo con problemas auditivos y visuales</title>
 
@@ -1482,7 +1482,7 @@ border-radius: 0px;
 <h1 class="title toc-ignore">Relación del sedentarismo con problemas
 auditivos y visuales</h1>
 <h4 class="author">Jorge Bermejo, Antonia Añazco, Daniel Marrón</h4>
-<h4 class="date">2023-11-21</h4>
+<h4 class="date">2023-11-24</h4>
 
 </div>
 
@@ -1533,35 +1533,18 @@ library(readxl)
 library(dplyr)
 library(ggplot2)
 library(tidyr)
-###imc_sexo_ccaa &lt;- fromJSON(file = &quot;DATOS/imc_sexo_ccaa.json&quot;)
-###once_provincias_edad &lt;- fromJSON(file = &quot;DATOS/afiliados_once_provincias_edad.json&quot;)
-###audifono_sexo_ccaa &lt;- fromJSON(file = &quot;DATOS/audifono_sexo_ccaa.json&quot;)
-audifono_sexo_edad_estudios &lt;- fromJSON(file = &quot;DATOS/audifono_sexage.json&quot;)
-#evolucion_afiliados_once &lt;- fromJSON(file = &quot;DATOS/evolucion_afiliados_once.json&quot;)
-gafas_sexo_edad_estudios &lt;- fromJSON(file = &quot;DATOS/gafas_sexo_edad_estudios.json&quot;)
-###gafas_sexo_pais_nacimiento &lt;- fromJSON(file = &quot;DATOS/gafas_sexo_pais_nacimiento.json&quot;)
-###grupo_discapacidad_sexo_edad &lt;- fromJSON(file = &quot;DATOS/grupo_discapacidad_sexo_edad.json&quot;)
-imc_sexo_grupoedad &lt;- fromJSON(file = &quot;DATOS/imc_sexo_grupoedad.json&quot;)
-#patologias_visuales_afiliados_once &lt;- fromJSON(file = &quot;DATOS/PATOLOGIAS_VISUALES_AFILIADOS_ONCE.json&quot;)
-###sedentarismo_clase_social &lt;- fromJSON(file = &quot;DATOS/sedentarismo_clasesocial.json&quot;)
-#sedentarismo_sexo_ccaa &lt;- read_excel(&quot;DATOS/sedentarismo_sexo_ccaa.xlsx&quot;) 
-sedentarismo_sexo_grupoedad &lt;- fromJSON(file = &quot;DATOS/sedentarismo_sexo_grupo_edad.json&quot;)
-###uso_braille_sexo_y_edad &lt;- fromJSON(file = &quot;DATOS/uso_braille_sexo_y_edad.json&quot;)</code></pre>
+
+audifono_sexo_edad &lt;- fromJSON(file = &quot;DATOS/audif_SexAge_miles.json&quot;)
+gafas_sexo_edad &lt;- fromJSON(file = &quot;DATOS/gafas_SexAge_miles.json&quot;)
+imc_sexo_edad &lt;- fromJSON(file = &quot;DATOS/imc_SexAge_miles.json&quot;)
+sedentarismo_sexo_edad &lt;- fromJSON(file = &quot;DATOS/seden_SexAge_miles.json&quot;)</code></pre>
 <p>Formateamos los datos:</p>
-<pre class="r"><code>###imc_sexo_caa &lt;- imc_sexo_ccaa %&gt;% spread_all()
-###audif_sexo_ccaa &lt;- audifono_sexo_ccaa %&gt;% spread_all()
-audif_sexo_edad_estud &lt;- audifono_sexo_edad_estudios %&gt;% spread_all()
-#evol_afil_once &lt;- evolucion_afiliados_once %&gt;% spread_all()
-gafas_sexo_edad_estud &lt;- gafas_sexo_edad_estudios %&gt;% spread_all()
-###gafas_sexo_paisnac &lt;- gafas_sexo_pais_nacimiento %&gt;% spread_all()
-#discap_sexo_edad &lt;- grupo_discapacidad_sexo_edad %&gt;% spread_all()
-imc_sexo_gredad &lt;- imc_sexo_grupoedad %&gt;% spread_all()
-#pato_visu_afil_once &lt;- patologias_visuales_afiliados_once %&gt;% spread_all()
-###sedent_clasocial &lt;- sedentarismo_clase_social %&gt;% spread_all()
-sedent_sexo_gredad &lt;- sedentarismo_sexo_grupoedad %&gt;% spread_all()
-###braille_sexo_edad &lt;- uso_braille_sexo_y_edad %&gt;% spread_all()</code></pre>
-<pre class="r"><code>imc_sexo_gredad %&gt;% gather_object %&gt;% json_types %&gt;% count(name,type) </code></pre>
-<pre class="r"><code>imc_SexAge &lt;- imc_sexo_gredad %&gt;%
+<pre class="r"><code>audif_sexo_edad &lt;- audifono_sexo_edad %&gt;% spread_all()
+gafas_sexo_edad &lt;- gafas_sexo_edad %&gt;% spread_all()
+imc_sexo_edad &lt;- imc_sexo_edad %&gt;% spread_all()
+sedent_sexo_edad &lt;- sedentarismo_sexo_edad %&gt;% spread_all()</code></pre>
+<pre class="r"><code>imc_sexo_edad %&gt;% gather_object %&gt;% json_types %&gt;% count(name,type) </code></pre>
+<pre class="r"><code>imc_SexAge &lt;- imc_sexo_edad %&gt;%
 enter_object(Data) %&gt;%
 gather_array %&gt;%
 spread_all()
@@ -1584,58 +1567,96 @@ devuelve el índice de todas las apariciones de un determinado character
 en un character de mayor longitud. La función <code>substring()</code>
 devuelve el sub-character presente en un character de mayor longitud
 entre ciertos índices pasados como argumento.</p>
-<pre class="r"><code>audif_sexo_edad_estud %&gt;% gather_object %&gt;% json_types %&gt;% count(name, type)</code></pre>
-<pre class="r"><code>sedent_SexAge &lt;- sedent_sexo_gredad %&gt;% 
+<pre class="r"><code>audif_sexo_edad %&gt;% gather_object %&gt;% json_types %&gt;% count(name, type)</code></pre>
+<pre class="r"><code>sedent_SexAge &lt;- sedent_sexo_edad %&gt;% 
 enter_object(Data) %&gt;% 
 gather_array %&gt;% 
 spread_all()
 sedent_SexAge$Sexo &lt;- NA
 sedent_SexAge$Edad &lt;- NA
+sedent_SexAge$Sedentarismo &lt;- NA
 for (i in 1:dim(sedent_SexAge)[1]){
   r &lt;- unlist(gregexpr(&#39;,&#39;, sedent_SexAge$Nombre[i]))
   primera_coma &lt;- r[1]
   segunda_coma &lt;- r[2]
   sedent_SexAge$Sexo[i] &lt;- substring(sedent_SexAge$Nombre[i], 0, primera_coma-1)
   sedent_SexAge$Edad[i] &lt;- substring(sedent_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  sedent_SexAge$Sedentarismo[i] &lt;- substring(sedent_SexAge$Nombre[i], segunda_coma+1)
 }</code></pre>
-<pre class="r"><code>gafas_sexo_edad_estud %&gt;% gather_object %&gt;% json_types %&gt;% count(name,type) </code></pre>
-<pre class="r"><code>gafas_SexAge &lt;- gafas_sexo_edad_estud %&gt;%
+<pre class="r"><code>gafas_sexo_edad %&gt;% gather_object %&gt;% json_types %&gt;% count(name,type) </code></pre>
+<pre class="r"><code>gafas_SexAge &lt;- gafas_sexo_edad %&gt;%
   enter_object(Data) %&gt;%
   gather_array %&gt;%
   spread_all()
 gafas_SexAge$Sexo &lt;- NA
 gafas_SexAge$Edad &lt;- NA
-gafas_SexAge$Estudios &lt;- NA
 gafas_SexAge$Gafas &lt;- NA
 for (i in 1:dim(gafas_SexAge)[1]){
   r &lt;- unlist(gregexpr(&#39;,&#39;, gafas_SexAge$Nombre[i]))
   primera_coma &lt;- r[1]
   segunda_coma &lt;- r[2]
-  tercera_coma &lt;- r[3]
   gafas_SexAge$Sexo[i] &lt;- substring(gafas_SexAge$Nombre[i], 0, primera_coma-1)
   gafas_SexAge$Edad[i] &lt;- substring(gafas_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
-  gafas_SexAge$Estudios[i] &lt;- substring(gafas_SexAge$Nombre[i], segunda_coma+1, tercera_coma-1)
-  gafas_SexAge$Gafas[i] &lt;- substring(gafas_SexAge$Nombre[i], tercera_coma+1)
+  gafas_SexAge$Gafas[i] &lt;- substring(gafas_SexAge$Nombre[i], segunda_coma+1)
 }</code></pre>
-<pre class="r"><code>audif_sexo_edad_estud %&gt;% gather_object %&gt;% json_types %&gt;% count(name, type)</code></pre>
-<pre class="r"><code>audif_SexAge &lt;- audif_sexo_edad_estud %&gt;% 
+<pre class="r"><code>audif_sexo_edad %&gt;% gather_object %&gt;% json_types %&gt;% count(name, type)</code></pre>
+<pre class="r"><code>audif_SexAge &lt;- audif_sexo_edad %&gt;% 
   enter_object(Data) %&gt;% 
   gather_array %&gt;% 
   spread_all()
 audif_SexAge$Sexo &lt;- NA
 audif_SexAge$Edad &lt;- NA
-audif_SexAge$Estudios &lt;- NA
 audif_SexAge$Audifono &lt;- NA
 for (i in 1:dim(audif_SexAge)[1]){
   r &lt;- unlist(gregexpr(&#39;,&#39;, audif_SexAge$Nombre[i]))
   primera_coma &lt;- r[1]
   segunda_coma &lt;- r[2]
-  tercera_coma &lt;- r[3]
   audif_SexAge$Sexo[i] &lt;- substring(audif_SexAge$Nombre[i], 0, primera_coma-1)
   audif_SexAge$Edad[i] &lt;- substring(audif_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
-  audif_SexAge$Estudios[i] &lt;- substring(audif_SexAge$Nombre[i], segunda_coma+1, tercera_coma-1)
-  audif_SexAge$Audifono[i] &lt;- substring(audif_SexAge$Nombre[i], tercera_coma+1)
+  audif_SexAge$Audifono[i] &lt;- substring(audif_SexAge$Nombre[i], segunda_coma+1)
 }</code></pre>
+<pre class="r"><code>sedent_audif &lt;-  
+  audif_SexAge %&gt;% 
+  mutate(numero_audifonos = Valor*1000) %&gt;% 
+  select(&quot;Sexo&quot;, &quot;Audifono&quot;, &quot;numero_audifonos&quot;, &quot;Edad&quot;) %&gt;% 
+  full_join(x = ., 
+            y = sedent_SexAge %&gt;% 
+            mutate(personas_sedentarias = Valor*1000) %&gt;% 
+            select(&quot;Sexo&quot;, &quot;Sedentarismo&quot;, &quot;personas_sedentarias&quot;, &quot;Edad&quot;),
+            by = c(&quot;Sexo&quot; = &quot;Sexo&quot;, &quot;Edad&quot; = &quot;Edad&quot;))</code></pre>
+<pre><code>## Warning in full_join(x = ., y = sedent_SexAge %&gt;% mutate(personas_sedentarias = Valor * : Detected an unexpected many-to-many relationship between `x` and `y`.
+## ℹ Row 1 of `x` matches multiple rows in `y`.
+## ℹ Row 1 of `y` matches multiple rows in `x`.
+## ℹ If a many-to-many relationship is expected, set `relationship =
+##   &quot;many-to-many&quot;` to silence this warning.</code></pre>
+<p>Básicamente, en estos dos bloques de código lo que hacemos es,
+primeramente, unir los conjuntos de datos acerca de uso de audífonos y
+de sedentarismo. Para ello, primeramente, mutamos ambos conjuntos de
+datos y seleccionamos aquellos atributos de nuestro interés. Para, como
+se ha indicado, llevar a cabo dicha mutación, multiplicamos por mil,
+porque, tras revisar los conjuntos de datos (en particular hemos
+necesitado abrir los datos para ver las unidades en las que se
+encuentran, mal ahí, datos.gov 😡) vimos que se encontraban en miles de
+personas. Posteriormente, unimos por sexo y edad (dado que los niveles
+de ambas variables son los mismos) (hay que aclarar que la edad, a
+priori, habría de ser una variable continua, pero es categórica al haber
+sido discretizada). A la hora de representar los datos, primero
+modificamos debidamente el conjunto de resultados hasta obtener uno que
+se amolda a los objetivos que pretendemos estudiar. Finalmente, antes de
+crear la gráfica de barras, creamos una variable que relacione la
+cantidad de audífonos con el número de personas. Esto se debe a que son
+severamente desiguales las cantidades de personas que son y no
+sedentarias y que usan y no audífonos.</p>
+<pre class="r"><code>sedent_audif %&gt;% filter(Sexo == &quot;Ambos sexos&quot;) %&gt;% 
+  filter(Audifono == &quot; Sí&quot;) %&gt;%
+  filter(Sedentarismo %in% c(&quot; Sí&quot;, &quot; No&quot;)) %&gt;% 
+  mutate(ratio_audifonos_por_persona = 100*numero_audifonos/personas_sedentarias) %&gt;% 
+  filter(Edad == &quot; TOTAL&quot;) %&gt;% 
+  ggplot(data = .,aes(x = Sedentarismo , y = ratio_audifonos_por_persona)) +
+  xlab(&quot;Sedentarismo&quot;) +
+  ylab(&quot;PERSONAS QUE USAN AUDÍFONO&quot;) +
+  geom_col(colour = &quot;palevioletred2&quot;)</code></pre>
+<p><img src="data:image/png;base64,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" width="672" /></p>
 </div>
 <div id="datos" class="section level2">
 <h2>DATOS 📖</h2>
@@ -1648,6 +1669,7 @@ century. Clínica e Investigación en arteriosclerosis (English edition),
 [2] Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2
 diabetes. Lipids, 38(2), 103-108.
 <div></div>
+
 
 
 </div>
