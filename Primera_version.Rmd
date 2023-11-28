@@ -165,7 +165,22 @@ grafico1 <-sedent_audif %>% filter(Sexo == "Ambos sexos") %>%
   mutate(ratio_audifonos_por_persona = 100*numero_audifonos/personas_sedentarias) %>% 
   filter(Edad != " TOTAL") 
 ```
+```{r}
+cont <- 1
+sedentarios <- c(NA, NA, NA, NA, NA, NA, NA, NA)
+no_sedentarios <- c(NA, NA, NA, NA, NA, NA, NA, NA)
+aux <- 1
+for (i in 1:(length(grafico1$personas_sedentarias)/4)){
+si_sedent <- grafico1$personas_sedentarias[cont]
+cont <- cont + 1
+no_sedent <- grafico1$personas_sedentarias[cont]
+cont <- cont + 3
+sedentarios[aux] <- si_sedent
+no_sedentarios[aux] <- no_sedent
+aux <- aux + 1
+}
 
+```
 
 
 ## DATOS 📖
