@@ -191,6 +191,21 @@ if(i%%4 == 0){
 aux <- aux + 1
 }
 }
+
+cont <- 1
+audifonos <- c(NA, NA, NA, NA, NA, NA, NA, NA)
+no_audifonos <- c(NA, NA, NA, NA, NA, NA, NA, NA)
+aux <- 1
+for (i in 1:(length(grafico1$numero_audifonos)/4)){
+audif <- grafico1$numero_audifonos[cont]
+cont <- cont + 2
+no_audif <- grafico1$numero_audifonos[cont]
+cont <- cont + 2
+audifonos[aux] <- audif
+no_audifonos[aux] <- no_audif
+aux <- aux + 1
+}
+
 ```
 
 
