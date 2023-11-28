@@ -180,6 +180,17 @@ no_sedentarios[aux] <- no_sedent
 aux <- aux + 1
 }
 
+grafico1$porcentaje_audifonos <- NA
+grafico1$porcentaje_no_audifonos <- NA
+
+aux <- 1
+for (i in 1:length(grafico1$porcentaje_sedentarios)){
+grafico1$porcentaje_audifonos[i] <- audifonos[aux]*100/(audifonos[aux] + no_audifonos[aux])
+grafico1$porcentaje_no_audifonos[i] <- no_audifonos[aux]*100/(audifonos[aux] + no_audifonos[aux])
+if(i%%4 == 0){
+aux <- aux + 1
+}
+}
 ```
 
 
