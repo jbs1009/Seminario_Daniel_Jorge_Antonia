@@ -1637,16 +1637,17 @@ se ha indicado, llevar a cabo dicha mutación, multiplicamos por mil,
 porque, tras revisar los conjuntos de datos (en particular hemos
 necesitado abrir los datos para ver las unidades en las que se
 encuentran, mal ahí, datos.gov 😡) vimos que se encontraban en miles de
-personas. Posteriormente, unimos por sexo y edad (dado que los niveles
-de ambas variables son los mismos) (hay que aclarar que la edad, a
-priori, habría de ser una variable continua, pero es categórica al haber
-sido discretizada). A la hora de representar los datos, primero
-modificamos debidamente el conjunto de resultados hasta obtener uno que
-se amolda a los objetivos que pretendemos estudiar. Finalmente, antes de
-crear la gráfica de barras, creamos una variable que relacione la
-cantidad de audífonos con el número de personas. Esto se debe a que son
-severamente desiguales las cantidades de personas que son y no
-sedentarias y que usan y no audífonos.</p>
+personas.</p>
+<p>Posteriormente, unimos por sexo y edad (dado que los niveles de ambas
+variables son los mismos) (hay que aclarar que la edad, a priori, habría
+de ser una variable continua, pero es categórica al haber sido
+discretizada). A la hora de representar los datos, primero modificamos
+debidamente el conjunto de resultados hasta obtener uno que se amolda a
+los objetivos que pretendemos estudiar.</p>
+<p>Finalmente, antes de crear la gráfica de barras, creamos una variable
+que relacione la cantidad de audífonos con el número de personas. Esto
+se debe a que son severamente desiguales las cantidades de personas que
+son y no sedentarias y que usan y no audífonos.</p>
 <pre class="r"><code>sedent_audif %&gt;% filter(Sexo == &quot;Ambos sexos&quot;) %&gt;% 
   filter(Audifono == &quot; Sí&quot;) %&gt;%
   filter(Sedentarismo %in% c(&quot; Sí&quot;, &quot; No&quot;)) %&gt;% 
