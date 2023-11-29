@@ -219,7 +219,7 @@ aux <- aux + 1
 
 ```
 ```{r}
-grafico1 %>% ggplot() + geom_col(aes(x = Edad, y = porcentaje_sedentarios/4), fill = "purple", color = "black") + geom_line(aes(x = Edad, y = porcentaje_audifonos), linewidth = 2, color = "aquamarine3", group = 1) + scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) + guides(x = guide_axis(angle =45)) + xlab("Grupos de edad") + ylab("Porcentaje sedentarismo (%)") + theme_dark()
+grafico1 %>% ggplot() + geom_col(aes(x = Edad, y = porcentaje_sedentarios/4, fill = Sexo), position = "dodge", color = "black") + geom_line(aes(x = Edad, y = porcentaje_audifonos), linewidth = 2, color = "aquamarine3", group = 1) + scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) + guides(x = guide_axis(angle =45)) + xlab("Grupos de edad") + ylab("Porcentaje sedentarismo (%)") + theme_dark()
 ```
 
 ## DATOS 📖
