@@ -157,7 +157,7 @@ A la hora de representar los datos, primero modificamos debidamente el conjunto 
 Finalmente, antes de crear la gráfica de barras, creamos una variable que relacione la cantidad de audífonos con el número de personas. Esto se debe a que son severamente desiguales las cantidades de personas que son y no sedentarias y que usan y no audífonos.
 
 ```{r}
-grafico1 <-sedent_audif %>% filter(Sexo == "Ambos sexos") %>% 
+grafico1 <-sedent_audif %>% filter(Sexo != "Ambos sexos") %>% 
   filter(Audifono %in% c(" Sí", " No")) %>%
   filter(Sedentarismo %in% c(" Sí", " No")) %>% 
   mutate(ratio_audifonos_por_persona = 100*numero_audifonos/personas_sedentarias) %>% 
@@ -219,7 +219,7 @@ aux <- aux + 1
 
 ```
 ```{r}
-grafico1 %>% ggplot() + geom_col(aes(x = Edad, y = porcentaje_sedentarios/4, fill = Sexo), position = "dodge", color = "black") + geom_line(aes(x = Edad, y = porcentaje_audifonos), linewidth = 2, color = "aquamarine3", group = 1) + scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) + guides(x = guide_axis(angle =45)) + xlab("Grupos de edad") + ylab("Porcentaje sedentarismo (%)") + theme_dark()
+grafico1 %>% ggplot() + geom_col(aes(x = Edad, y = porcentaje_sedentarios, fill = Sexo), position = "dodge", color = "black") + geom_line(aes(x = Edad, y = porcentaje_audifonos), linewidth = 2, color = "gold", group = 1) + scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) + guides(x = guide_axis(angle =45)) + xlab("Grupos de edad") + ylab("Porcentaje sedentarismo (%)") + theme_dark()
 ```
 
 ## DATOS 📖
