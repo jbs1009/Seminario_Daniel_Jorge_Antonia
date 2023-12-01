@@ -157,7 +157,11 @@ A la hora de representar los datos, primero modificamos debidamente el conjunto 
 Finalmente, antes de crear la gráfica de barras, creamos una variable que relacione la cantidad de audífonos con el número de personas. Esto se debe a que son severamente desiguales las cantidades de personas que son y no sedentarias y que usan y no audífonos.
 
 ```{r}
+<<<<<<< HEAD
 grafico1 <-sedent_audif %>% filter(Sexo != " Ambos sexos") %>% 
+=======
+grafico1 <-sedent_audif %>% filter(Sexo != "Ambos sexos") %>% 
+>>>>>>> 640d9a3f8dacfeedbb07a1b01612970ac3a7ec3c
   filter(Audifono %in% c(" Sí", " No")) %>%
   filter(Sedentarismo %in% c(" Sí", " No")) %>% 
   mutate(ratio_audifonos_por_persona = 100*numero_audifonos/personas_sedentarias) %>% 
@@ -220,11 +224,27 @@ aux <- aux + 1
 View(grafico1)
 ```
 ```{r}
+<<<<<<< HEAD
 grafico1 %>% ggplot() + 
   geom_col(aes(x = Edad, y = porcentaje_sedentarios, fill = Sexo), position = "dodge", color = "black") + 
   geom_line(aes(x = Edad, y = porcentaje_audifonos), linewidth = 2, color = "aquamarine3", group = 1) + 
   scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) + 
   guides(x = guide_axis(angle =45)) + xlab("Grupos de edad") + ylab("Porcentaje sedentarismo (%)") + theme_dark()
+=======
+
+grafico1_H <- grafico1 %>% filter(.data = ., Sexo == "Hombres")
+grafico1_M <- grafico1 %>% filter(.data = ., Sexo == "Mujeres")
+
+grafico1 %>% 
+  ggplot() + 
+  geom_col(aes(x = Edad, y = porcentaje_sedentarios, fill = Sexo), position = "dodge", color = "black") + geom_line(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos, colour = factor(Sexo)), linewidth = 2, color = "darkgreen", group = 1) +
+  geom_line(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos), linewidth = 2, color = "purple", group = 1)+ scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) +
+  guides(x = guide_axis(angle =45)) + xlab("Grupos de edad") + ylab("Porcentaje sedentarismo (%)") + theme_dark()
+  
+           
+
+```
+>>>>>>> 640d9a3f8dacfeedbb07a1b01612970ac3a7ec3c
 
 ```
 ```{r}
