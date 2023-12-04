@@ -334,7 +334,6 @@ aux <- aux + 1
 }
 }
 
-
 ```
 
 ```{r}
@@ -349,10 +348,30 @@ grafico2 %>%
   scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso gafas (%)")) +
   guides(x = guide_axis(angle =45)) +
   facet_wrap(facets = vars(Sexo), nrow = 1) +
-  labs(x= "Grupos de edad", y = "Porcentaje sedentarismo (%)") +
   geom_point(data = grafico2_M, aes(x = Edad, y = porcentaje_gafas), size=3, shape=21, fill="snow", color = "black") +
   geom_point(data = grafico2_H, aes(x = Edad, y = porcentaje_gafas), size=3, shape=21, fill="snow", color = "black") +  
-  dark_theme_gray() + theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+  labs(x= "Grupos de edad", 
+       y = "Porcentaje sedentarismo (%)",
+       title = "Relación del sedentarismo con el uso de gafas según sexo y edad") +
+  dark_theme_gray() + 
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    plot.title =element_text(
+        family = "serif",
+        size = 12,
+        hjust = 0.5,
+        vjust = 2),
+    axis.title = element_text(             
+                   family = "serif",           
+                   size = 9),              
+      
+    axis.text = element_text(             
+                   family = "serif",            
+                   size = 7),                
+      
+    axis.text.x = element_text(           
+                    margin=margin(8, b = 12)),
+    axis.text.y = element_text(           
+                    margin=margin(8, b = 12)))
 ```
 
 ## DATOS 📖
