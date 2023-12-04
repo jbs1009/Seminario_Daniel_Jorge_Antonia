@@ -262,10 +262,15 @@ grafico1 %>%
   
 ```
 ```{r}
-
-
-
-
+sedent_gafas <-  
+  gafas_SexAge %>% 
+  mutate(numero_gafas = Valor*1000) %>% 
+  select("Sexo", "Gafas", "numero_gafas", "Edad") %>% 
+  full_join(x = ., 
+            y = sedent_SexAge %>% 
+            mutate(personas_sedentarias = Valor*1000) %>% 
+            select("Sexo", "Sedentarismo", "personas_sedentarias", "Edad"),
+            by = c("Sexo" = "Sexo", "Edad" = "Edad"))
 ```
 ## DATOS 📖
 
