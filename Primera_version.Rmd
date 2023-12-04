@@ -159,9 +159,6 @@ A la hora de representar los datos, primero modificamos debidamente el conjunto 
 Finalmente, antes de crear la gráfica de barras, creamos una variable que relacione la cantidad de audífonos con el número de personas. Esto se debe a que son severamente desiguales las cantidades de personas que son y no sedentarias y que usan y no audífonos.
 
 ```{r}
-
-grafico1 <-sedent_audif %>% filter(Sexo != " Ambos sexos") %>% 
-
 grafico1 <-sedent_audif %>% filter(Sexo != "Ambos sexos") %>% 
 
   filter(Audifono %in% c(" Sí", " No")) %>%
@@ -223,35 +220,24 @@ aux <- aux + 1
 }
 }
 
-View(grafico1)
 ```
 ```{r}
-
-grafico1 %>% ggplot() + 
-  geom_col(aes(x = Edad, y = porcentaje_sedentarios, fill = Sexo), position = "dodge", color = "black") + 
-  geom_line(aes(x = Edad, y = porcentaje_audifonos), linewidth = 2, color = "aquamarine3", group = 1) + 
-  scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) + 
-  guides(x = guide_axis(angle =45)) + xlab("Grupos de edad") + ylab("Porcentaje sedentarismo (%)") + theme_dark()
-
 
 grafico1_H <- grafico1 %>% filter(.data = ., Sexo == "Hombres")
 grafico1_M <- grafico1 %>% filter(.data = ., Sexo == "Mujeres")
 
 grafico1 %>%
   ggplot() + 
-  geom_col(aes(x = Edad, y = porcentaje_sedentarios/4), fill = "#FFEC8B", color = "black") + geom_borderline(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos), linewidth = 1.2, color = "#9400D3", bordercolor = "black", group = 1) +
-  geom_borderline(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos), linewidth = 1.2, color = "cyan", bordercolor = "black",group = 1) + scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) 
+  geom_col(aes(x = Edad, y = porcentaje_sedentarios/4), fill = "#FFEC8B", color = "black") + 
+  geom_borderline(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos), linewidth = 1.2, color = "#9400D3", bordercolor = "black", group = 1) +
+  geom_borderline(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos), linewidth = 1.2, color = "cyan", bordercolor = "black",group = 1) + 
+  scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) +
+  guides(x = guide_axis(angle =45)) +
+  facet_wrap(facets = vars(Sexo), nrow = 1) +
+    xlab("Grupos de edad") +
+    ylab("Porcentaje sedentarismo(%)")
 ```
-
-
-```{r}
-grafico1 %>% ggplot() + 
-  geom_col(aes(x = Edad, y = porcentaje_sedentarios, fill = Sexo), position = "dodge", color = "black") + 
-  geom_line(aes(x = Edad, y = porcentaje_audifonos), linewidth = 2, color = "yellow", group = 1) +
-  scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) + 
-  guides(x = guide_axis(angle =45)) + xlab("Grupos de edad") + ylab("Porcentaje sedentarismo (%)") + theme_dark()
-
-```
+`
 ## DATOS 📖
 
 
