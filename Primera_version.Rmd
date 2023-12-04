@@ -32,6 +32,8 @@ library(readxl)
 library(dplyr)
 library(ggplot2)
 library(tidyr)
+library(ggborderline)
+
 
 audifono_sexo_edad <- fromJSON(file = "DATOS/audif_SexAge_miles.json")
 gafas_sexo_edad <- fromJSON(file = "DATOS/gafas_SexAge_miles.json")
@@ -235,6 +237,10 @@ grafico1 %>% ggplot() +
 grafico1_H <- grafico1 %>% filter(.data = ., Sexo == "Hombres")
 grafico1_M <- grafico1 %>% filter(.data = ., Sexo == "Mujeres")
 
+grafico1 %>%
+  ggplot() + 
+  geom_col(aes(x = Edad, y = porcentaje_sedentarios/4), fill = "#FFEC8B", color = "black") + geom_borderline(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos), linewidth = 1.2, color = "#9400D3", bordercolor = "black", group = 1) +
+  geom_borderline(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos), linewidth = 1.2, color = "cyan", bordercolor = "black",group = 1) + scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) 
 ```
 
 
