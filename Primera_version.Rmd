@@ -238,7 +238,8 @@ grafico1 %>%
   labs(x= "Grupos de edad", y = "Porcentaje sedentarismo (%)") +
   geom_point(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, fill="snow", color = "black") +
   geom_point(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, fill="snow", color = "black") +  
-  dark_theme_gray()
+  dark_theme_gray() + 
+  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
 ```
 `
 ## DATOS 📖
