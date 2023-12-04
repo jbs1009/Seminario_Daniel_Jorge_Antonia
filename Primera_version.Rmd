@@ -33,6 +33,7 @@ library(dplyr)
 library(ggplot2)
 library(tidyr)
 library(ggborderline)
+library(ggdark)
 
 
 audifono_sexo_edad <- fromJSON(file = "DATOS/audif_SexAge_miles.json")
@@ -235,7 +236,10 @@ grafico1 %>%
   guides(x = guide_axis(angle =45)) +
   facet_wrap(facets = vars(Sexo), nrow = 1) +
     xlab("Grupos de edad") +
-    ylab("Porcentaje sedentarismo(%)")
+    ylab("Porcentaje sedentarismo(%)") + 
+  geom_point(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, fill="snow", color = "black") +
+  geom_point(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, fill="snow", color = "black") +  
+  dark_theme_gray()
 ```
 `
 ## DATOS 📖
