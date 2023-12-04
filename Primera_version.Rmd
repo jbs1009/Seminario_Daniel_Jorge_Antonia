@@ -50,7 +50,7 @@ gafas_sexo_edad <- gafas_sexo_edad %>% spread_all()
 imc_sexo_edad <- imc_sexo_edad %>% spread_all()
 sedent_sexo_edad <- sedentarismo_sexo_edad %>% spread_all()
 ```
-```{r, eval = FALSE}
+```{r}
 imc_sexo_edad %>% gather_object %>% json_types %>% count(name,type) 
 ```
 ```{r}
@@ -71,14 +71,14 @@ for (i in 1:dim(imc_SexAge)[1]){
 }
 ```
 Algunas aclaraciones al respecto:
-```{r, eval = FALSE}
+```{r}
 imc_sexo_gredad %>% gather_object %>% json_types %>% count(name,type) 
 ```
 Este "Code Chunk" (que no se evalúa) nos sirve para saber a que datos hemos de acceder.
 Además, las funciones `unlist(gregexpr())` devuelve el índice de todas las apariciones de un determinado character en un character de mayor longitud. 
 La función `substring()` devuelve el sub-character presente en un character de mayor longitud entre ciertos índices pasados como argumento.
 
-```{r, eval = FALSE}
+```{r}
 audif_sexo_edad %>% gather_object %>% json_types %>% count(name, type)
 ```
 ```{r}
@@ -98,7 +98,7 @@ for (i in 1:dim(sedent_SexAge)[1]){
   sedent_SexAge$Sedentarismo[i] <- substring(sedent_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
-```{r, eval = FALSE}
+```{r}
 gafas_sexo_edad %>% gather_object %>% json_types %>% count(name,type) 
 ```
 ```{r}
@@ -261,10 +261,15 @@ grafico1 %>%
   
 ```
 ```{r}
-
-
-
-
+sedent_gafas <-  
+  gafas_SexAge %>% 
+  mutate(numero_gafas = Valor*1000) %>% 
+  select("Sexo", "Gafas", "numero_gafas", "Edad") %>% 
+  full_join(x = ., 
+            y = sedent_SexAge %>% 
+            mutate(personas_sedentarias = Valor*1000) %>% 
+            select("Sexo", "Sedentarismo", "personas_sedentarias", "Edad"),
+            by = c("Sexo" = "Sexo", "Edad" = "Edad"))
 ```
 ## DATOS 📖
 
