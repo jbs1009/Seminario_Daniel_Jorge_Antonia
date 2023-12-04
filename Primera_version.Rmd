@@ -260,7 +260,7 @@ grafico1 %>%
                     margin=margin(8, b = 12)))
   
 ```
-```{r}
+```{r, warning = FALSE} 
 sedent_gafas <-  
   gafas_SexAge %>% 
   mutate(numero_gafas = Valor*1000) %>% 
@@ -270,6 +270,13 @@ sedent_gafas <-
             mutate(personas_sedentarias = Valor*1000) %>% 
             select("Sexo", "Sedentarismo", "personas_sedentarias", "Edad"),
             by = c("Sexo" = "Sexo", "Edad" = "Edad"))
+```
+```{r}
+grafico2 <-sedent_gafas %>% filter(Sexo != "Ambos sexos") %>% 
+  filter(Gafas %in% c(" Sí", " No")) %>%
+  filter(Sedentarismo %in% c(" Sí", " No")) %>% 
+  mutate(ratio_gafas_por_persona = 100*numero_gafas/personas_sedentarias) %>% 
+  filter(Edad!="TOTAL")
 ```
 ## DATOS 📖
 
