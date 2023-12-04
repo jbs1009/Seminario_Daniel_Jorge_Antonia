@@ -308,8 +308,23 @@ aux <- aux + 1
 }
 ```
 ```{r}
-{r}
+cont <- 1
+gafas <- c(NA, NA, NA, NA, NA, NA, NA, NA)
+no_gafas <- c(NA, NA, NA, NA, NA, NA, NA, NA)
+aux <- 1
+for (i in 1:(length(grafico2$numero_gafas)/4)){
+gf <- grafico2$numero_gafas[cont]
+cont <- cont + 2
+no_gf <- grafico2$numero_gafas[cont]
+cont <- cont + 2
+gafas[aux] <- gf
+no_gafas[aux] <- no_gf
+aux <- aux + 1
+}
 
+```
+
+```{r}
 grafico2_H <- grafico2 %>% filter(.data = ., Sexo == "Hombres")
 grafico2_M <- grafico2 %>% filter(.data = ., Sexo == "Mujeres")
 
