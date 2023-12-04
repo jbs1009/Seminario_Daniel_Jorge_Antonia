@@ -272,12 +272,29 @@ sedent_gafas <-
             by = c("Sexo" = "Sexo", "Edad" = "Edad"))
 ```
 ```{r}
-grafico2 <-sedent_gafas %>% filter(Sexo != "Ambos sexos") %>% 
+grafico2 <-sedent_gafas %>%
+  filter(Sexo != "Ambos sexos") %>%
   filter(Gafas %in% c(" Sí", " No")) %>%
   filter(Sedentarismo %in% c(" Sí", " No")) %>% 
   mutate(ratio_gafas_por_persona = 100*numero_gafas/personas_sedentarias) %>% 
   filter(Edad!="TOTAL")
 ```
+```{r}
+cont <- 1
+sedentarios <- c(NA, NA, NA, NA, NA, NA, NA, NA)
+no_sedentarios <- c(NA, NA, NA, NA, NA, NA, NA, NA)
+aux <- 1
+for (i in 1:(length(grafico2$personas_sedentarias)/4)){
+si_sedent <- grafico2$personas_sedentarias[cont]
+cont <- cont + 1
+no_sedent <- grafico2$personas_sedentarias[cont]
+cont <- cont + 3
+sedentarios[aux] <- si_sedent
+no_sedentarios[aux] <- no_sedent
+aux <- aux + 1
+}
+```
+
 ## DATOS 📖
 
 
