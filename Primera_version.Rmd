@@ -235,13 +235,38 @@ grafico1 %>%
   scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) +
   guides(x = guide_axis(angle =45)) +
   facet_wrap(facets = vars(Sexo), nrow = 1) +
-  labs(x= "Grupos de edad", y = "Porcentaje sedentarismo (%)") +
   geom_point(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, fill="snow", color = "black") +
-  geom_point(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, fill="snow", color = "black") +  
+  geom_point(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, fill="snow", color = "black") +
+  labs(x= "Grupos de edad", 
+       y = "Porcentaje sedentarismo (%)",
+       title = "Relación del sedentarismo con el uso de audífonos por grupos de edad y sexo") +
   dark_theme_gray() + 
-  theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank())
+    theme (panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    plot.title =element_text(
+        family = "serif",
+        size = 12,
+        hjust = 0.5,
+        vjust = 2),
+    axis.title = element_text(             
+                   family = "serif",           
+                   size = 9),              
+      
+    axis.text = element_text(             
+                   family = "serif",            
+                   size = 7),                
+      
+    axis.text.x = element_text(           
+                    margin=margin(8, b = 12)),
+    axis.text.y = element_text(           
+                    margin=margin(8, b = 12)))
+  
 ```
-`
+```{r}
+
+
+
+
+```
 ## DATOS 📖
 
 
