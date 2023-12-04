@@ -294,6 +294,20 @@ no_sedentarios[aux] <- no_sedent
 aux <- aux + 1
 }
 ```
+```{r}
+grafico2$porcentaje_sedentarios <- NA
+grafico2$porcentaje_no_sedentarios <- NA
+
+aux <- 1
+for (i in 1:length(grafico2$porcentaje_sedentarios)){
+grafico2$porcentaje_sedentarios[i] <- sedentarios[aux]*100/(sedentarios[aux] + no_sedentarios[aux])
+grafico2$porcentaje_no_sedentarios[i] <- no_sedentarios[aux]*100/(sedentarios[aux] + no_sedentarios[aux])
+if(i%%4 == 0){
+aux <- aux + 1
+}
+}
+```
+
 
 ## DATOS 📖
 
