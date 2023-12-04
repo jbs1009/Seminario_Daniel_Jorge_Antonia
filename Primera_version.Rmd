@@ -322,6 +322,19 @@ no_gafas[aux] <- no_gf
 aux <- aux + 1
 }
 
+grafico2$porcentaje_gafas <- NA
+grafico2$porcentaje_no_gafas <- NA
+
+aux <- 1
+for (i in 1:length(grafico2$numero_gafas)){
+grafico2$porcentaje_gafas[i] <- gafas[aux]*100/(gafas[aux] + no_gafas[aux])
+grafico2$porcentaje_no_gafas[i] <- no_gafas[aux]*100/(gafas[aux] + no_gafas[aux])
+if(i%%4 == 0){
+aux <- aux + 1
+}
+}
+
+
 ```
 
 ```{r}
