@@ -74,7 +74,7 @@ Algunas aclaraciones al respecto:
 ```{r}
 imc_SexAge %>% gather_object %>% json_types %>% count(name,type) 
 ```
-Este "Code Chunk" nos sirve para saber a que datos hemos de acceder.
+Este "Code Chunk" nos sirve para saber a qué datos hemos de acceder. En particular, se formateará los datos de la categoría `array` (excepto `MetaData`) _En el resultado anterior ya dicho array no se encuentra porque ya lo hemos formateado._
 Además, las funciones `unlist(gregexpr())` devuelve el índice de todas las apariciones de un determinado character en un character de mayor longitud. 
 La función `substring()` devuelve el sub-character presente en un character de mayor longitud entre ciertos índices pasados como argumento.
 
