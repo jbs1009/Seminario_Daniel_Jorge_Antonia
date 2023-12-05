@@ -72,14 +72,14 @@ for (i in 1:dim(imc_SexAge)[1]){
 ```
 Algunas aclaraciones al respecto:
 ```{r}
-imc_sexo_gredad %>% gather_object %>% json_types %>% count(name,type) 
+imc_SexAge %>% gather_object %>% json_types %>% count(name,type) 
 ```
-Este "Code Chunk" (que no se evalúa) nos sirve para saber a que datos hemos de acceder.
+Este "Code Chunk" nos sirve para saber a que datos hemos de acceder.
 Además, las funciones `unlist(gregexpr())` devuelve el índice de todas las apariciones de un determinado character en un character de mayor longitud. 
 La función `substring()` devuelve el sub-character presente en un character de mayor longitud entre ciertos índices pasados como argumento.
 
 ```{r}
-audif_sexo_edad %>% gather_object %>% json_types %>% count(name, type)
+sedent_sexo_edad %>% gather_object %>% json_types %>% count(name, type)
 ```
 ```{r}
 sedent_SexAge <- sedent_sexo_edad %>% 
