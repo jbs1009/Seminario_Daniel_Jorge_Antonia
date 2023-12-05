@@ -78,6 +78,8 @@ Este "Code Chunk" nos sirve para saber a qué datos hemos de acceder. En particu
 Además, las funciones `unlist(gregexpr())` devuelve el índice de todas las apariciones de un determinado character en un character de mayor longitud. 
 La función `substring()` devuelve el sub-character presente en un character de mayor longitud entre ciertos índices pasados como argumento.
 
+View(imc_SexAge)
+
 ```{r}
 sedent_sexo_edad %>% gather_object %>% json_types %>% count(name, type)
 ```
@@ -277,7 +279,7 @@ grafico2 <-sedent_gafas %>%
   filter(Gafas %in% c(" Sí", " No")) %>%
   filter(Sedentarismo %in% c(" Sí", " No")) %>% 
   mutate(ratio_gafas_por_persona = 100*numero_gafas/personas_sedentarias) %>% 
-  filter(Edad!="TOTAL")
+  filter(Edad!=" TOTAL")
 ```
 ```{r}
 cont <- 1
