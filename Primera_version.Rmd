@@ -406,7 +406,46 @@ grafico2 %>%
         legend.position = "bottom")
 
 ```
-
+```{r}
+grafico2 %>%
+  ggplot() + 
+  geom_col(aes(x = Sexo, y = porcentaje_sedentarios/4, fill = "Sedentarismo"), color = "black") + 
+  scale_fill_manual(values = c("#FFEC8B")) +
+  scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso gafas (%)")) +
+  guides(x = guide_axis(angle =45)) +
+  guides(fill = guide_legend(title = "Sedentarismo")) +
+  guides(shape = guide_legend(title = "Uso de Gafas")) +
+  facet_wrap(facets = vars(Edad), nrow = 2) +
+  geom_point(data = grafico2, aes(x = Sexo, y = porcentaje_gafas, shape = "Uso de Gafas"), size=3, fill="snow", color = "black") +
+  scale_shape_manual(values = c(21, 21)) +
+  labs(x= "División por sexos", 
+       y = "Porcentaje sedentarismo (%)",
+       title = "Relación del sedentarismo con el uso de gafas según sexo y edad") +
+  dark_theme_gray() + 
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    plot.title =element_text(
+        family = "serif",
+        size = 12,
+        hjust = 0.5,
+        vjust = 2),
+    axis.title = element_text(             
+                   family = "serif",           
+                   size = 9),              
+    axis.text = element_text(             
+                   family = "serif",            
+                   size = 7),                
+    axis.text.x = element_text(           
+                    margin=margin(8, b = 12)),
+    axis.text.y = element_text(           
+                    margin=margin(8, b = 12))) +
+  theme(legend.title = element_text(
+                      family = "serif",
+                      size = 9),
+        legend.text = element_text (
+                      family = "serif",
+                      size = 7),
+        legend.position = "bottom")
+```
 ## DATOS 📖
 
 
@@ -417,3 +456,6 @@ grafico2 %>%
  
 [2]  Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2 diabetes. Lipids, 38(2), 103-108. 
 <div/>
+
+
+
