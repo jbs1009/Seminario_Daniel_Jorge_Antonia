@@ -178,3 +178,33 @@ for (i in 1:dim(gafas_SexAge)[1]){
   gafas_SexAge$Gafas[i] <- substring(gafas_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
+## MÉTODOS (X)
+### FORMATEO DE DATOS
+#### Formateamos el conjunto de datos: "audif_sexo_edad"
+```{r}
+audif_sexo_edad %>% gather_object %>% json_types %>% count(name, type)
+```
+## MÉTODOS (XI)
+### FORMATEO DE DATOS
+#### Formateamos el conjunto de datos: "audif_sexo_edad"
+```{r}
+audif_SexAge <- audif_sexo_edad %>% 
+  enter_object(Data) %>% 
+  gather_array %>% 
+  spread_all()
+audif_SexAge$Sexo <- NA
+audif_SexAge$Edad <- NA
+audif_SexAge$Audifono <- NA
+for (i in 1:dim(audif_SexAge)[1]){
+  r <- unlist(gregexpr(',', audif_SexAge$Nombre[i]))
+  primera_coma <- r[1]
+  segunda_coma <- r[2]
+  audif_SexAge$Sexo[i] <- substring(audif_SexAge$Nombre[i], 0, primera_coma-1)
+  edad <- substring(audif_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != " TOTAL"){
+  edad <- substring(audif_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  audif_SexAge$Edad[i] <- edad
+  audif_SexAge$Audifono[i] <- substring(audif_SexAge$Nombre[i], segunda_coma+1)
+}
+```
