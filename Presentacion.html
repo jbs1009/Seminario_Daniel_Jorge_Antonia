@@ -3443,6 +3443,50 @@ for (i in 1:dim(gafas_SexAge)[1]){
   }
   gafas_SexAge$Edad[i] &lt;- edad
   gafas_SexAge$Gafas[i] &lt;- substring(gafas_SexAge$Nombre[i], segunda_coma+1)
+<<<<<<< HEAD
+=======
+}</pre>
+
+</article></slide><slide class=""><hgroup><h2>MÉTODOS (X)</h2></hgroup><article  id="métodos-x" class="smaller ">
+
+<h3>FORMATEO DE DATOS</h3>
+
+<h4>Formateamos el conjunto de datos: &ldquo;audif_sexo_edad&rdquo;</h4>
+
+<pre class = 'prettyprint lang-r'>audif_sexo_edad %&gt;% gather_object %&gt;% json_types %&gt;% count(name, type)</pre>
+
+<pre >## # A tibble: 3 × 3
+##   name     type       n
+##   &lt;chr&gt;    &lt;fct&gt;  &lt;int&gt;
+## 1 Data     array    108
+## 2 MetaData array    108
+## 3 Nombre   string   108</pre>
+
+</article></slide><slide class=""><hgroup><h2>MÉTODOS (XI)</h2></hgroup><article  id="métodos-xi" class="smaller ">
+
+<h3>FORMATEO DE DATOS</h3>
+
+<h4>Formateamos el conjunto de datos: &ldquo;audif_sexo_edad&rdquo;</h4>
+
+<pre class = 'prettyprint lang-r'>audif_SexAge &lt;- audif_sexo_edad %&gt;% 
+  enter_object(Data) %&gt;% 
+  gather_array %&gt;% 
+  spread_all()
+audif_SexAge$Sexo &lt;- NA
+audif_SexAge$Edad &lt;- NA
+audif_SexAge$Audifono &lt;- NA
+for (i in 1:dim(audif_SexAge)[1]){
+  r &lt;- unlist(gregexpr(&#39;,&#39;, audif_SexAge$Nombre[i]))
+  primera_coma &lt;- r[1]
+  segunda_coma &lt;- r[2]
+  audif_SexAge$Sexo[i] &lt;- substring(audif_SexAge$Nombre[i], 0, primera_coma-1)
+  edad &lt;- substring(audif_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != &quot; TOTAL&quot;){
+  edad &lt;- substring(audif_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  audif_SexAge$Edad[i] &lt;- edad
+  audif_SexAge$Audifono[i] &lt;- substring(audif_SexAge$Nombre[i], segunda_coma+1)
+>>>>>>> 7577320cdbd44d8e4f236402ae44f102494a6c6f
 }</pre></article></slide>
 
 
