@@ -55,6 +55,22 @@ library(tidyjson)
 library(rjson)
 library(tidyverse)
 ```
+## MÉTODOS (II)
+### Importamos las librerías y los datos a usar
+```{r}
+library(readr)
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(ggborderline)
+library(ggdark)
 
+
+audifono_sexo_edad <- fromJSON(file = "DATOS/audif_SexAge_miles.json")
+gafas_sexo_edad <- fromJSON(file = "DATOS/gafas_SexAge_miles.json")
+imc_sexo_edad <- fromJSON(file = "DATOS/imc_SexAge_miles.json")
+sedentarismo_sexo_edad <- fromJSON(file = "DATOS/seden_SexAge_miles.json")
+```
 
 
