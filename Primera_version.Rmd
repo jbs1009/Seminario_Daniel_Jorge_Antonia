@@ -66,7 +66,11 @@ for (i in 1:dim(imc_SexAge)[1]){
   primera_coma <- r[1]
   segunda_coma <- r[2]
   imc_SexAge$Sexo[i] <- substring(imc_SexAge$Nombre[i], 0, primera_coma-1)
-  imc_SexAge$Edad[i] <- substring(imc_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  edad <- substring(imc_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != " TOTAL"){
+  edad <- substring(imc_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  imc_SexAge$Edad[i] <- edad
   imc_SexAge$IMC[i] <- substring(imc_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
@@ -77,9 +81,6 @@ imc_SexAge %>% gather_object %>% json_types %>% count(name,type)
 Este "Code Chunk" nos sirve para saber a qué datos hemos de acceder. En particular, se formateará los datos de la categoría `array` (excepto `MetaData`) _En el resultado anterior ya dicho array no se encuentra porque ya lo hemos formateado._
 Además, las funciones `unlist(gregexpr())` devuelve el índice de todas las apariciones de un determinado character en un character de mayor longitud. 
 La función `substring()` devuelve el sub-character presente en un character de mayor longitud entre ciertos índices pasados como argumento.
-
-View(imc_SexAge)
-
 ```{r}
 sedent_sexo_edad %>% gather_object %>% json_types %>% count(name, type)
 ```
@@ -96,7 +97,11 @@ for (i in 1:dim(sedent_SexAge)[1]){
   primera_coma <- r[1]
   segunda_coma <- r[2]
   sedent_SexAge$Sexo[i] <- substring(sedent_SexAge$Nombre[i], 0, primera_coma-1)
-  sedent_SexAge$Edad[i] <- substring(sedent_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  edad <- substring(sedent_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != " TOTAL"){
+  edad <- substring(sedent_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  sedent_SexAge$Edad[i] <- edad
   sedent_SexAge$Sedentarismo[i] <- substring(sedent_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
@@ -116,7 +121,11 @@ for (i in 1:dim(gafas_SexAge)[1]){
   primera_coma <- r[1]
   segunda_coma <- r[2]
   gafas_SexAge$Sexo[i] <- substring(gafas_SexAge$Nombre[i], 0, primera_coma-1)
-  gafas_SexAge$Edad[i] <- substring(gafas_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  edad <- substring(gafas_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != " TOTAL"){
+  edad <- substring(gafas_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  gafas_SexAge$Edad[i] <- edad
   gafas_SexAge$Gafas[i] <- substring(gafas_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
@@ -136,11 +145,14 @@ for (i in 1:dim(audif_SexAge)[1]){
   primera_coma <- r[1]
   segunda_coma <- r[2]
   audif_SexAge$Sexo[i] <- substring(audif_SexAge$Nombre[i], 0, primera_coma-1)
-  audif_SexAge$Edad[i] <- substring(audif_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  edad <- substring(audif_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != " TOTAL"){
+  edad <- substring(audif_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  audif_SexAge$Edad[i] <- edad
   audif_SexAge$Audifono[i] <- substring(audif_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
-
 ```{r}
 sedent_audif <-  
   audif_SexAge %>% 
@@ -386,6 +398,3 @@ grafico2 %>%
  
 [2]  Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2 diabetes. Lipids, 38(2), 103-108. 
 <div/>
-
-
-
