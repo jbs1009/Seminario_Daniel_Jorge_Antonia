@@ -257,7 +257,7 @@ grafico1 %>%
        y = "Porcentaje sedentarismo (%)",
        title = "Relación del sedentarismo con el uso de audífonos por grupos de edad y sexo") +
   dark_theme_gray() + 
-    theme (legend.title = element_text(size = 9), panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    theme (panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
     plot.title =element_text(
         family = "serif",
         size = 12,
@@ -273,7 +273,12 @@ grafico1 %>%
                     margin=margin(8, b = 12)),
     axis.text.y = element_text(           
                     margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan")) +
-  theme(legend.text = element_text (size = 7),
+  theme(legend.title = element_text(
+                    family = "serif",
+                    size = 9),
+        legend.text = element_text (
+                    family = "serif",
+                    size = 7),
         legend.position = "bottom")
   
 ```
@@ -374,7 +379,7 @@ grafico2 %>%
        y = "Porcentaje sedentarismo (%)",
        title = "Relación del sedentarismo con el uso de gafas según sexo y edad") +
   dark_theme_gray() + 
-    theme(legend.title = element_text(size = 9), panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
     plot.title =element_text(
         family = "serif",
         size = 12,
@@ -392,7 +397,12 @@ grafico2 %>%
                     margin=margin(8, b = 12)),
     axis.text.y = element_text(           
                     margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan")) +
-  theme(legend.text = element_text (size = 7),
+  theme(legend.title = element_text(
+                      family = "serif",
+                      size = 9),
+        legend.text = element_text (
+                      family = "serif",
+                      size = 7),
         legend.position = "bottom")
 
 ```
