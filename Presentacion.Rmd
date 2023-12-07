@@ -8,18 +8,76 @@ output: ioslides_presentation
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+## ÍNDICE
 
-## R Markdown
+- Introducción
+- Importación de datos
+- Formateo de datos
+- 
 
-This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <http://rmarkdown.rstudio.com>.
 
-When you click the **Knit** button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.
+## INTRODUCCIÓN 📖
 
-## Slide with Bullets
+El sedentarismo representa un serio problema para la salud pública, especialmente en Occidente, según Rodulfo, J. I. A. (2019) 🤓 [1]. Algunos de sus principales efectos, ampliamente estudiados, se evidencian en trastornos como la hipertensión, la diabetes tipo II o la obesidad, las cuales ya alcanzan la categoría de epidemia en los Estados Unidos según Hu, F. B. (2003) 🤓 [2]. En el mismo artículo se habla también de la relación directa entre estos trastornos y un estilo de vida sedentario, y, en particular, se comenta como un estilo de vida sedentario tiene consecuencias muy negativas independientemente de dieta y cantidad de horas dedicadas a la actividad física.
 
-- Bullet 1
-- Bullet 2
-- Bullet 3
+Ahora bien, ¿alguna vez os habéis planteado cómo afecta al sedentarismo a otros aspectos acerca de nuestra salud no tan obvios?
+
+En el siguiente trabajo vamos a tratar de encontrar, o en su defecto descartar, la existencia de una correlación directa entre un estilo de vida sedentario y el desarrollo de problemas de visión y/o auditivos valiéndonos para ello de sendos estudios expuestos más adelante acerca de la distribución de dichos problemas y el estilo de vida a lo largo del territorio español teniendo además en cuenta otros factores como edad o sexo. 
+
+
+## IMPORTACIÓN DE DATOS
+### Importamos las librerías y los datos a usar
+```{r}
+library(tidyjson)
+library(rjson)
+library(tidyverse)
+library(readr)
+library(readxl)
+library(dplyr)
+library(ggplot2)
+library(tidyr)
+library(ggborderline)
+library(ggdark)
+
+
+audifono_sexo_edad <- fromJSON(file = "DATOS/audif_SexAge_miles.json")
+gafas_sexo_edad <- fromJSON(file = "DATOS/gafas_SexAge_miles.json")
+imc_sexo_edad <- fromJSON(file = "DATOS/imc_SexAge_miles.json")
+sedentarismo_sexo_edad <- fromJSON(file = "DATOS/seden_SexAge_miles.json")
+```
+
+## FORMATEO DE DATOS
+```{r}
+audif_sexo_edad <- audifono_sexo_edad %>% spread_all()
+gafas_sexo_edad <- gafas_sexo_edad %>% spread_all()
+imc_sexo_edad <- imc_sexo_edad %>% spread_all()
+sedent_sexo_edad <- sedentarismo_sexo_edad %>% spread_all()
+```
+### Formateamos el conjunto de datos: imc_SexAge
+```{r}
+imc_sexo_edad %>% gather_object %>% json_types %>% count(name,type) 
+```
+```{r}
+imc_SexAge <- imc_sexo_edad %>%
+enter_object(Data) %>%
+gather_array %>%
+spread_all()
+imc_SexAge$Sexo <- NA
+imc_SexAge$Edad <- NA
+imc_SexAge$IMC <- NA
+for (i in 1:dim(imc_SexAge)[1]){
+  r <- unlist(gregexpr(',', imc_SexAge$Nombre[i]))
+  primera_coma <- r[1]
+  segunda_coma <- r[2]
+  imc_SexAge$Sexo[i] <- substring(imc_SexAge$Nombre[i], 0, primera_coma-1)
+  edad <- substring(imc_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != " TOTAL"){
+  edad <- substring(imc_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  imc_SexAge$Edad[i] <- edad
+  imc_SexAge$IMC[i] <- substring(imc_SexAge$Nombre[i], segunda_coma+1)
+}
+```
 
 ## Slide with R Output
 

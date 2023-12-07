@@ -3069,21 +3069,18 @@ var loadDeck = function(event) {
   });
 };
 
-if (!window.Shiny) {
-  // If Shiny is loaded, the slide deck is initialized in ioslides template
-
-  if (document.readyState !== "loading" &&
-      document.querySelector('slides') === null) {
-    // if the document is done loading but our element hasn't yet appeared, defer
-    // loading of the deck
-    window.setTimeout(function() {
-      loadDeck(null);
-    }, 0);
-  } else {
-    // still loading the DOM, so wait until it's finished
-    document.addEventListener("DOMContentLoaded", loadDeck);
-  }
+if (document.readyState !== "loading" &&
+    document.querySelector('slides') === null) { 
+  // if the document is done loading but our element hasn't yet appeared, defer
+  // loading of the deck
+  window.setTimeout(function() {
+    loadDeck(null);
+  }, 0);
+} else {
+  // still loading the DOM, so wait until it's finished
+  document.addEventListener("DOMContentLoaded", loadDeck);
 }
+
 
 
 </script>
@@ -3207,19 +3204,59 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
           </hgroup>
   </slide>
 
-<slide class=""><hgroup><h2>R Markdown</h2></hgroup><article  id="r-markdown">
-
-<p>This is an R Markdown presentation. Markdown is a simple formatting syntax for authoring HTML, PDF, and MS Word documents. For more details on using R Markdown see <a href='http://rmarkdown.rstudio.com' title=''>http://rmarkdown.rstudio.com</a>.</p>
-
-<p>When you click the <strong>Knit</strong> button a document will be generated that includes both content as well as the output of any embedded R code chunks within the document.</p>
-
-</article></slide><slide class=""><hgroup><h2>Slide with Bullets</h2></hgroup><article  id="slide-with-bullets">
+<slide class=""><hgroup><h2>ÍNDICE</h2></hgroup><article  id="índice">
 
 <ul>
-<li>Bullet 1</li>
-<li>Bullet 2</li>
-<li>Bullet 3</li>
+<li>Introducción</li>
+<li>Importación de datos</li>
+<li>Formateo de datos</li>
+<li></li>
 </ul>
+
+</article></slide><slide class=""><hgroup><h2>INTRODUCCIÓN 📖</h2></hgroup><article  id="introducción">
+
+<p>El sedentarismo representa un serio problema para la salud pública, especialmente en Occidente, según Rodulfo, J. I. A. (2019) 🤓 [1]. Algunos de sus principales efectos, ampliamente estudiados, se evidencian en trastornos como la hipertensión, la diabetes tipo II o la obesidad, las cuales ya alcanzan la categoría de epidemia en los Estados Unidos según Hu, F. B. (2003) 🤓 [2]. En el mismo artículo se habla también de la relación directa entre estos trastornos y un estilo de vida sedentario, y, en particular, se comenta como un estilo de vida sedentario tiene consecuencias muy negativas independientemente de dieta y cantidad de horas dedicadas a la actividad física.</p>
+
+<p>Ahora bien, ¿alguna vez os habéis planteado cómo afecta al sedentarismo a otros aspectos acerca de nuestra salud no tan obvios?</p>
+
+<p>En el siguiente trabajo vamos a tratar de encontrar, o en su defecto descartar, la existencia de una correlación directa entre un estilo de vida sedentario y el desarrollo de problemas de visión y/o auditivos valiéndonos para ello de sendos estudios expuestos más adelante acerca de la distribución de dichos problemas y el estilo de vida a lo largo del territorio español teniendo además en cuenta otros factores como edad o sexo.</p>
+
+</article></slide><slide class=""><hgroup><h2>IMPORTACIÓN DE DATOS</h2></hgroup><article  id="importación-de-datos">
+
+<h3>Importamos las librerías y los datos a usar</h3>
+
+<pre >## 
+## Attaching package: &#39;tidyjson&#39;</pre>
+
+<pre >## The following object is masked from &#39;package:stats&#39;:
+## 
+##     filter</pre>
+
+<pre >## ── Attaching core tidyverse packages ──────────────────────── tidyverse 2.0.0 ──
+## ✔ dplyr     1.1.3     ✔ readr     2.1.4
+## ✔ forcats   1.0.0     ✔ stringr   1.5.0
+## ✔ ggplot2   3.4.3     ✔ tibble    3.2.1
+## ✔ lubridate 1.9.3     ✔ tidyr     1.3.0
+## ✔ purrr     1.0.2     
+## ── Conflicts ────────────────────────────────────────── tidyverse_conflicts() ──
+## ✖ dplyr::filter() masks tidyjson::filter(), stats::filter()
+## ✖ dplyr::lag()    masks stats::lag()
+## ℹ Use the conflicted package (&lt;http://conflicted.r-lib.org/&gt;) to force all conflicts to become errors</pre>
+
+<pre >## Warning: package &#39;ggborderline&#39; was built under R version 4.3.2</pre>
+
+<pre >## Warning: package &#39;ggdark&#39; was built under R version 4.3.2</pre>
+
+</article></slide><slide class=""><hgroup><h2>FORMATEO DE DATOS</h2></hgroup><article  id="formateo-de-datos">
+
+<h3>Formateamos el conjunto de datos: imc_SexAge</h3>
+
+<pre >## # A tibble: 3 × 3
+##   name     type       n
+##   &lt;chr&gt;    &lt;fct&gt;  &lt;int&gt;
+## 1 Data     array    162
+## 2 MetaData array    162
+## 3 Nombre   string   162</pre>
 
 </article></slide><slide class=""><hgroup><h2>Slide with R Output</h2></hgroup><article  id="slide-with-r-output">
 
@@ -3262,11 +3299,6 @@ code span.wa { color: #60a0b0; font-weight: bold; font-style: italic; }
        window.jQuery(document).on('slideenter', function(e) {
          window.jQuery(e.target).trigger('shown');
       });
-    }
-    if (window.Shiny) {
-      // Initialize slides when this script appears on the page, since it
-      // indicates that the <slides> markup has been fully loaded.
-      window.loadDeck();
     }
   })();
 </script>
