@@ -2,18 +2,25 @@
 title: "Relación del sedentarismo con problemas auditivos y visuales"
 author: "Antonia Añazco, Daniel Marrón, Jorge Bermejo"
 date: "`r Sys.Date()`"
-output: ioslides_presentation
+output: 
+  ioslides_presentation:
+    widescreen: true
+    smaller: true
+    logo: "IMAGES/logo-universidad-de-burgos.png"
 ---
 
 ```{r setup, include=FALSE}
 knitr::opts_chunk$set(echo = FALSE)
 ```
+
+
 ## ÍNDICE
 
 - Introducción
-- Importación de datos
-- Formateo de datos
-- 
+- Objetivos
+- Métodos
+- Resultados
+- Discusión
 
 
 ## INTRODUCCIÓN 📖
@@ -25,7 +32,10 @@ Ahora bien, ¿alguna vez os habéis planteado cómo afecta al sedentarismo a otr
 En el siguiente trabajo vamos a tratar de encontrar, o en su defecto descartar, la existencia de una correlación directa entre un estilo de vida sedentario y el desarrollo de problemas de visión y/o auditivos valiéndonos para ello de sendos estudios expuestos más adelante acerca de la distribución de dichos problemas y el estilo de vida a lo largo del territorio español teniendo además en cuenta otros factores como edad o sexo. 
 
 
-## IMPORTACIÓN DE DATOS
+## OBJETIVOS
+
+
+## MÉTODOS
 ### Importamos las librerías y los datos a usar
 ```{r}
 library(tidyjson)
