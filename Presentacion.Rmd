@@ -123,4 +123,27 @@ La función substring() devuelve el sub-character presente en un character de ma
 ```{r}
 sedent_sexo_edad %>% gather_object %>% json_types %>% count(name, type)
 ```
+## MÉTODOS (VII)
+### FORMATEO DE DATOS
+#### Formateamos el conjunto de datos: "sedent_sexo_edad"
+{r}
+sedent_SexAge <- sedent_sexo_edad %>% 
+enter_object(Data) %>% 
+gather_array %>% 
+spread_all()
+sedent_SexAge$Sexo <- NA
+sedent_SexAge$Edad <- NA
+sedent_SexAge$Sedentarismo <- NA
+for (i in 1:dim(sedent_SexAge)[1]){
+  r <- unlist(gregexpr(',', sedent_SexAge$Nombre[i]))
+  primera_coma <- r[1]
+  segunda_coma <- r[2]
+  sedent_SexAge$Sexo[i] <- substring(sedent_SexAge$Nombre[i], 0, primera_coma-1)
+  edad <- substring(sedent_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != " TOTAL"){
+  edad <- substring(sedent_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  sedent_SexAge$Edad[i] <- edad
+  sedent_SexAge$Sedentarismo[i] <- substring(sedent_SexAge$Nombre[i], segunda_coma+1)
+}
 
