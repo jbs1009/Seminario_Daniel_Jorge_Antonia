@@ -242,14 +242,17 @@ grafico1_M <- grafico1 %>% filter(.data = ., Sexo == "Mujeres")
 
 grafico1 %>%
   ggplot() + 
-  geom_col(aes(x = Edad, y = porcentaje_sedentarios/4), fill = "#FFEC8B", color = "black") + 
-  geom_borderline(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos), linewidth = 1.2, color = "#9400D3", bordercolor = "black", group = 1) +
-  geom_borderline(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos), linewidth = 1.2, color = "cyan", bordercolor = "black",group = 1) + 
+  geom_col(aes(x = Edad, y = porcentaje_sedentarios/4, fill = "Sedentarismo"), color = "black") + 
+    scale_fill_manual(values = c("#FFEC8B")) +
+  geom_borderline(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos, color = "Uso de gafas (Hombres)"), linewidth = 1.2, bordercolor = "black", group = 1) +
+  geom_borderline(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos, color = "Uso de gafas (Mujeres)"), linewidth = 1.2, bordercolor = "black",group = 1) + 
   scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) +
   guides(x = guide_axis(angle =45)) +
   facet_wrap(facets = vars(Sexo), nrow = 1) +
   geom_point(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, fill="snow", color = "black") +
   geom_point(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, fill="snow", color = "black") +
+  guides(fill = guide_legend(title = "Sedentarismo")) +
+  guides(color = guide_legend(title = "Uso de Gafas")) +
   labs(x= "Grupos de edad", 
        y = "Porcentaje sedentarismo (%)",
        title = "Relación del sedentarismo con el uso de audífonos por grupos de edad y sexo") +
@@ -271,7 +274,7 @@ grafico1 %>%
     axis.text.x = element_text(           
                     margin=margin(8, b = 12)),
     axis.text.y = element_text(           
-                    margin=margin(8, b = 12)))
+                    margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan"))
   
 ```
 ```{r, warning = FALSE} 
@@ -356,11 +359,14 @@ grafico2_M <- grafico2 %>% filter(.data = ., Sexo == "Mujeres")
 
 grafico2 %>%
   ggplot() + 
-  geom_col(aes(x = Edad, y = porcentaje_sedentarios/4), fill = "#FFEC8B", color = "black") + 
-  geom_borderline(data = grafico2_H, aes(x = Edad, y = porcentaje_gafas), linewidth = 1.2, color = "#9400D3", bordercolor = "black", group = 1) +
-  geom_borderline(data = grafico2_M, aes(x = Edad, y = porcentaje_gafas), linewidth = 1.2, color = "cyan", bordercolor = "black",group = 1) + 
+  geom_col(aes(x = Edad, y = porcentaje_sedentarios/4, fill = "Sedentarismo"), color = "black") + 
+  scale_fill_manual(values = c("#FFEC8B")) +
+  geom_borderline(data = grafico2_H, aes(x = Edad, y = porcentaje_gafas, color = "Uso de gafas (Hombres)"), linewidth = 1.2, bordercolor = "black", group = 1) +
+  geom_borderline(data = grafico2_M, aes(x = Edad, y = porcentaje_gafas, color = "Uso de gafas (Mujeres)"), linewidth = 1.2, bordercolor = "black",group = 1) + 
   scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso gafas (%)")) +
   guides(x = guide_axis(angle =45)) +
+  guides(fill = guide_legend(title = "Sedentarismo")) +
+  guides(color = guide_legend(title = "Uso de Gafas")) +
   facet_wrap(facets = vars(Sexo), nrow = 1) +
   geom_point(data = grafico2_M, aes(x = Edad, y = porcentaje_gafas), size=3, shape=21, fill="snow", color = "black") +
   geom_point(data = grafico2_H, aes(x = Edad, y = porcentaje_gafas), size=3, shape=21, fill="snow", color = "black") +  
@@ -385,7 +391,8 @@ grafico2 %>%
     axis.text.x = element_text(           
                     margin=margin(8, b = 12)),
     axis.text.y = element_text(           
-                    margin=margin(8, b = 12)))
+                    margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan"))
+
 ```
 
 ## DATOS 📖
