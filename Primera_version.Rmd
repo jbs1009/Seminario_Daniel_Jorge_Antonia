@@ -266,15 +266,14 @@ grafico1 %>%
     axis.title = element_text(             
                    family = "serif",           
                    size = 9),              
-      
     axis.text = element_text(             
                    family = "serif",            
                    size = 7),                
-      
     axis.text.x = element_text(           
                     margin=margin(8, b = 12)),
     axis.text.y = element_text(           
-                    margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan"))
+                    margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan")) +
+  theme(legend.text = element_text (size = 7))
   
 ```
 ```{r, warning = FALSE} 
@@ -391,7 +390,8 @@ grafico2 %>%
     axis.text.x = element_text(           
                     margin=margin(8, b = 12)),
     axis.text.y = element_text(           
-                    margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan"))
+                    margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan")) +
+  theme(legend.text = element_text (size = 7))
 
 ```
 
