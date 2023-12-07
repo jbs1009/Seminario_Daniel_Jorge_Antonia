@@ -257,7 +257,7 @@ grafico1 %>%
        y = "Porcentaje sedentarismo (%)",
        title = "Relación del sedentarismo con el uso de audífonos por grupos de edad y sexo") +
   dark_theme_gray() + 
-    theme (panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    theme (legend.title = element_text(size = 9), panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
     plot.title =element_text(
         family = "serif",
         size = 12,
@@ -374,7 +374,7 @@ grafico2 %>%
        y = "Porcentaje sedentarismo (%)",
        title = "Relación del sedentarismo con el uso de gafas según sexo y edad") +
   dark_theme_gray() + 
-    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    theme(legend.title = element_text(size = 9), panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
     plot.title =element_text(
         family = "serif",
         size = 12,
