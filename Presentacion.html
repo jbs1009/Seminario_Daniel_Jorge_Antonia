@@ -3295,15 +3295,11 @@ library(readxl)
 library(dplyr)
 library(ggplot2)
 library(tidyr)
-library(ggborderline)</pre>
+library(ggborderline)
+library(ggdark)
 
-<pre >## Warning: package &#39;ggborderline&#39; was built under R version 4.3.2</pre>
 
-<pre class = 'prettyprint lang-r'>library(ggdark)</pre>
-
-<pre >## Warning: package &#39;ggdark&#39; was built under R version 4.3.2</pre>
-
-<pre class = 'prettyprint lang-r'>audifono_sexo_edad &lt;- fromJSON(file = &quot;DATOS/audif_SexAge_miles.json&quot;)
+audifono_sexo_edad &lt;- fromJSON(file = &quot;DATOS/audif_SexAge_miles.json&quot;)
 gafas_sexo_edad &lt;- fromJSON(file = &quot;DATOS/gafas_SexAge_miles.json&quot;)
 imc_sexo_edad &lt;- fromJSON(file = &quot;DATOS/imc_SexAge_miles.json&quot;)
 sedentarismo_sexo_edad &lt;- fromJSON(file = &quot;DATOS/seden_SexAge_miles.json&quot;)</pre>
@@ -3380,7 +3376,74 @@ for (i in 1:dim(imc_SexAge)[1]){
 ##   &lt;chr&gt;    &lt;fct&gt;  &lt;int&gt;
 ## 1 Data     array    108
 ## 2 MetaData array    108
-## 3 Nombre   string   108</pre></article></slide>
+## 3 Nombre   string   108</pre>
+
+</article></slide><slide class=""><hgroup><h2>MÉTODOS (VII)</h2></hgroup><article  id="métodos-vii" class="smaller ">
+
+<h3>FORMATEO DE DATOS</h3>
+
+<h4>Formateamos el conjunto de datos: &ldquo;sedent_sexo_edad&rdquo;</h4>
+
+<pre class = 'prettyprint lang-r'>sedent_SexAge &lt;- sedent_sexo_edad %&gt;% 
+enter_object(Data) %&gt;% 
+gather_array %&gt;% 
+spread_all()
+sedent_SexAge$Sexo &lt;- NA
+sedent_SexAge$Edad &lt;- NA
+sedent_SexAge$Sedentarismo &lt;- NA
+for (i in 1:dim(sedent_SexAge)[1]){
+  r &lt;- unlist(gregexpr(&#39;,&#39;, sedent_SexAge$Nombre[i]))
+  primera_coma &lt;- r[1]
+  segunda_coma &lt;- r[2]
+  sedent_SexAge$Sexo[i] &lt;- substring(sedent_SexAge$Nombre[i], 0, primera_coma-1)
+  edad &lt;- substring(sedent_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != &quot; TOTAL&quot;){
+  edad &lt;- substring(sedent_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  sedent_SexAge$Edad[i] &lt;- edad
+  sedent_SexAge$Sedentarismo[i] &lt;- substring(sedent_SexAge$Nombre[i], segunda_coma+1)
+}</pre>
+
+</article></slide><slide class=""><hgroup><h2>MÉTODOS (VIII)</h2></hgroup><article  id="métodos-viii" class="smaller ">
+
+<h3>FORMATEO DE DATOS</h3>
+
+<h4>Formateamos el conjunto de datos: &ldquo;gafas_sexo_edad&rdquo;</h4>
+
+<pre class = 'prettyprint lang-r'>gafas_sexo_edad %&gt;% gather_object %&gt;% json_types %&gt;% count(name,type) </pre>
+
+<pre >## # A tibble: 3 × 3
+##   name     type       n
+##   &lt;chr&gt;    &lt;fct&gt;  &lt;int&gt;
+## 1 Data     array    108
+## 2 MetaData array    108
+## 3 Nombre   string   108</pre>
+
+</article></slide><slide class=""><hgroup><h2>MÉTODOS (IX)</h2></hgroup><article  id="métodos-ix" class="smaller ">
+
+<h3>FORMATEO DE DATOS</h3>
+
+<h4>Formateamos el conjunto de datos: &ldquo;gafas_sexo_edad&rdquo;</h4>
+
+<pre class = 'prettyprint lang-r'>gafas_SexAge &lt;- gafas_sexo_edad %&gt;%
+  enter_object(Data) %&gt;%
+  gather_array %&gt;%
+  spread_all()
+gafas_SexAge$Sexo &lt;- NA
+gafas_SexAge$Edad &lt;- NA
+gafas_SexAge$Gafas &lt;- NA
+for (i in 1:dim(gafas_SexAge)[1]){
+  r &lt;- unlist(gregexpr(&#39;,&#39;, gafas_SexAge$Nombre[i]))
+  primera_coma &lt;- r[1]
+  segunda_coma &lt;- r[2]
+  gafas_SexAge$Sexo[i] &lt;- substring(gafas_SexAge$Nombre[i], 0, primera_coma-1)
+  edad &lt;- substring(gafas_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != &quot; TOTAL&quot;){
+  edad &lt;- substring(gafas_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  gafas_SexAge$Edad[i] &lt;- edad
+  gafas_SexAge$Gafas[i] &lt;- substring(gafas_SexAge$Nombre[i], segunda_coma+1)
+}</pre></article></slide>
 
 
   <slide class="backdrop"></slide>

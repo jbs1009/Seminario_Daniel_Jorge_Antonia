@@ -57,7 +57,7 @@ library(tidyverse)
 ```
 ## MÉTODOS (II)
 ### Importamos las librerías y los datos a usar
-```{r}
+```{r, warning = FALSE}
 library(readr)
 library(readxl)
 library(dplyr)
