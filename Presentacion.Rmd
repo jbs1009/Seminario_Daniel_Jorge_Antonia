@@ -126,7 +126,7 @@ sedent_sexo_edad %>% gather_object %>% json_types %>% count(name, type)
 ## MÉTODOS (VII)
 ### FORMATEO DE DATOS
 #### Formateamos el conjunto de datos: "sedent_sexo_edad"
-{r}
+```{r}
 sedent_SexAge <- sedent_sexo_edad %>% 
 enter_object(Data) %>% 
 gather_array %>% 
@@ -146,4 +146,35 @@ for (i in 1:dim(sedent_SexAge)[1]){
   sedent_SexAge$Edad[i] <- edad
   sedent_SexAge$Sedentarismo[i] <- substring(sedent_SexAge$Nombre[i], segunda_coma+1)
 }
+```
+## MÉTODOS (VIII)
+### FORMATEO DE DATOS
+#### Formateamos el conjunto de datos: "gafas_sexo_edad"
 
+```{r}
+gafas_sexo_edad %>% gather_object %>% json_types %>% count(name,type) 
+```
+## MÉTODOS (IX)
+### FORMATEO DE DATOS
+#### Formateamos el conjunto de datos: "gafas_sexo_edad"
+```{r}
+gafas_SexAge <- gafas_sexo_edad %>%
+  enter_object(Data) %>%
+  gather_array %>%
+  spread_all()
+gafas_SexAge$Sexo <- NA
+gafas_SexAge$Edad <- NA
+gafas_SexAge$Gafas <- NA
+for (i in 1:dim(gafas_SexAge)[1]){
+  r <- unlist(gregexpr(',', gafas_SexAge$Nombre[i]))
+  primera_coma <- r[1]
+  segunda_coma <- r[2]
+  gafas_SexAge$Sexo[i] <- substring(gafas_SexAge$Nombre[i], 0, primera_coma-1)
+  edad <- substring(gafas_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != " TOTAL"){
+  edad <- substring(gafas_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  gafas_SexAge$Edad[i] <- edad
+  gafas_SexAge$Gafas[i] <- substring(gafas_SexAge$Nombre[i], segunda_coma+1)
+}
+```
