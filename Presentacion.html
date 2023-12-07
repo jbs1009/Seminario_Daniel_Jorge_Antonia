@@ -3070,18 +3070,21 @@ var loadDeck = function(event) {
   });
 };
 
-if (document.readyState !== "loading" &&
-    document.querySelector('slides') === null) { 
-  // if the document is done loading but our element hasn't yet appeared, defer
-  // loading of the deck
-  window.setTimeout(function() {
-    loadDeck(null);
-  }, 0);
-} else {
-  // still loading the DOM, so wait until it's finished
-  document.addEventListener("DOMContentLoaded", loadDeck);
-}
+if (!window.Shiny) {
+  // If Shiny is loaded, the slide deck is initialized in ioslides template
 
+  if (document.readyState !== "loading" &&
+      document.querySelector('slides') === null) {
+    // if the document is done loading but our element hasn't yet appeared, defer
+    // loading of the deck
+    window.setTimeout(function() {
+      loadDeck(null);
+    }, 0);
+  } else {
+    // still loading the DOM, so wait until it's finished
+    document.addEventListener("DOMContentLoaded", loadDeck);
+  }
+}
 
 
 </script>
@@ -3231,15 +3234,23 @@ line-height: 1.9;
 <li>Discusión</li>
 </ul>
 
-</article></slide><slide class=""><hgroup><h2>INTRODUCCIÓN 📖</h2></hgroup><article  id="introducción" class="smaller ">
+</article></slide><slide class=""><hgroup><h2>INTRODUCCIÓN (I) 📖</h2></hgroup><article  id="introducción-i" class="smaller ">
 
-<p>El sedentarismo representa un serio problema para la salud pública, especialmente en Occidente, según Rodulfo, J. I. A. (2019) 🤓 [1]. Algunos de sus principales efectos, ampliamente estudiados, se evidencian en trastornos como la hipertensión, la diabetes tipo II o la obesidad, las cuales ya alcanzan la categoría de epidemia en los Estados Unidos según Hu, F. B. (2003) 🤓 [2]. En el mismo artículo se habla también de la relación directa entre estos trastornos y un estilo de vida sedentario, y, en particular, se comenta como un estilo de vida sedentario tiene consecuencias muy negativas independientemente de dieta y cantidad de horas dedicadas a la actividad física.</p>
+<p>El sedentarismo representa un <strong>serio problema</strong> para la salud pública, especialmente en Occidente, según Rodulfo, J. I. A. (2019) 🤓 [1].</p>
 
-<p>Ahora bien, ¿alguna vez os habéis planteado cómo afecta al sedentarismo a otros aspectos acerca de nuestra salud no tan obvios?</p>
+<p>Algunos efectos según Hu, F. B. (2003) 🤓 [2]:</p>
 
-<p>En el siguiente trabajo vamos a tratar de encontrar, o en su defecto descartar, la existencia de una correlación directa entre un estilo de vida sedentario y el desarrollo de problemas de visión y/o auditivos valiéndonos para ello de sendos estudios expuestos más adelante acerca de la distribución de dichos problemas y el estilo de vida a lo largo del territorio español teniendo además en cuenta otros factores como edad o sexo.</p>
+<p>• Hipertensión</p>
 
-</article></slide><slide class=""><hgroup><h2>IMPORTACIÓN DE DATOS</h2></hgroup><article  id="importación-de-datos" class="smaller ">
+<p>• Diabetes tipo II</p>
+
+<p>• Obesidad</p>
+
+<p>Ahora bien, ¿alguna vez os habéis planteado <strong>cómo afecta al sedentarismo a otros aspectos acerca de nuestra salud no tan obvios</strong>?</p>
+
+</article></slide><slide class=""><hgroup><h2>OBJETIVOS</h2></hgroup><article  id="objetivos" class="smaller ">
+
+</article></slide><slide class=""><hgroup><h2>MÉTODOS</h2></hgroup><article  id="métodos" class="smaller ">
 
 <h3>Importamos las librerías y los datos a usar</h3>
 
@@ -3317,6 +3328,11 @@ line-height: 1.9;
        window.jQuery(document).on('slideenter', function(e) {
          window.jQuery(e.target).trigger('shown');
       });
+    }
+    if (window.Shiny) {
+      // Initialize slides when this script appears on the page, since it
+      // indicates that the <slides> markup has been fully loaded.
+      window.loadDeck();
     }
   })();
 </script>
