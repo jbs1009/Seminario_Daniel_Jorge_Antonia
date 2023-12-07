@@ -56,7 +56,7 @@ library(rjson)
 library(tidyverse)
 ```
 ## MÉTODOS (II)
-### Importamos las librerías y los datos a usar
+### Importamos las librerías y los datos a usar
 ```{r}
 library(readr)
 library(readxl)
@@ -72,5 +72,38 @@ gafas_sexo_edad <- fromJSON(file = "DATOS/gafas_SexAge_miles.json")
 imc_sexo_edad <- fromJSON(file = "DATOS/imc_SexAge_miles.json")
 sedentarismo_sexo_edad <- fromJSON(file = "DATOS/seden_SexAge_miles.json")
 ```
-
-
+## MÉTODOS (III)
+### FORMATEO DE DATOS
+```{r}
+audif_sexo_edad <- audifono_sexo_edad %>% spread_all()
+gafas_sexo_edad <- gafas_sexo_edad %>% spread_all()
+imc_sexo_edad <- imc_sexo_edad %>% spread_all()
+sedent_sexo_edad <- sedentarismo_sexo_edad %>% spread_all()
+```
+#### Formateamos el conjunto de datos: "imc_SexAge"
+```{r}
+imc_sexo_edad %>% gather_object %>% json_types %>% count(name,type) 
+```
+## MÉTODOS (IV)
+#### Formateamos el conjunto de datos: "imc_SexAge"
+```{r}
+imc_SexAge <- imc_sexo_edad %>%
+enter_object(Data) %>%
+gather_array %>%
+spread_all()
+imc_SexAge$Sexo <- NA
+imc_SexAge$Edad <- NA
+imc_SexAge$IMC <- NA
+for (i in 1:dim(imc_SexAge)[1]){
+  r <- unlist(gregexpr(',', imc_SexAge$Nombre[i]))
+  primera_coma <- r[1]
+  segunda_coma <- r[2]
+  imc_SexAge$Sexo[i] <- substring(imc_SexAge$Nombre[i], 0, primera_coma-1)
+  edad <- substring(imc_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != " TOTAL"){
+  edad <- substring(imc_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  imc_SexAge$Edad[i] <- edad
+  imc_SexAge$IMC[i] <- substring(imc_SexAge$Nombre[i], segunda_coma+1)
+}
+```
