@@ -244,15 +244,15 @@ grafico1 %>%
   ggplot() + 
   geom_col(aes(x = Edad, y = porcentaje_sedentarios/4, fill = "Sedentarismo"), color = "black") + 
     scale_fill_manual(values = c("#FFEC8B")) +
-  geom_borderline(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos, color = "Uso de gafas (Hombres)"), linewidth = 1.2, bordercolor = "black", group = 1) +
-  geom_borderline(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos, color = "Uso de gafas (Mujeres)"), linewidth = 1.2, bordercolor = "black",group = 1) + 
+  geom_borderline(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos, color = "Uso de audífonos (Hombres)"), linewidth = 1.2, bordercolor = "black", group = 1) +
+  geom_borderline(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos, color = "Uso de audífonos (Mujeres)"), linewidth = 1.2, bordercolor = "black",group = 1) + 
   scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) +
   guides(x = guide_axis(angle =45)) +
   facet_wrap(facets = vars(Sexo), nrow = 1) +
   geom_point(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, fill="snow", color = "black") +
   geom_point(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, fill="snow", color = "black") +
   guides(fill = guide_legend(title = "Sedentarismo")) +
-  guides(color = guide_legend(title = "Uso de Gafas")) +
+  guides(color = guide_legend(title = "Uso de Audífonos")) +
   labs(x= "Grupos de edad", 
        y = "Porcentaje sedentarismo (%)",
        title = "Relación del sedentarismo con el uso de audífonos por grupos de edad y sexo") +
