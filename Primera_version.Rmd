@@ -273,7 +273,8 @@ grafico1 %>%
                     margin=margin(8, b = 12)),
     axis.text.y = element_text(           
                     margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan")) +
-  theme(legend.text = element_text (size = 7))
+  theme(legend.text = element_text (size = 7),
+        legend.position = "bottom")
   
 ```
 ```{r, warning = FALSE} 
@@ -391,7 +392,8 @@ grafico2 %>%
                     margin=margin(8, b = 12)),
     axis.text.y = element_text(           
                     margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan")) +
-  theme(legend.text = element_text (size = 7))
+  theme(legend.text = element_text (size = 7),
+        legend.position = "bottom")
 
 ```
 
