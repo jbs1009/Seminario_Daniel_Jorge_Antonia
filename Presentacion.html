@@ -3288,7 +3288,7 @@ library(tidyverse)</pre>
 
 </article></slide><slide class=""><hgroup><h2>MÉTODOS (II)</h2></hgroup><article  id="métodos-ii" class="smaller ">
 
-<h3>Importamos las librerías y los datos a usar</h3>
+<h3>Importamos las librerías y los datos a usar</h3>
 
 <pre class = 'prettyprint lang-r'>library(readr)
 library(readxl)
@@ -3306,7 +3306,81 @@ library(ggborderline)</pre>
 <pre class = 'prettyprint lang-r'>audifono_sexo_edad &lt;- fromJSON(file = &quot;DATOS/audif_SexAge_miles.json&quot;)
 gafas_sexo_edad &lt;- fromJSON(file = &quot;DATOS/gafas_SexAge_miles.json&quot;)
 imc_sexo_edad &lt;- fromJSON(file = &quot;DATOS/imc_SexAge_miles.json&quot;)
-sedentarismo_sexo_edad &lt;- fromJSON(file = &quot;DATOS/seden_SexAge_miles.json&quot;)</pre></article></slide>
+sedentarismo_sexo_edad &lt;- fromJSON(file = &quot;DATOS/seden_SexAge_miles.json&quot;)</pre>
+
+</article></slide><slide class=""><hgroup><h2>MÉTODOS (III)</h2></hgroup><article  id="métodos-iii" class="smaller ">
+
+<h3>FORMATEO DE DATOS</h3>
+
+<pre class = 'prettyprint lang-r'>audif_sexo_edad &lt;- audifono_sexo_edad %&gt;% spread_all()
+gafas_sexo_edad &lt;- gafas_sexo_edad %&gt;% spread_all()
+imc_sexo_edad &lt;- imc_sexo_edad %&gt;% spread_all()
+sedent_sexo_edad &lt;- sedentarismo_sexo_edad %&gt;% spread_all()</pre>
+
+<h4>Formateamos el conjunto de datos: &ldquo;imc_SexAge&rdquo;</h4>
+
+<pre class = 'prettyprint lang-r'>imc_sexo_edad %&gt;% gather_object %&gt;% json_types %&gt;% count(name,type) </pre>
+
+<pre >## # A tibble: 3 × 3
+##   name     type       n
+##   &lt;chr&gt;    &lt;fct&gt;  &lt;int&gt;
+## 1 Data     array    162
+## 2 MetaData array    162
+## 3 Nombre   string   162</pre>
+
+</article></slide><slide class=""><hgroup><h2>MÉTODOS (IV)</h2></hgroup><article  id="métodos-iv" class="smaller ">
+
+<h4>Formateamos el conjunto de datos: &ldquo;imc_SexAge&rdquo;</h4>
+
+<pre class = 'prettyprint lang-r'>imc_SexAge &lt;- imc_sexo_edad %&gt;%
+enter_object(Data) %&gt;%
+gather_array %&gt;%
+spread_all()
+imc_SexAge$Sexo &lt;- NA
+imc_SexAge$Edad &lt;- NA
+imc_SexAge$IMC &lt;- NA
+for (i in 1:dim(imc_SexAge)[1]){
+  r &lt;- unlist(gregexpr(&#39;,&#39;, imc_SexAge$Nombre[i]))
+  primera_coma &lt;- r[1]
+  segunda_coma &lt;- r[2]
+  imc_SexAge$Sexo[i] &lt;- substring(imc_SexAge$Nombre[i], 0, primera_coma-1)
+  edad &lt;- substring(imc_SexAge$Nombre[i], primera_coma+1, segunda_coma-1)
+  if (edad != &quot; TOTAL&quot;){
+  edad &lt;- substring(imc_SexAge$Nombre[i], primera_coma+4, primera_coma+12)
+  }
+  imc_SexAge$Edad[i] &lt;- edad
+  imc_SexAge$IMC[i] &lt;- substring(imc_SexAge$Nombre[i], segunda_coma+1)
+}</pre>
+
+</article></slide><slide class=""><hgroup><h2>MÉTODOS (V)</h2></hgroup><article  id="métodos-v" class="smaller ">
+
+<h4>Formateamos el conjunto de datos: &ldquo;imc_SexAge&rdquo;</h4>
+
+<p>Algunas aclaraciones al respecto:</p>
+
+<pre class = 'prettyprint lang-r'>imc_SexAge %&gt;% gather_object %&gt;% json_types %&gt;% count(name,type) </pre>
+
+<pre >## # A tibble: 1 × 3
+##   name  type       n
+##   &lt;chr&gt; &lt;fct&gt;  &lt;int&gt;
+## 1 Valor number   162</pre>
+
+<p>Este &ldquo;Code Chunk&rdquo; nos sirve para saber a qué datos hemos de acceder. En particular, se formateará los datos de la categoría array (excepto MetaData) En el resultado anterior ya dicho array no se encuentra porque ya lo hemos formateado. Además, las funciones unlist(gregexpr()) devuelve el índice de todas las apariciones de un determinado character en un character de mayor longitud. La función substring() devuelve el sub-character presente en un character de mayor longitud entre ciertos índices pasados como argumento.</p>
+
+</article></slide><slide class=""><hgroup><h2>MÉTODOS (VI)</h2></hgroup><article  id="métodos-vi" class="smaller ">
+
+<h3>FORMATEO DE DATOS</h3>
+
+<h4>Formateamos el conjunto de datos: &ldquo;sedent_sexo_edad&rdquo;</h4>
+
+<pre class = 'prettyprint lang-r'>sedent_sexo_edad %&gt;% gather_object %&gt;% json_types %&gt;% count(name, type)</pre>
+
+<pre >## # A tibble: 3 × 3
+##   name     type       n
+##   &lt;chr&gt;    &lt;fct&gt;  &lt;int&gt;
+## 1 Data     array    108
+## 2 MetaData array    108
+## 3 Nombre   string   108</pre></article></slide>
 
 
   <slide class="backdrop"></slide>

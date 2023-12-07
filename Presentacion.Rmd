@@ -107,3 +107,20 @@ for (i in 1:dim(imc_SexAge)[1]){
   imc_SexAge$IMC[i] <- substring(imc_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
+## MÉTODOS (V)
+#### Formateamos el conjunto de datos: "imc_SexAge"
+Algunas aclaraciones al respecto:
+```{r}
+imc_SexAge %>% gather_object %>% json_types %>% count(name,type) 
+```
+Este "Code Chunk" nos sirve para saber a qué datos hemos de acceder. En particular, se formateará los datos de la categoría array (excepto MetaData) En el resultado anterior ya dicho array no se encuentra porque ya lo hemos formateado.
+Además, las funciones unlist(gregexpr()) devuelve el índice de todas las apariciones de un determinado character en un character de mayor longitud. 
+La función substring() devuelve el sub-character presente en un character de mayor longitud entre ciertos índices pasados como argumento.
+
+## MÉTODOS (VI)
+### FORMATEO DE DATOS
+#### Formateamos el conjunto de datos: "sedent_sexo_edad"
+```{r}
+sedent_sexo_edad %>% gather_object %>% json_types %>% count(name, type)
+```
+
