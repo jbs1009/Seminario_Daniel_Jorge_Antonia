@@ -23,7 +23,7 @@ knitr::opts_chunk$set(echo = TRUE)
 - Discusión
 
 
-## INTRODUCCIÓN (I) 📖
+## INTRODUCCIÓN 📖
 
 El sedentarismo representa un **serio problema** para la salud pública, especialmente en Occidente, según Rodulfo, J. I. A. (2019) 🤓 [1]. 
 
@@ -36,4 +36,25 @@ Algunos efectos según Hu, F. B. (2003) 🤓 [2]:
 • Obesidad 
 
 Ahora bien, ¿alguna vez os habéis planteado **cómo afecta al sedentarismo a otros aspectos acerca de nuestra salud no tan obvios**? 
+
+## OBJETIVOS
+
+• Relación entre el sedentarismo y el uso de audífonos por grupos de edad
+
+• Relación entre el sedentarismo y el uso de audífonos según el sexo
+
+• Relación entre el sedentarismo y el uso de gafas por grupos de edad
+
+• Relación entre el sedentarismo y el uso de gafas según el sexo
+
+
+## MÉTODOS (I)
+### Importamos las librerías y los datos a usar
+```{r, warning = FALSE}
+library(tidyjson)
+library(rjson)
+library(tidyverse)
+```
+
+
 
