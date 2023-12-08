@@ -2,16 +2,16 @@
 # README proyecto de investigación y análisis estadístico sobre relación entre sedentarismo y uso de audífonos y/o gafas.
 
 En este repositorio de GitHub se presenta un trabajo en el que se analiza la posible influencia de un estilo de vida sedentario en el desarrollo de problemas de tipo visual y/o auditivo, extrapolados a partir de estadísticas reales extraídas de la base de datos oficial de datos del gobierno de España acerca de utilización de, respectivamente, gafas y/o audífono. El análisis estadístico consecuente ha sido llevado a cabo con el lenguaje de programación R, en particular, utilizando el software de R Studio como entorno para dicho objetivo. Además de funciones disponibles en R de base, se han hecho uso, para ello, de las siguientes librerías:
-library(tidyjson),
-library(rjson),
-library(tidyverse),
-library(readr),
-library(readxl),
-library(dplyr),
-library(ggplot2),
-library(tidyr),
-library(ggborderline),
-library(ggdark)
+- library(tidyjson),
+- library(rjson),
+- library(tidyverse),
+- library(readr),
+- library(readxl),
+- library(dplyr),
+- library(ggplot2),
+- library(tidyr),
+- library(ggborderline),
+- library(ggdark)
 Todo el código, metodología, resultados, conclusiones del estudio... están disponibles en este repositorio de GitHub.
 
 # Introducción 
