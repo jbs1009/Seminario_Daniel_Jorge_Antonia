@@ -609,8 +609,10 @@ grafico2 %>%
   guides(fill = guide_legend(title = "Sedentarismo")) +
   guides(color = guide_legend(title = "Uso de Gafas")) +
   facet_wrap(facets = vars(Sexo), nrow = 1) +
-  geom_point(data = grafico2_M, aes(x = Edad, y = porcentaje_gafas), size=3, shape=21, fill="snow", color = "black") +
-  geom_point(data = grafico2_H, aes(x = Edad, y = porcentaje_gafas), size=3, shape=21, fill="snow", color = "black") +  
+  geom_point(data = grafico2_M, aes(x = Edad, y = porcentaje_gafas), size=3, shape=21, 
+      fill="snow", color = "black") +
+  geom_point(data = grafico2_H, aes(x = Edad, y = porcentaje_gafas), size=3, shape=21, 
+      fill="snow", color = "black") +  
 ```
 ## RESULTADOS (IX)
 #### *Relación del sedentarismo con el uso de gafas por grupos de edad y sexo (II)*
