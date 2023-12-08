@@ -44,9 +44,9 @@ sedentarismo_sexo_edad <- fromJSON(file = "DATOS/seden_SexAge_miles.json")
 
 De manera alternativa, podría extraerse la información directamente de su fuente de origen con un código como el siguiente (que no se ejecuta):
 
-```{r}
+```{r, eval = FALSE}
 conjunto_ejemplo_sedentarismo <- fromJSON(file = "https://servicios.ine.es/wstempus/jsCache/es/DATOS_TABLA/47581?tip=AM")
-conjunto_ejemplo_imc <- fromJSON(file = )
+conjunto_ejemplo_imc <- fromJSON(file = "https://servicios.ine.es/wstempus/jsCache/es/DATOS_TABLA/47516?tip=AM")
 conjunto_ejemplo_gafas <- fromJSON(file = )
 conjunto_ejemplo_audifonos <- fromJSON(file =)
 ```
@@ -86,7 +86,7 @@ Algunas aclaraciones al respecto:
 ```{r}
 imc_SexAge %>% gather_object %>% json_types %>% count(name,type) 
 ```
-Este "Code Chunk" nos sirve para saber a qué datos hemos de acceder. En particular, se formateará los datos de la categoría `array` (excepto `MetaData`) _En el resultado anterior ya dicho array no se encuentra porque ya lo hemos formateado._
+Este "Code Chunk" nos sirve para saber a qué datos hemos de acceder. En particular, se formateará los datos de la categoría `array` (excepto `MetaData`). _En el resultado anterior, ya dicho array no se encuentra porque ya lo hemos formateado._
 Además, las funciones `unlist(gregexpr())` devuelve el índice de todas las apariciones de un determinado character en un character de mayor longitud. 
 La función `substring()` devuelve el sub-character presente en un character de mayor longitud entre ciertos índices pasados como argumento.
 ```{r}
