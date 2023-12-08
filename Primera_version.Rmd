@@ -47,8 +47,8 @@ De manera alternativa, podría extraerse la información directamente de su fuen
 ```{r, eval = FALSE}
 conjunto_ejemplo_sedentarismo <- fromJSON(file = "https://servicios.ine.es/wstempus/jsCache/es/DATOS_TABLA/47581?tip=AM")
 conjunto_ejemplo_imc <- fromJSON(file = "https://servicios.ine.es/wstempus/jsCache/es/DATOS_TABLA/47516?tip=AM")
-conjunto_ejemplo_gafas <- fromJSON(file = )
-conjunto_ejemplo_audifonos <- fromJSON(file =)
+conjunto_ejemplo_gafas <- fromJSON(file = "https://servicios.ine.es/wstempus/jsCache/es/DATOS_TABLA/47188?tip=AM")
+conjunto_ejemplo_audifonos <- fromJSON(file = "https://servicios.ine.es/wstempus/jsCache/es/DATOS_TABLA/47200?tip=AM")
 ```
 Formateamos los datos:
 
