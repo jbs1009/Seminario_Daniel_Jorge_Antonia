@@ -20,7 +20,7 @@ Ahora bien, ¿alguna vez os habéis planteado cómo afecta al sedentarismo a otr
 
 En el siguiente trabajo vamos a tratar de encontrar, o en su defecto descartar, la existencia de una correlación directa entre un estilo de vida sedentario y el desarrollo de problemas de visión y/o auditivos valiéndonos para ello de sendos estudios expuestos más adelante acerca de la distribución de dichos problemas y el estilo de vida a lo largo del territorio español teniendo además en cuenta otros factores como edad o sexo. 
 
-## Objetivos: 
+## OBJETIVOS: 
 
 1 – Relación entre el sedentarismo y el uso de audífonos por grupos de edad 
 
@@ -29,6 +29,10 @@ En el siguiente trabajo vamos a tratar de encontrar, o en su defecto descartar, 
 3 – Relación entre el sedentarismo y el uso de gafas por grupos de edad 
 
 4 – Relación entre el sedentarismo y el uso de gafas según el sexo 
+
+## MÉTODOS: 
+
+La metodología llevada a cabo consiste, esencialmente, en la comparación de porcentajes de sedentarismo y de uso de gafas o audífonos en función de sexo y/o grupo de edad, formateando los datos para trabajar con conjuntos proporcionales a la cantidad de población de un determinado conjunto sexo, edad, sedentarismo, gafas/audífono. 
 
 ## Carga de los datos a usar:
 
@@ -182,6 +186,7 @@ sedent_audif <-
             by = c("Sexo" = "Sexo", "Edad" = "Edad"))
 
 ```
+
 (Aclaración: Si bien se han formateado los datos de imc_SexAge, esta fuente finalmente no ha sido utilizada durante el desarrollo de este seminario.)
 
 Básicamente, en estos dos bloques de código lo que hacemos es, primeramente, unir los conjuntos de datos acerca de uso de audífonos y de sedentarismo. Para ello, primeramente, mutamos ambos conjuntos de datos y seleccionamos aquellos atributos de nuestro interés. Para, como se ha indicado, llevar a cabo dicha mutación, multiplicamos por mil, porque, tras revisar los conjuntos de datos (en particular hemos necesitado abrir los datos para ver las unidades en las que se encuentran, mal ahí, datos.gob 😡) vimos que se encontraban en miles de personas. 

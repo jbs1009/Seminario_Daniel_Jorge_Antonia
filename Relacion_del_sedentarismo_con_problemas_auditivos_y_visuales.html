@@ -1509,7 +1509,28 @@ valiéndonos para ello de sendos estudios expuestos más adelante acerca
 de la distribución de dichos problemas y el estilo de vida a lo largo
 del territorio español teniendo además en cuenta otros factores como
 edad o sexo.</p>
-<p>Carga de los datos a usar:</p>
+</div>
+<div id="objetivos" class="section level2">
+<h2>OBJETIVOS:</h2>
+<p>1 – Relación entre el sedentarismo y el uso de audífonos por grupos
+de edad</p>
+<p>2 – Relación entre el sedentarismo y el uso de audífonos según el
+sexo</p>
+<p>3 – Relación entre el sedentarismo y el uso de gafas por grupos de
+edad</p>
+<p>4 – Relación entre el sedentarismo y el uso de gafas según el
+sexo</p>
+</div>
+<div id="métodos" class="section level2">
+<h2>MÉTODOS:</h2>
+<p>La metodología llevada a cabo consiste, esencialmente, en la
+comparación de porcentajes de sedentarismo y de uso de gafas o audífonos
+en función de sexo y/o grupo de edad, formateando los datos para
+trabajar con conjuntos proporcionales a la cantidad de población de un
+determinado conjunto sexo, edad, sedentarismo, gafas/audífono.</p>
+</div>
+<div id="carga-de-los-datos-a-usar" class="section level2">
+<h2>Carga de los datos a usar:</h2>
 <pre class="r"><code>library(tidyjson)</code></pre>
 <pre><code>## 
 ## Attaching package: &#39;tidyjson&#39;</code></pre>
@@ -1760,7 +1781,9 @@ if(i%%4 == 0){
 aux &lt;- aux + 1
 }
 }</code></pre>
-<p>RESULTADOS DE LOS GRÁFICOS</p>
+</div>
+<div id="resultados-de-los-gráficos" class="section level2">
+<h2>RESULTADOS DE LOS GRÁFICOS</h2>
 <pre class="r"><code>grafico1_H &lt;- grafico1 %&gt;% filter(.data = ., Sexo == &quot;Hombres&quot;)
 grafico1_M &lt;- grafico1 %&gt;% filter(.data = ., Sexo == &quot;Mujeres&quot;)
 
@@ -2051,6 +2074,24 @@ general, mayores en mujeres que en hombres. De este modo y, a partir de
 este gráfico y el anterior, podría inferirse que existe una relación
 aparente entre un mayor porcentaje de sedentarismo y, en consecuencia,
 de uso de gafas, en función del sexo de los individuos estudiados.</p>
+</div>
+<div id="conclusiones" class="section level2">
+<h2>CONCLUSIONES</h2>
+<p>En conclusión, parece existir cierta garantía acerca del hecho de que
+sí que existe cierta relación entre tener un estilo de vida sedentario y
+padecer un mayor riesgo a problemas en la visión y/o en la audición (si
+bien no tenemos información directa de estas características puede ser
+fácilmente extrapolada con seguridad de la información sobre uso de
+gafas y/o audífonos, respectivamente). Como se ha ido indicando, el
+estudio realizado ha encontrado resultados aparentes más significativos
+en lo que respecta a uso de audífonos en función del grupo de edad,
+mientras que, en función del sexo, los resultados parecen arrojar más
+luz para el uso de gafas. En definitiva, las conclusiones no se pueden
+considerar sólidas certezas, pero pensamos que sí que siembran la
+semilla para futuros estudios sobre la relación poco estudiada y,
+aparentemente, existente, entre uso de gafas y/o audífonos como
+indicativo directo de enfermedad visuales y/o auditivas; y el estilo de
+vida sedentario de las poblaciones.</p>
 </div>
 <div id="bibliografía" class="section level2">
 <h2>BIBLIOGRAFÍA 📖</h2>
