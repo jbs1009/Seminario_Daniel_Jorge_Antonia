@@ -508,3 +508,40 @@ grafico1 %>%
       size=3, fill="snow", color = "black") +
   scale_shape_manual(values = c(21, 21)) +
 ```
+## RESULTADOS (VI)
+#### *Relación del sedentarismo con el uso de audífonos por grupos de edad y sexo (VI)*
+##### GRÁFICO II
+```{r, eval=FALSE}
+  labs(x= "División por sexos", 
+       y = "Porcentaje sedentarismo (%)",
+       title = "Relación del sedentarismo con el uso de audífonos según sexo y edad") +
+  dark_theme_gray() + 
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    plot.title =element_text(
+        family = "serif",
+        size = 12,
+        hjust = 0.5,
+        vjust = 2),
+    axis.title = element_text(             
+                   family = "serif",           
+                   size = 9),              
+    axis.text = element_text(             
+                   family = "serif",            
+                   size = 7),                
+    axis.text.x = element_text(           
+                    margin=margin(8, b = 12)),
+    axis.text.y = element_text(           
+                    margin=margin(8, b = 12))) +
+```
+## RESULTADOS (VII)
+#### *Relación del sedentarismo con el uso de audífonos por grupos de edad y sexo (VII)*
+##### GRÁFICO II
+```{r, eval=FALSE}
+theme(legend.title = element_text(
+                      family = "serif",
+                      size = 9),
+        legend.text = element_text (
+                      family = "serif",
+                      size = 7),
+        legend.position = "bottom")
+```
