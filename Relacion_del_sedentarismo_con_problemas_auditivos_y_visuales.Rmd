@@ -20,8 +20,17 @@ Ahora bien, ¿alguna vez os habéis planteado cómo afecta al sedentarismo a otr
 
 En el siguiente trabajo vamos a tratar de encontrar, o en su defecto descartar, la existencia de una correlación directa entre un estilo de vida sedentario y el desarrollo de problemas de visión y/o auditivos valiéndonos para ello de sendos estudios expuestos más adelante acerca de la distribución de dichos problemas y el estilo de vida a lo largo del territorio español teniendo además en cuenta otros factores como edad o sexo. 
 
+## Objetivos: 
 
-Carga de los datos a usar:
+1 – Relación entre el sedentarismo y el uso de audífonos por grupos de edad 
+
+2 – Relación entre el sedentarismo y el uso de audífonos según el sexo 
+
+3 – Relación entre el sedentarismo y el uso de gafas por grupos de edad 
+
+4 – Relación entre el sedentarismo y el uso de gafas según el sexo 
+
+## Carga de los datos a usar:
 
 ```{r}
 library(tidyjson)
@@ -246,7 +255,7 @@ aux <- aux + 1
 
 ```
 
-RESULTADOS DE LOS GRÁFICOS 
+## RESULTADOS DE LOS GRÁFICOS 
 
 ```{r}
 
