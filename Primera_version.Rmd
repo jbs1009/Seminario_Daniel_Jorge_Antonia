@@ -36,10 +36,10 @@ library(ggborderline)
 library(ggdark)
 
 
-audifono_sexo_edad <- fromJSON(file = "INPUT/DATOS/audif_SexAge_miles.json")
-gafas_sexo_edad <- fromJSON(file = "INPUT/DATOS/gafas_SexAge_miles.json")
-imc_sexo_edad <- fromJSON(file = "INPUT/DATOS/imc_SexAge_miles.json")
-sedentarismo_sexo_edad <- fromJSON(file = "INPUT/DATOS/seden_SexAge_miles.json")
+audifono_sexo_edad <- fromJSON(file = "DATOS/audif_SexAge_miles.json")
+gafas_sexo_edad <- fromJSON(file = "DATOS/gafas_SexAge_miles.json")
+imc_sexo_edad <- fromJSON(file = "DATOS/imc_SexAge_miles.json")
+sedentarismo_sexo_edad <- fromJSON(file = "DATOS/seden_SexAge_miles.json")
 ```
 
 De manera alternativa, podría extraerse la información directamente de su fuente de origen con un código como el siguiente (que no se ejecuta):
