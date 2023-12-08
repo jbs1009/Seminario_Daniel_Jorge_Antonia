@@ -245,6 +245,9 @@ aux <- aux + 1
 }
 
 ```
+
+RESULTADOS DE LOS GRÁFICOS 
+
 ```{r}
 
 grafico1_H <- grafico1 %>% filter(.data = ., Sexo == "Hombres")
@@ -292,6 +295,7 @@ grafico1 %>%
         legend.position = "bottom")
   
 ```
+1.- En este primer gráfico se han creado dos facetas en función del sexo de los individuos, donde se incluyen todos los grupos de edad. Los gráficos de barras se corresponden con el porcentaje de sedentarismo mientras que las líneas representan el porcentaje del uso de audífonos. Podemos observar cómo, tanto en el caso de los hombres con en el de las mujeres, el porcentaje de sedentarismo tiende a aumentar con la edad, al igual que sucede con el porcentaje de uso de audífonos, donde, si bien la línea no presenta una variación muy significativa entre los 15 y los 64 años de edad, aumenta considerablemente en grupos de edad mayores. A partir de lo expuesto, se puede inferir que la utilización de audífonos en función del porcentaje de sedentarismo sí que se ve afectado por el grupo de edad en el que se estudie el efecto descrito (a mayor grupo de edad, mayor sedentarismo y mayor uso de audífonos) Pese a ello, es complejo determinar si el incremento en el uso de audífonos extrapolado en consecuencia exclusiva del aumento del sedentarismo correlacionado con el grupo de edad o es debido a otros factores relacionados con la longevidad de las personas que no han sido objeto de estudio.  
 
 ```{r}
 grafico1 %>%
@@ -333,7 +337,7 @@ grafico1 %>%
                       size = 7),
         legend.position = "bottom")
 ```
-
+2.- En este segundo gráfico, nuevamente, representamos los porcentajes de sedentarismo contra el uso de audífono en función de edad y sexo utilizando para ello facetas, solo que, para que, en este segundo gráfico, la información presente resulte más significativa y representativa, al menos en apariencia, para estudiar las diferencias en función del sexo, hacemos que las facetas se dividan a razón de los distintos grupos de edad. Podemos observar una tendencia relativa aparente a un mayor sedentarismo en las mujeres, mientras que, en contraposición, los varones utilizan porcentualmente mayor cantidad de audífonos. Se puede inferir por tanto que no existe una relación aparente entre un mayor porcentaje de sedentarismo y, en consecuencia, de uso de audífonos, en función del sexo de los individuos a estudio. Esto podría deberse a factores externos que no se han considerado en el desarrollo de este trabajo que favorezcan un mayor empleo de audífonos en los individuos varones. 
 ```{r, warning = FALSE} 
 sedent_gafas <-  
   gafas_SexAge %>% 
