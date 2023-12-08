@@ -616,7 +616,7 @@ grafico2 %>%
 #### *Relación del sedentarismo con el uso de gafas por grupos de edad y sexo (II)*
 ##### GRÁFICO III
 ```{r, eval=FALSE}
-labs(x= "Grupos de edad", 
+labs(x = "Grupos de edad", 
        y = "Porcentaje sedentarismo (%)",
        title = "Relación del sedentarismo con el uso de gafas según sexo y edad") +
   dark_theme_gray() + 
@@ -638,8 +638,71 @@ labs(x= "Grupos de edad",
                     margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan")) +
 ```
 
+## RESULTADOS (X)
+#### *Relación del sedentarismo con el uso de gafas por grupos de edad y sexo (III)*
+##### GRÁFICO III
+```{r, eval=FALSE}
+theme(legend.title = element_text(
+                      family = "serif",
+                      size = 9),
+        legend.text = element_text (
+                      family = "serif",
+                      size = 7),
+        legend.position = "bottom")
+```
+
+## RESULTADOS (XI)
+#### *Relación del sedentarismo con el uso de gafas por grupos de edad y sexo (IV)*
+##### GRÁFICO III
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+grafico2_H <- grafico2 %>% filter(.data = ., Sexo == "Hombres")
+grafico2_M <- grafico2 %>% filter(.data = ., Sexo == "Mujeres")
+
+grafico2 %>%
+  ggplot() + 
+  geom_col(aes(x = Edad, y = porcentaje_sedentarios/4, fill = "Sedentarismo"), color = "black") + 
+  scale_fill_manual(values = c("#FFEC8B")) +
+  geom_borderline(data = grafico2_H, aes(x = Edad, y = porcentaje_gafas, color = "Uso de gafas (Hombres)"), linewidth = 1.2, bordercolor = "black", group = 1) +
+  geom_borderline(data = grafico2_M, aes(x = Edad, y = porcentaje_gafas, color = "Uso de gafas (Mujeres)"), linewidth = 1.2, bordercolor = "black",group = 1) + 
+  scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso gafas (%)")) +
+  guides(x = guide_axis(angle =45)) +
+  guides(fill = guide_legend(title = "Sedentarismo")) +
+  guides(color = guide_legend(title = "Uso de Gafas")) +
+  facet_wrap(facets = vars(Sexo), nrow = 1) +
+  geom_point(data = grafico2_M, aes(x = Edad, y = porcentaje_gafas), size=3, shape=21, fill="snow", color = "black") +
+  geom_point(data = grafico2_H, aes(x = Edad, y = porcentaje_gafas), size=3, shape=21, fill="snow", color = "black") +  
+  labs(x= "Grupos de edad", 
+       y = "Porcentaje sedentarismo (%)",
+       title = "Relación del sedentarismo con el uso de gafas según sexo y edad") +
+  dark_theme_gray() + 
+    theme(panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    plot.title =element_text(
+        family = "serif",
+        size = 12,
+        hjust = 0.5,
+        vjust = 2),
+    axis.title = element_text(             
+                   family = "serif",           
+                   size = 9),              
+    axis.text = element_text(             
+                   family = "serif",            
+                   size = 7),                
+    axis.text.x = element_text(           
+                    margin=margin(8, b = 12)),
+    axis.text.y = element_text(           
+                    margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan")) +
+  theme(legend.title = element_text(
+                      family = "serif",
+                      size = 9),
+        legend.text = element_text (
+                      family = "serif",
+                      size = 7),
+        legend.position = "bottom")
+
+```
+
 ## RESULTADOS (XII)
-#### **Relación del sedentarismo con el uso de gafas por grupos de edad y sexo (V)**
+#### *Relación del sedentarismo con el uso de gafas por grupos de edad y sexo (V)*
 ##### GRÁFICO IV
 ```{r, eval=FALSE}
 grafico2 %>%
@@ -657,7 +720,7 @@ grafico2 %>%
 ```
 
 ## RESULTADOS (XIII)
-#### **Relación del sedentarismo con el uso de gafas por grupos de edad y sexo (VI)**
+#### *Relación del sedentarismo con el uso de gafas por grupos de edad y sexo (VI)*
 ##### GRÁFICO IV
 ```{r, eval=FALSE}
 labs(x= "División por sexos", 
@@ -682,7 +745,7 @@ labs(x= "División por sexos",
                     margin=margin(8, b = 12))) +
 ```
 ## RESULTADOS (XIV)
-#### **Relación del sedentarismo con el uso de gafas por grupos de edad y sexo (VII)**
+#### *Relación del sedentarismo con el uso de gafas por grupos de edad y sexo (VII)*
 ##### GRÁFICO IV
 ```{r, eval=FALSE}
 theme(legend.title = element_text(
@@ -694,7 +757,7 @@ theme(legend.title = element_text(
         legend.position = "bottom")
 ```
 ## RESULTADOS (XV)
-#### **Relación del sedentarismo con el uso de gafas por grupos de edad y sexo (VIII)**
+#### *Relación del sedentarismo con el uso de gafas por grupos de edad y sexo (VIII)*
 ##### GRÁFICO IV
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
 grafico2 %>%
