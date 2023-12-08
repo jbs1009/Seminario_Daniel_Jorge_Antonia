@@ -175,7 +175,7 @@ sedent_audif <-
 ```
 (Aclaración: Si bien se han formateado los datos de imc_SexAge, esta fuente finalmente no ha sido utilizada durante el desarrollo de este seminario.)
 
-Básicamente, en estos dos bloques de código lo que hacemos es, primeramente, unir los conjuntos de datos acerca de uso de audífonos y de sedentarismo. Para ello, primeramente, mutamos ambos conjuntos de datos y seleccionamos aquellos atributos de nuestro interés. Para, como se ha indicado, llevar a cabo dicha mutación, multiplicamos por mil, porque, tras revisar los conjuntos de datos (en particular hemos necesitado abrir los datos para ver las unidades en las que se encuentran, mal ahí, datos.gov 😡) vimos que se encontraban en miles de personas. 
+Básicamente, en estos dos bloques de código lo que hacemos es, primeramente, unir los conjuntos de datos acerca de uso de audífonos y de sedentarismo. Para ello, primeramente, mutamos ambos conjuntos de datos y seleccionamos aquellos atributos de nuestro interés. Para, como se ha indicado, llevar a cabo dicha mutación, multiplicamos por mil, porque, tras revisar los conjuntos de datos (en particular hemos necesitado abrir los datos para ver las unidades en las que se encuentran, mal ahí, datos.gob 😡) vimos que se encontraban en miles de personas. 
 
 Posteriormente, unimos por sexo y edad (dado que los niveles de ambas variables son los mismos) (hay que aclarar que la edad, a priori, habría de ser una variable continua, pero es categórica al haber sido discretizada).
 
@@ -295,6 +295,7 @@ grafico1 %>%
         legend.position = "bottom")
   
 ```
+
 1.- En este primer gráfico se han creado dos facetas en función del sexo de los individuos, donde se incluyen todos los grupos de edad. Los gráficos de barras se corresponden con el porcentaje de sedentarismo mientras que las líneas representan el porcentaje del uso de audífonos. Podemos observar cómo, tanto en el caso de los hombres con en el de las mujeres, el porcentaje de sedentarismo tiende a aumentar con la edad, al igual que sucede con el porcentaje de uso de audífonos, donde, si bien la línea no presenta una variación muy significativa entre los 15 y los 64 años de edad, aumenta considerablemente en grupos de edad mayores. A partir de lo expuesto, se puede inferir que la utilización de audífonos en función del porcentaje de sedentarismo sí que se ve afectado por el grupo de edad en el que se estudie el efecto descrito (a mayor grupo de edad, mayor sedentarismo y mayor uso de audífonos) Pese a ello, es complejo determinar si el incremento en el uso de audífonos extrapolado en consecuencia exclusiva del aumento del sedentarismo correlacionado con el grupo de edad o es debido a otros factores relacionados con la longevidad de las personas que no han sido objeto de estudio.  
 
 ```{r}
@@ -337,6 +338,7 @@ grafico1 %>%
                       size = 7),
         legend.position = "bottom")
 ```
+
 2.- En este segundo gráfico, nuevamente, representamos los porcentajes de sedentarismo contra el uso de audífono en función de edad y sexo utilizando para ello facetas, solo que, para que, en este segundo gráfico, la información presente resulte más significativa y representativa, al menos en apariencia, para estudiar las diferencias en función del sexo, hacemos que las facetas se dividan a razón de los distintos grupos de edad. Podemos observar una tendencia relativa aparente a un mayor sedentarismo en las mujeres, mientras que, en contraposición, los varones utilizan porcentualmente mayor cantidad de audífonos. Se puede inferir por tanto que no existe una relación aparente entre un mayor porcentaje de sedentarismo y, en consecuencia, de uso de audífonos, en función del sexo de los individuos a estudio. Esto podría deberse a factores externos que no se han considerado en el desarrollo de este trabajo que favorezcan un mayor empleo de audífonos en los individuos varones. 
 ```{r, warning = FALSE} 
 sedent_gafas <-  
@@ -462,6 +464,8 @@ grafico2 %>%
         legend.position = "bottom")
 
 ```
+
+3.- En este tercer gráfico, del mismo modo que en el primero de los gráficos mostrados, se han creado dos facetas en función del sexo de los individuos, donde se incluyen todos los grupos de edad. Los gráficos de barras se corresponden, de nuevo, con el porcentaje de sedentarismo, mientras que, en este caso, las líneas representan el porcentaje de uso de gafas. Podemos observar cómo no parece existir una relación directa extrapolable entre el porcentaje de sedentarismo y la utilización de gafas en función del grupo de edad, ya que alcanza máximos en valores relativamente bajos de porcentaje de sedentarismo según grupo de edad y no en los valores igualmente máximos de dicha cualidad estudiada. 
 ```{r}
 grafico2 %>%
   ggplot() + 
@@ -502,6 +506,8 @@ grafico2 %>%
                       size = 7),
         legend.position = "bottom")
 ```
+
+4.- En este cuarto gráfico, de forma análoga al segundo gráfico mostrado, se han representado los porcentajes de sedentarismo contra el uso de gafas en función de la edad y el sexo utilizados para ello un total de 8 facetas, de forma que la información resulte más significativa y representativa para estudiar las diferencias en función del sexo, de modo que dividimos los datos en facetas a razón de los 8 grupos de edad. En contraste al caso del uso de audífonos, podemos apreciar cómo, del mismo modo que los porcentajes de mujeres sedentarias presenta unos valores más elevados que los porcentajes de varones sedentarios, los porcentajes de uso de gafas también son, a nivel general, mayores en mujeres que en hombres. De este modo y, a partir de este gráfico y el anterior, podría inferirse que existe una relación aparente entre un mayor porcentaje de sedentarismo y, en consecuencia, de uso de gafas, en función del sexo de los individuos estudiados. 
 
 ## BIBLIOGRAFÍA 📖
 
