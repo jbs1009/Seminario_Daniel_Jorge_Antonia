@@ -505,7 +505,7 @@ grafico2 %>%
 
  
 [2]  Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2 diabetes. Lipids, 38(2), 103-108. 
-<div/>
+
 
 ```{r}
 citation()
@@ -593,3 +593,4 @@ citation("ggdark")
   <https://CRAN.R-project.org/package=ggdark>.
 
 
+<div/>
