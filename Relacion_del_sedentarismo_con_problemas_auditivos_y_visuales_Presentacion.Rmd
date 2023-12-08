@@ -799,6 +799,7 @@ grafico2 %>%
                       size = 7),
         legend.position = "bottom")
 ```
+
 ## BIBLIOGRAFÍA 📖
 
 [1] Rodulfo, J. I. A. (2019). Sedentarism, a disease from XXI century. Clínica e Investigación en arteriosclerosis (English edition), 31(5), 233-240. https://doi.org/10.1016/j.artere.2019.04.001 
