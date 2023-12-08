@@ -208,3 +208,84 @@ for (i in 1:dim(audif_SexAge)[1]){
   audif_SexAge$Audifono[i] <- substring(audif_SexAge$Nombre[i], segunda_coma+1)
 }
 ```
+## MÉTODOS (XII)
+#### *Unión de los conjuntos de datos sedentarismo y uso de audífonos por edad y sexo*
+```{r, warning=FALSE}
+sedent_audif <-  
+  audif_SexAge %>% 
+  mutate(numero_audifonos = Valor*1000) %>% 
+  select("Sexo", "Audifono", "numero_audifonos", "Edad") %>% 
+  full_join(x = ., 
+            y = sedent_SexAge %>% 
+            mutate(personas_sedentarias = Valor*1000) %>% 
+            select("Sexo", "Sedentarismo", "personas_sedentarias", "Edad"),
+            by = c("Sexo" = "Sexo", "Edad" = "Edad"))
+```
+## MÉTODOS (XIII)
+#### *Modificación del conjunto de datos en relación al sedentarismo y al uso de audífonos*
+```{r}
+grafico1 <-sedent_audif %>% filter(Sexo != "Ambos sexos") %>% 
+  filter(Audifono %in% c(" Sí", " No")) %>%
+  filter(Sedentarismo %in% c(" Sí", " No")) %>% 
+  mutate(ratio_audifonos_por_persona = 100*numero_audifonos/personas_sedentarias) %>% 
+  filter(Edad != " TOTAL") 
+```
+
+## MÉTODOS (XIV)
+#### *Modificación del conjunto de datos en relación al sedentarismo y al uso de audífonos*
+
+```{r}
+cont <- 1
+sedentarios <- c(NA, NA, NA, NA, NA, NA, NA, NA)
+no_sedentarios <- c(NA, NA, NA, NA, NA, NA, NA, NA)
+aux <- 1
+  for (i in 1:(length(grafico1$personas_sedentarias)/4)){
+  si_sedent <- grafico1$personas_sedentarias[cont]
+  cont <- cont + 1
+  no_sedent <- grafico1$personas_sedentarias[cont]
+  cont <- cont + 3
+  sedentarios[aux] <- si_sedent
+  no_sedentarios[aux] <- no_sedent
+  aux <- aux + 1
+}
+
+grafico1$porcentaje_sedentarios <- NA
+grafico1$porcentaje_no_sedentarios <- NA
+aux <- 1
+  for (i in 1:length(grafico1$porcentaje_sedentarios)){
+  grafico1$porcentaje_sedentarios[i] <- sedentarios[aux]*100/(sedentarios[aux] + no_sedentarios[aux])
+  grafico1$porcentaje_no_sedentarios[i] <- no_sedentarios[aux]*100/(sedentarios[aux] + no_sedentarios[aux])
+  if(i%%4 == 0){
+  aux <- aux + 1
+  }
+}
+```
+
+## MÉTODOS (XV)
+#### *Modificación del conjunto de datos en relación al sedentarismo y al uso de audífonos*
+```{r}
+cont <- 1
+audifonos <- c(NA, NA, NA, NA, NA, NA, NA, NA)
+no_audifonos <- c(NA, NA, NA, NA, NA, NA, NA, NA)
+aux <- 1
+ for (i in 1:(length(grafico1$numero_audifonos)/4)){
+ audif <- grafico1$numero_audifonos[cont]
+ cont <- cont + 2
+ no_audif <- grafico1$numero_audifonos[cont]
+ cont <- cont + 2
+ audifonos[aux] <- audif
+ no_audifonos[aux] <- no_audif
+ aux <- aux + 1
+}
+
+grafico1$porcentaje_audifonos <- NA
+grafico1$porcentaje_no_audifonos <- NA
+aux <- 1
+ for (i in 1:length(grafico1$numero_audifonos)){
+ grafico1$porcentaje_audifonos[i] <- audifonos[aux]*100/(audifonos[aux] + no_audifonos[aux])
+ grafico1$porcentaje_no_audifonos[i] <- no_audifonos[aux]*100/(audifonos[aux] + no_audifonos[aux])
+ if(i%%4 == 0){
+ aux <- aux + 1
+ }
+}
+```
