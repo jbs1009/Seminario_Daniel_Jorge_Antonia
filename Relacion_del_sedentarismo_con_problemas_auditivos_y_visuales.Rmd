@@ -187,7 +187,7 @@ sedent_audif <-
 
 ```
 
-(Aclaración: Si bien se han formateado los datos de imc_SexAge, esta fuente finalmente no ha sido utilizada durante el desarrollo de este seminario.)
+(Aclaración: Si bien se han formateado los datos de imc_SexAge, esta fuente finalmente no ha sido utilizada durante el desarrollo de este seminario)
 
 Básicamente, en estos dos bloques de código lo que hacemos es, primeramente, unir los conjuntos de datos acerca de uso de audífonos y de sedentarismo. Para ello, primeramente, mutamos ambos conjuntos de datos y seleccionamos aquellos atributos de nuestro interés. Para, como se ha indicado, llevar a cabo dicha mutación, multiplicamos por mil, porque, tras revisar los conjuntos de datos (en particular hemos necesitado abrir los datos para ver las unidades en las que se encuentran, mal ahí, datos.gob 😡) vimos que se encontraban en miles de personas. 
 
