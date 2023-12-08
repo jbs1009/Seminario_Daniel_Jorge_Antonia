@@ -281,7 +281,7 @@ grafico1 %>%
                     margin=margin(8, b = 12)),
     axis.text.y = element_text(           
                     margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan")) +
-  theme(legend.title = element_text(
+    theme(legend.title = element_text(
                     family = "serif",
                     size = 9),
         legend.text = element_text (

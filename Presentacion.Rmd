@@ -433,6 +433,78 @@ theme(legend.title = element_text(
         legend.text = element_text (
                     family = "serif",
                     size = 7),
-        legend.position = "bottom")
+        legend.position = "bottom")
 
+```
+
+## RESULTADOS (IV)
+#### *Relación del sedentarismo con el uso de audífonos por grupos de edad y sexo (IV)*
+##### GRÁFICO I
+```{r, echo=FALSE, message=FALSE, warning=FALSE}
+
+grafico1_H <- grafico1 %>% filter(.data = ., Sexo == "Hombres")
+grafico1_M <- grafico1 %>% filter(.data = ., Sexo == "Mujeres")
+
+grafico1 %>%
+  ggplot() + 
+  geom_col(aes(x = Edad, y = porcentaje_sedentarios/4, fill = "Sedentarismo"), color = "black") + 
+    scale_fill_manual(values = c("#FFEC8B")) +
+  geom_borderline(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos, 
+    color = "Uso de audífonos (Hombres)"), linewidth = 1.2, bordercolor = "black", group = 1) +
+  geom_borderline(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos, 
+    color = "Uso de audífonos (Mujeres)"), linewidth = 1.2, bordercolor = "black",group = 1) + 
+  scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) +
+  guides(x = guide_axis(angle =45)) +
+  facet_wrap(facets = vars(Sexo), nrow = 1) +
+  geom_point(data = grafico1_M, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, 
+    fill="snow", color = "black") +
+  geom_point(data = grafico1_H, aes(x = Edad, y = porcentaje_audifonos), size=3, shape=21, 
+    fill="snow", color = "black") +
+  guides(fill = guide_legend(title = "Sedentarismo")) +
+  guides(color = guide_legend(title = "Uso de Audífonos")) +
+  labs(x= "Grupos de edad", 
+       y = "Porcentaje sedentarismo (%)",
+       title = "Relación del sedentarismo con el uso de audífonos por grupos de edad y sexo") +
+  dark_theme_gray() + 
+    theme (panel.grid.major = element_blank(), panel.grid.minor = element_blank(),
+    plot.title =element_text(
+        family = "serif",
+        size = 12,
+        hjust = 0.5,
+        vjust = 2),
+    axis.title = element_text(             
+                   family = "serif",           
+                   size = 9),              
+    axis.text = element_text(             
+                   family = "serif",            
+                   size = 7),                
+    axis.text.x = element_text(           
+                    margin=margin(8, b = 12)),
+    axis.text.y = element_text(           
+                    margin=margin(8, b = 12))) + scale_color_manual(values = c("#9400D3", "cyan")) +
+    theme(legend.title = element_text(
+                    family = "serif",
+                    size = 9),
+        legend.text = element_text (
+                    family = "serif",
+                    size = 7),
+        legend.position = "bottom")
+```
+
+## RESULTADOS (V)
+#### *Relación del sedentarismo con el uso de audífonos por grupos de edad y sexo (V)*
+##### GRÁFICO II
+```{r, eval=FALSE}
+grafico1 %>%
+  ggplot() + 
+  geom_col(aes(x = Sexo, y = porcentaje_sedentarios/4, fill = "Sedentarismo"), color = "black") + 
+  scale_fill_manual(values = c("#FFEC8B")) +
+  scale_y_continuous(sec.axis = sec_axis(~., name = "Porcentaje Uso audífonos (%)")) +
+  guides(x = guide_axis(angle =45)) +
+  guides(fill = guide_legend(title = "Sedentarismo")) +
+  guides(shape = guide_legend(title = "Uso de Audífonos")) +
+  facet_wrap(facets = vars(Edad), nrow = 2) +
+  geom_point(data = grafico1, aes(x = Sexo, y = porcentaje_audifonos, shape = "Uso de Audifonos"), 
+      size=3, fill="snow", color = "black") +
+  scale_shape_manual(values = c(21, 21)) +
 ```
