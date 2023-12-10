@@ -808,3 +808,59 @@ grafico2 %>%
 
  
 [2]  Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2 diabetes. Lipids, 38(2), 103-108. 
+
+[3] R Core Team (2023). _R: A Language and
+  Environment for Statistical Computing_. R
+  Foundation for Statistical Computing, Vienna,
+  Austria. <https://www.R-project.org/>.
+  
+[4] Stanley J, Arendt C (2023). _tidyjson: Tidy
+  Complex 'JSON'_. R package version 0.3.2,
+  <https://CRAN.R-project.org/package=tidyjson>.
+
+[5] Couture-Beil A (2022). _rjson: JSON for R_. R
+  package version 0.2.21,
+  <https://CRAN.R-project.org/package=rjson>.
+
+## BIBLIOGRAFÍA (II) 📖
+
+[6] Wickham H, Averick M, Bryan J, Chang W, McGowan
+  LD, François R, Grolemund G, Hayes A, Henry L,
+  Hester J, Kuhn M, Pedersen TL, Miller E, Bache
+  SM, Müller K, Ooms J, Robinson D, Seidel DP,
+  Spinu V, Takahashi K, Vaughan D, Wilke C, Woo K,
+  Yutani H (2019). “Welcome to the tidyverse.”
+  _Journal of Open Source Software_, *4*(43),
+  1686. doi:10.21105/joss.01686
+  <https://doi.org/10.21105/joss.01686>.
+  
+[7] Wickham H, Hester J, Bryan J (2023). _readr:
+  Read Rectangular Text Data_. R package version
+  2.1.4,
+  <https://CRAN.R-project.org/package=readr>.
+
+[8] Wickham H, Bryan J (2023). _readxl: Read Excel
+  Files_. R package version 1.4.3,
+  <https://CRAN.R-project.org/package=readxl>.
+  
+[9] Wickham H, François R, Henry L, Müller K,
+  Vaughan D (2023). _dplyr: A Grammar of Data
+  Manipulation_. R package version 1.1.3,
+  <https://CRAN.R-project.org/package=dplyr>.
+  
+[10] H. Wickham. ggplot2: Elegant Graphics for Data
+  Analysis. Springer-Verlag New York, 2016.
+  
+## BIBLIOGRAFÍA (III) 📖
+
+[11] Wickham H, Vaughan D, Girlich M (2023). _tidyr:
+  Tidy Messy Data_. R package version 1.3.0,
+  <https://CRAN.R-project.org/package=tidyr>.
+
+[12] Scott J (2022). _ggborderline: Line Plots that
+  Pop_. R package version 0.2.0,
+  <https://CRAN.R-project.org/package=ggborderline>.
+  
+[13] Grantham N (2019). _ggdark: Dark Mode for
+  'ggplot2' Themes_. R package version 0.2.1,
+  <https://CRAN.R-project.org/package=ggdark>.

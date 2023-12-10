@@ -9,7 +9,7 @@
 
 
 
-  <meta name="date" content="2023-12-08" />
+  <meta name="date" content="2023-12-10" />
 
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="apple-mobile-web-app-capable" content="yes">
@@ -3070,18 +3070,21 @@ var loadDeck = function(event) {
   });
 };
 
-if (document.readyState !== "loading" &&
-    document.querySelector('slides') === null) { 
-  // if the document is done loading but our element hasn't yet appeared, defer
-  // loading of the deck
-  window.setTimeout(function() {
-    loadDeck(null);
-  }, 0);
-} else {
-  // still loading the DOM, so wait until it's finished
-  document.addEventListener("DOMContentLoaded", loadDeck);
-}
+if (!window.Shiny) {
+  // If Shiny is loaded, the slide deck is initialized in ioslides template
 
+  if (document.readyState !== "loading" &&
+      document.querySelector('slides') === null) {
+    // if the document is done loading but our element hasn't yet appeared, defer
+    // loading of the deck
+    window.setTimeout(function() {
+      loadDeck(null);
+    }, 0);
+  } else {
+    // still loading the DOM, so wait until it's finished
+    document.addEventListener("DOMContentLoaded", loadDeck);
+  }
+}
 
 
 </script>
@@ -3217,7 +3220,7 @@ line-height: 1.9;
       <h1 data-config-title><!-- populated from slide_config.json --></h1>
       
       <p data-config-presenter><!-- populated from slide_config.json --></p>
-            <p style="margin-top: 6px; margin-left: -2px;">2023-12-08</p>
+            <p style="margin-top: 6px; margin-left: -2px;">2023-12-10</p>
           </hgroup>
   </slide>
 
@@ -3940,7 +3943,33 @@ grafico2 %&gt;%
 
 <p>[1] Rodulfo, J. I. A. (2019). Sedentarism, a disease from XXI century. Clínica e Investigación en arteriosclerosis (English edition), 31(5), 233-240. <a href='https://doi.org/10.1016/j.artere.2019.04.001' title=''>https://doi.org/10.1016/j.artere.2019.04.001</a></p>
 
-<p>[2] Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2 diabetes. Lipids, 38(2), 103-108.</p></article></slide>
+<p>[2] Hu, F. B. (2003). Sedentary lifestyle and risk of obesity and type 2 diabetes. Lipids, 38(2), 103-108.</p>
+
+<p>[3] R Core Team (2023). <em>R: A Language and Environment for Statistical Computing</em>. R Foundation for Statistical Computing, Vienna, Austria. <a href='https://www.R-project.org/' title=''>https://www.R-project.org/</a>.</p>
+
+<p>[4] Stanley J, Arendt C (2023). <em>tidyjson: Tidy Complex &lsquo;JSON&rsquo;</em>. R package version 0.3.2, <a href='https://CRAN.R-project.org/package=tidyjson' title=''>https://CRAN.R-project.org/package=tidyjson</a>.</p>
+
+<p>[5] Couture-Beil A (2022). <em>rjson: JSON for R</em>. R package version 0.2.21, <a href='https://CRAN.R-project.org/package=rjson' title=''>https://CRAN.R-project.org/package=rjson</a>.</p>
+
+</article></slide><slide class=""><hgroup><h2>BIBLIOGRAFÍA (II) 📖</h2></hgroup><article  id="bibliografía-ii" class="smaller ">
+
+<p>[6] Wickham H, Averick M, Bryan J, Chang W, McGowan LD, François R, Grolemund G, Hayes A, Henry L, Hester J, Kuhn M, Pedersen TL, Miller E, Bache SM, Müller K, Ooms J, Robinson D, Seidel DP, Spinu V, Takahashi K, Vaughan D, Wilke C, Woo K, Yutani H (2019). &ldquo;Welcome to the tidyverse.&rdquo; <em>Journal of Open Source Software</em>, <em>4</em>(43), 1686. <a href='doi:10.21105/joss.01686' title=''>doi:10.21105/joss.01686</a> <a href='https://doi.org/10.21105/joss.01686' title=''>https://doi.org/10.21105/joss.01686</a>.</p>
+
+<p>[7] Wickham H, Hester J, Bryan J (2023). <em>readr: Read Rectangular Text Data</em>. R package version 2.1.4, <a href='https://CRAN.R-project.org/package=readr' title=''>https://CRAN.R-project.org/package=readr</a>.</p>
+
+<p>[8] Wickham H, Bryan J (2023). <em>readxl: Read Excel Files</em>. R package version 1.4.3, <a href='https://CRAN.R-project.org/package=readxl' title=''>https://CRAN.R-project.org/package=readxl</a>.</p>
+
+<p>[9] Wickham H, François R, Henry L, Müller K, Vaughan D (2023). <em>dplyr: A Grammar of Data Manipulation</em>. R package version 1.1.3, <a href='https://CRAN.R-project.org/package=dplyr' title=''>https://CRAN.R-project.org/package=dplyr</a>.</p>
+
+<p>[10] H. Wickham. ggplot2: Elegant Graphics for Data Analysis. Springer-Verlag New York, 2016.</p>
+
+</article></slide><slide class=""><hgroup><h2>BIBLIOGRAFÍA (III) 📖</h2></hgroup><article  id="bibliografía-iii" class="smaller ">
+
+<p>[11] Wickham H, Vaughan D, Girlich M (2023). <em>tidyr: Tidy Messy Data</em>. R package version 1.3.0, <a href='https://CRAN.R-project.org/package=tidyr' title=''>https://CRAN.R-project.org/package=tidyr</a>.</p>
+
+<p>[12] Scott J (2022). <em>ggborderline: Line Plots that Pop</em>. R package version 0.2.0, <a href='https://CRAN.R-project.org/package=ggborderline' title=''>https://CRAN.R-project.org/package=ggborderline</a>.</p>
+
+<p>[13] Grantham N (2019). <em>ggdark: Dark Mode for &lsquo;ggplot2&rsquo; Themes</em>. R package version 0.2.1, <a href='https://CRAN.R-project.org/package=ggdark' title=''>https://CRAN.R-project.org/package=ggdark</a>.</p></article></slide>
 
 
   <slide class="backdrop"></slide>
@@ -3967,6 +3996,11 @@ grafico2 %&gt;%
        window.jQuery(document).on('slideenter', function(e) {
          window.jQuery(e.target).trigger('shown');
       });
+    }
+    if (window.Shiny) {
+      // Initialize slides when this script appears on the page, since it
+      // indicates that the <slides> markup has been fully loaded.
+      window.loadDeck();
     }
   })();
 </script>
