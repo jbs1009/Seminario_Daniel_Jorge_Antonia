@@ -113,9 +113,12 @@ Algunas aclaraciones al respecto:
 ```{r}
 imc_SexAge %>% gather_object %>% json_types %>% count(name,type) 
 ```
-Este "Code Chunk" nos sirve para saber a qué datos hemos de acceder. En particular, se formateará los datos de la categoría array (excepto MetaData) En el resultado anterior ya dicho array no se encuentra porque ya lo hemos formateado.
+
+<div style="text-align: justify">
+Este "Code Chunk" nos sirve para saber a qué datos hemos de acceder. En particular, se formateará los datos de la categoría array (excepto MetaData). En el resultado anterior, ya dicho array no se encuentra porque ya lo hemos formateado.
 Además, las funciones unlist(gregexpr()) devuelve el índice de todas las apariciones de un determinado character en un character de mayor longitud. 
 La función substring() devuelve el sub-character presente en un character de mayor longitud entre ciertos índices pasados como argumento.
+</div>
 
 ## MÉTODOS (VI)
 ### FORMATEO DE DATOS
@@ -801,6 +804,16 @@ grafico2 %>%
                       size = 7),
         legend.position = "bottom")
 ```
+
+## CONCLUSIONES
+
+<div style="text-align: justify">
+En conclusión, parece existir cierta garantía acerca del hecho de que **sí que existe cierta relación** entre tener un estilo de vida sedentario y padecer un mayor riesgo a problemas en la visión y/o en la audición (si bien no tenemos información directa de estas características puede ser fácilmente extrapolada con seguridad de la información sobre uso de gafas y/o audífonos, respectivamente). 
+
+Como se ha ido indicando, el estudio realizado ha encontrado resultados aparentes más significativos en lo que respecta a **uso de audífonos en función del grupo de edad**, mientras que, en **función del sexo**, los resultados parecen arrojar más luz para el **uso de gafas**. 
+
+En definitiva, las conclusiones **no se pueden considerar sólidas certezas**, pero pensamos que sí que siembran la semilla para **futuros estudios sobre la relación poco estudiada** y, aparentemente, existente, entre uso de gafas y/o audífonos como indicativo directo de enfermedad visuales y/o auditivas; y el estilo de vida sedentario de las poblaciones.
+</div>
 
 ## BIBLIOGRAFÍA 📖
 
