@@ -1,5 +1,7 @@
 ## Seminario_Practica_Daniel-Jorge-Antonia
 # Proyecto de investigación y análisis estadístico sobre relación entre sedentarismo y uso de audífonos y/o gafas.
+![logo-universidad-de-burgos](https://github.com/jbs1009/Seminario_Daniel_Jorge_Antonia/assets/144683429/d96b8fb4-b063-4ec5-b342-5984de785762)
+
 
 En este repositorio de GitHub se presenta un trabajo en el que se analiza la posible influencia de un estilo de vida sedentario en el desarrollo de problemas de tipo visual y/o auditivo, extrapolados a partir de estadísticas reales extraídas de la base de datos oficial de datos del gobierno de España acerca de utilización de, respectivamente, gafas y/o audífono. El análisis estadístico consecuente ha sido llevado a cabo con el lenguaje de programación R, en particular, utilizando el software de R Studio como entorno para dicho objetivo. Además de funciones disponibles en R de base, se han hecho uso, para ello, de las siguientes librerías:
 - library(tidyjson)
