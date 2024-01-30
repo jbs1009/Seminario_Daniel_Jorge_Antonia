@@ -19,7 +19,7 @@ En este repositorio de GitHub se presenta un trabajo en el que se analiza la pos
   
 Todo el código, metodología, resultados, conclusiones del estudio... están disponibles en este repositorio de GitHub.
 
-# Introducción 
+# Introducción:
 
 El sedentarismo representa un serio problema para la salud pública, especialmente en Occidente. 
 
