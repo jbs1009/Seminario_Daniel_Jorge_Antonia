@@ -1,8 +1,8 @@
-## Seminario_Practica_Daniel-Jorge-Antonia
+### Seminario_Practica_Daniel-Jorge-Antonia
 # Proyecto de investigación y análisis estadístico sobre relación entre sedentarismo y uso de audífonos y/o gafas.
 ![escudo_ubu_blanco](https://github.com/jbs1009/Seminario_Daniel_Jorge_Antonia/assets/144683429/bd62233a-f5a1-4102-81a7-9735eb3ac68d)
 
-
+## Autores: Antonia Añazco, Jorge Bermejo, Daniel Marrón
 
 
 En este repositorio de GitHub se presenta un trabajo en el que se analiza la posible influencia de un estilo de vida sedentario en el desarrollo de problemas de tipo visual y/o auditivo, extrapolados a partir de estadísticas reales extraídas de la base de datos oficial de datos del gobierno de España acerca de utilización de, respectivamente, gafas y/o audífono. El análisis estadístico consecuente ha sido llevado a cabo con el lenguaje de programación R, en particular, utilizando el software de R Studio como entorno para dicho objetivo. Además de funciones disponibles en R de base, se han hecho uso, para ello, de las siguientes librerías:
@@ -38,10 +38,10 @@ En el siguiente trabajo vamos a tratar de encontrar, o en su defecto descartar, 
 
 # Objetivos: 
 
-1 – Relación entre el sedentarismo y el uso de audífonos por grupos de edad 
+1 – Estudiar la relación entre el sedentarismo y el uso de audífonos en funcion de los grupos de edad 
 
-2 – Relación entre el sedentarismo y el uso de audífonos según el sexo 
+2 – Estudiar la relación entre el sedentarismo y el uso de audífonos según el sexo 
 
-3 – Relación entre el sedentarismo y el uso de gafas por grupos de edad 
+3 – Estudiar la relación entre el sedentarismo y el uso de gafas en función de los grupos de edad 
 
-4 – Relación entre el sedentarismo y el uso de gafas según el sexo 
+4 – Estudiar la relación entre el sedentarismo y el uso de gafas según el sexo 
